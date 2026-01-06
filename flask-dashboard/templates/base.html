@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Sports Betting Dashboard{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <a href="{{ url_for('index') }}">BET DASHBOARD</a>
+        </div>
+        <ul class="nav-links">
+            {# <li><a href="{{ url_for('index') }}" class="{% if request.endpoint == 'index' %}active{% endif %}">Home</a></li> #}
+            <li><a href="{{ url_for('nba_dashboard') }}" class="{% if request.endpoint == 'nba_dashboard' %}active{% endif %}">NBA</a></li>
+            <li><a href="{{ url_for('nhl_dashboard') }}" class="{% if request.endpoint == 'nhl_dashboard' %}active{% endif %}">NHL</a></li>
+            <li><a href="{{ url_for('mlb_dashboard') }}" class="{% if request.endpoint == 'mlb_dashboard' %}active{% endif %}">MLB</a></li>
+            {# <li><a href="{{ url_for('edge_analysis') }}" class="{% if request.endpoint == 'edge_analysis' %}active{% endif %}">Edge Analysis</a></li> #}
+            <li><a href="{{ url_for('tools') }}" class="{% if request.endpoint == 'tools' %}active{% endif %}">Tools</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="footer">
+        <p>Sports Betting Dashboard - Predictive Analytics</p>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

@@ -1,0 +1,157 @@
+{% extends "base.html" %}
+
+{% block title %}Tools - Sports Betting{% endblock %}
+
+{% block content %}
+<div class="dashboard-header">
+    <h1>Tools</h1>
+    <p>Betting utilities and reference tables</p>
+</div>
+
+<section class="tools-section">
+    <h2>American Odds to Implied Probability</h2>
+    <p class="section-description">Reference table for converting American odds to implied probability (no-vig).</p>
+
+    <div class="odds-table-container">
+        <table class="data-table odds-table" id="odds-table">
+            <thead>
+                <tr>
+                    <th>American Odds</th>
+                    <th>Implied Probability</th>
+                    <th>Decimal Odds</th>
+                </tr>
+            </thead>
+            <tbody id="odds-table-body">
+            </tbody>
+        </table>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.tools-section {
+    margin-bottom: 2rem;
+}
+
+.tools-section h2 {
+    margin-bottom: 0.5rem;
+}
+
+.section-description {
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.odds-table-container {
+    max-width: 500px;
+}
+
+.odds-table {
+    width: 100%;
+}
+
+.odds-table th,
+.odds-table td {
+    text-align: center;
+    padding: 0.5rem 1rem;
+}
+
+.odds-table tbody tr:hover {
+    background-color: var(--bg-card);
+}
+
+.odds-favorite {
+    color: var(--danger-color);
+}
+
+.odds-underdog {
+    color: var(--success-color);
+}
+
+.odds-even {
+    color: var(--warning-color);
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .odds-table-container {
+        max-width: 100%;
+        overflow-x: auto;
+    }
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+function americanToImpliedProb(odds) {
+    if (odds < 0) {
+        return Math.abs(odds) / (Math.abs(odds) + 100);
+    } else {
+        return 100 / (odds + 100);
+    }
+}
+
+function americanToDecimal(odds) {
+    if (odds < 0) {
+        return 1 + (100 / Math.abs(odds));
+    } else {
+        return 1 + (odds / 100);
+    }
+}
+
+function generateOddsTable() {
+    const tbody = document.getElementById('odds-table-body');
+
+    // Generate odds from -200 to +200 in increments of 1
+    // Note: -100 doesn't exist in American odds (jumps from -101 to +100)
+    const oddsValues = [];
+
+    // Negative odds: -200 to -101
+    for (let odds = -200; odds <= -101; odds += 1) {
+        oddsValues.push(odds);
+    }
+
+    // Positive odds: +100 to +200
+    for (let odds = 100; odds <= 200; odds += 1) {
+        oddsValues.push(odds);
+    }
+
+    let html = '';
+
+    oddsValues.forEach(odds => {
+        const impliedProb = americanToImpliedProb(odds);
+        const decimalOdds = americanToDecimal(odds);
+
+        let oddsClass = '';
+        let oddsDisplay = '';
+
+        if (odds < 0) {
+            oddsClass = 'odds-favorite';
+            oddsDisplay = odds.toString();
+        } else if (odds === 100) {
+            oddsClass = 'odds-even';
+            oddsDisplay = '+' + odds;
+        } else {
+            oddsClass = 'odds-underdog';
+            oddsDisplay = '+' + odds;
+        }
+
+        html += `
+            <tr>
+                <td class="${oddsClass}">${oddsDisplay}</td>
+                <td>${(impliedProb * 100).toFixed(1)}%</td>
+                <td>${decimalOdds.toFixed(2)}</td>
+            </tr>
+        `;
+    });
+
+    tbody.innerHTML = html;
+}
+
+// Generate table on page load
+document.addEventListener('DOMContentLoaded', generateOddsTable);
+</script>
+{% endblock %}

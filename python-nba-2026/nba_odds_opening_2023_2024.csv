@@ -1,0 +1,1616 @@
+row_id,date,home_team,away_team,home_odds,away_odds,book,which_line
+15145,2024-02-11,Miami Heat,Boston Celtics,198.0,-240.0,fanduel,openingLine
+15146,2024-02-11,Oklahoma City Thunder,Sacramento Kings,-156.0,132.0,fanduel,openingLine
+14412,2023-11-01,Toronto Raptors,Milwaukee Bucks,190.0,-230.0,fanduel,openingLine
+14413,2023-11-01,Detroit Pistons,Portland Trail Blazers,-176.0,148.0,fanduel,openingLine
+14417,2023-11-01,Miami Heat,Brooklyn Nets,-240.0,198.0,fanduel,openingLine
+14418,2023-11-01,Oklahoma City Thunder,New Orleans Pelicans,-148.0,126.0,fanduel,openingLine
+14416,2023-11-01,New York Knicks,Cleveland Cavaliers,-275.0,225.0,fanduel,openingLine
+14414,2023-11-01,Boston Celtics,Indiana Pacers,-620.0,460.0,fanduel,openingLine
+14415,2023-11-01,Atlanta Hawks,Washington Wizards,-355.0,285.0,fanduel,openingLine
+14419,2023-11-01,Houston Rockets,Charlotte Hornets,-136.0,116.0,fanduel,openingLine
+14420,2023-11-01,Minnesota Timberwolves,Denver Nuggets,120.0,-142.0,fanduel,openingLine
+14421,2023-11-01,Dallas Mavericks,Chicago Bulls,-230.0,190.0,fanduel,openingLine
+14422,2023-11-01,Utah Jazz,Memphis Grizzlies,-116.0,-102.0,fanduel,openingLine
+14424,2023-11-01,Los Angeles Lakers,LA Clippers,-134.0,114.0,fanduel,openingLine
+14423,2023-11-01,Golden State Warriors,Sacramento Kings,-295.0,240.0,fanduel,openingLine
+14425,2023-11-02,Philadelphia 76ers,Toronto Raptors,-375.0,300.0,fanduel,openingLine
+14426,2023-11-02,New Orleans Pelicans,Detroit Pistons,-320.0,260.0,fanduel,openingLine
+14427,2023-11-02,Utah Jazz,Orlando Magic,-118.0,100.0,fanduel,openingLine
+14428,2023-11-02,Phoenix Suns,San Antonio Spurs,-295.0,240.0,fanduel,openingLine
+15148,2024-02-12,Charlotte Hornets,Indiana Pacers,520.0,-720.0,fanduel,openingLine
+15147,2024-02-12,Cleveland Cavaliers,Philadelphia 76ers,-510.0,390.0,fanduel,openingLine
+15150,2024-02-12,Atlanta Hawks,Chicago Bulls,-164.0,138.0,fanduel,openingLine
+15149,2024-02-12,Toronto Raptors,San Antonio Spurs,-300.0,245.0,fanduel,openingLine
+15151,2024-02-12,Milwaukee Bucks,Denver Nuggets,106.0,-124.0,fanduel,openingLine
+15152,2024-02-12,Memphis Grizzlies,New Orleans Pelicans,315.0,-400.0,fanduel,openingLine
+15153,2024-02-12,Houston Rockets,New York Knicks,176.0,-210.0,fanduel,openingLine
+15154,2024-02-12,Dallas Mavericks,Washington Wizards,-1100.0,700.0,fanduel,openingLine
+15155,2024-02-12,Utah Jazz,Golden State Warriors,-116.0,-102.0,fanduel,openingLine
+15156,2024-02-12,LA Clippers,Minnesota Timberwolves,-158.0,134.0,fanduel,openingLine
+726,2024-12-14,Milwaukee Bucks,Atlanta Hawks,-158.0,134.0,fanduel,openingLine
+728,2024-12-14,Oklahoma City Thunder,Houston Rockets,-205.0,172.0,fanduel,openingLine
+14429,2023-11-03,Indiana Pacers,Cleveland Cavaliers,134.0,-158.0,fanduel,openingLine
+14430,2023-11-03,Milwaukee Bucks,New York Knicks,-270.0,220.0,fanduel,openingLine
+14431,2023-11-03,Chicago Bulls,Brooklyn Nets,-178.0,150.0,fanduel,openingLine
+14432,2023-11-03,Oklahoma City Thunder,Golden State Warriors,160.0,-190.0,fanduel,openingLine
+14433,2023-11-03,Miami Heat,Washington Wizards,-460.0,360.0,fanduel,openingLine
+14435,2023-11-03,Portland Trail Blazers,Memphis Grizzlies,102.0,-120.0,fanduel,openingLine
+14434,2023-11-03,Denver Nuggets,Dallas Mavericks,-270.0,220.0,fanduel,openingLine
+15158,2024-02-13,Orlando Magic,Oklahoma City Thunder,118.0,-138.0,fanduel,openingLine
+15157,2024-02-13,Brooklyn Nets,Boston Celtics,315.0,-400.0,fanduel,openingLine
+15159,2024-02-13,Milwaukee Bucks,Miami Heat,-275.0,225.0,fanduel,openingLine
+15161,2024-02-13,Phoenix Suns,Sacramento Kings,-174.0,146.0,fanduel,openingLine
+15160,2024-02-13,Portland Trail Blazers,Minnesota Timberwolves,330.0,-420.0,fanduel,openingLine
+15162,2024-02-13,Los Angeles Lakers,Detroit Pistons,-750.0,530.0,fanduel,openingLine
+729,2024-12-15,Indiana Pacers,New Orleans Pelicans,-225.0,188.0,fanduel,openingLine
+732,2024-12-15,Orlando Magic,New York Knicks,172.0,-205.0,fanduel,openingLine
+734,2024-12-15,Washington Wizards,Boston Celtics,660.0,-1000.0,fanduel,openingLine
+736,2024-12-15,San Antonio Spurs,Minnesota Timberwolves,184.0,-220.0,fanduel,openingLine
+737,2024-12-15,Phoenix Suns,Portland Trail Blazers,-430.0,340.0,fanduel,openingLine
+740,2024-12-15,Golden State Warriors,Dallas Mavericks,114.0,-134.0,fanduel,openingLine
+741,2024-12-15,Los Angeles Lakers,Memphis Grizzlies,128.0,-152.0,fanduel,openingLine
+15164,2024-02-14,Charlotte Hornets,Atlanta Hawks,230.0,-280.0,fanduel,openingLine
+15163,2024-02-14,Philadelphia 76ers,Miami Heat,-194.0,162.0,fanduel,openingLine
+15165,2024-02-14,Orlando Magic,New York Knicks,-130.0,110.0,fanduel,openingLine
+15168,2024-02-14,Cleveland Cavaliers,Chicago Bulls,-390.0,310.0,fanduel,openingLine
+15167,2024-02-14,Toronto Raptors,Indiana Pacers,172.0,-205.0,fanduel,openingLine
+15166,2024-02-14,Boston Celtics,Brooklyn Nets,-820.0,570.0,fanduel,openingLine
+15169,2024-02-14,Memphis Grizzlies,Houston Rockets,138.0,-164.0,fanduel,openingLine
+15170,2024-02-14,New Orleans Pelicans,Washington Wizards,-1000.0,660.0,fanduel,openingLine
+15171,2024-02-14,Dallas Mavericks,San Antonio Spurs,-770.0,540.0,fanduel,openingLine
+15172,2024-02-14,Phoenix Suns,Detroit Pistons,-1200.0,750.0,fanduel,openingLine
+15174,2024-02-14,Utah Jazz,Los Angeles Lakers,-154.0,132.0,fanduel,openingLine
+15173,2024-02-14,Denver Nuggets,Sacramento Kings,-235.0,194.0,fanduel,openingLine
+15175,2024-02-14,Golden State Warriors,LA Clippers,110.0,-130.0,fanduel,openingLine
+14436,2023-11-04,Philadelphia 76ers,Phoenix Suns,-174.0,146.0,fanduel,openingLine
+14437,2023-11-04,Indiana Pacers,Charlotte Hornets,-172.0,144.0,fanduel,openingLine
+14439,2023-11-04,Orlando Magic,Los Angeles Lakers,134.0,-158.0,fanduel,openingLine
+14438,2023-11-04,New Orleans Pelicans,Atlanta Hawks,-148.0,126.0,fanduel,openingLine
+14442,2023-11-04,Houston Rockets,Sacramento Kings,124.0,-146.0,fanduel,openingLine
+14440,2023-11-04,Minnesota Timberwolves,Utah Jazz,-320.0,260.0,fanduel,openingLine
+14441,2023-11-04,Brooklyn Nets,Boston Celtics,340.0,-430.0,fanduel,openingLine
+14443,2023-11-04,Denver Nuggets,Chicago Bulls,-450.0,350.0,fanduel,openingLine
+743,2024-12-16,Detroit Pistons,Miami Heat,144.0,-172.0,fanduel,openingLine
+745,2024-12-16,Charlotte Hornets,Philadelphia 76ers,108.0,-126.0,fanduel,openingLine
+747,2024-12-16,Brooklyn Nets,Cleveland Cavaliers,380.0,-490.0,fanduel,openingLine
+750,2024-12-16,Toronto Raptors,Chicago Bulls,-118.0,100.0,fanduel,openingLine
+751,2024-12-16,Sacramento Kings,Denver Nuggets,-116.0,-102.0,fanduel,openingLine
+754,2024-12-16,LA Clippers,Utah Jazz,-430.0,340.0,fanduel,openingLine
+14444,2023-11-05,Detroit Pistons,Phoenix Suns,194.0,-235.0,fanduel,openingLine
+14445,2023-11-05,San Antonio Spurs,Toronto Raptors,118.0,-138.0,fanduel,openingLine
+14446,2023-11-05,Cleveland Cavaliers,Golden State Warriors,-130.0,110.0,fanduel,openingLine
+14447,2023-11-05,Dallas Mavericks,Charlotte Hornets,-590.0,430.0,fanduel,openingLine
+14448,2023-11-05,Portland Trail Blazers,Memphis Grizzlies,116.0,-136.0,fanduel,openingLine
+756,2024-12-17,Oklahoma City Thunder,Milwaukee Bucks,-205.0,172.0,fanduel,openingLine
+14450,2023-11-06,Detroit Pistons,Golden State Warriors,205.0,-250.0,fanduel,openingLine
+14449,2023-11-06,Indiana Pacers,San Antonio Spurs,-290.0,235.0,fanduel,openingLine
+14452,2023-11-06,Orlando Magic,Dallas Mavericks,-116.0,-102.0,fanduel,openingLine
+14451,2023-11-06,Philadelphia 76ers,Washington Wizards,-620.0,460.0,fanduel,openingLine
+14455,2023-11-06,Brooklyn Nets,Milwaukee Bucks,180.0,-215.0,fanduel,openingLine
+14453,2023-11-06,Miami Heat,Los Angeles Lakers,-118.0,100.0,fanduel,openingLine
+14454,2023-11-06,New York Knicks,LA Clippers,102.0,-120.0,fanduel,openingLine
+14456,2023-11-06,Houston Rockets,Sacramento Kings,-118.0,100.0,fanduel,openingLine
+14457,2023-11-06,Oklahoma City Thunder,Atlanta Hawks,124.0,-146.0,fanduel,openingLine
+14458,2023-11-06,Chicago Bulls,Utah Jazz,-194.0,162.0,fanduel,openingLine
+14459,2023-11-06,Minnesota Timberwolves,Boston Celtics,142.0,-168.0,fanduel,openingLine
+14460,2023-11-06,Denver Nuggets,New Orleans Pelicans,-260.0,215.0,fanduel,openingLine
+758,2024-12-19,Orlando Magic,Oklahoma City Thunder,168.0,-200.0,fanduel,openingLine
+759,2024-12-19,Detroit Pistons,Utah Jazz,-190.0,160.0,fanduel,openingLine
+762,2024-12-19,Washington Wizards,Charlotte Hornets,146.0,-174.0,fanduel,openingLine
+763,2024-12-19,Boston Celtics,Chicago Bulls,-1100.0,700.0,fanduel,openingLine
+766,2024-12-19,Toronto Raptors,Brooklyn Nets,-230.0,190.0,fanduel,openingLine
+768,2024-12-19,Memphis Grizzlies,Golden State Warriors,-172.0,144.0,fanduel,openingLine
+769,2024-12-19,Houston Rockets,New Orleans Pelicans,-480.0,370.0,fanduel,openingLine
+772,2024-12-19,San Antonio Spurs,Atlanta Hawks,102.0,-120.0,fanduel,openingLine
+773,2024-12-19,Dallas Mavericks,LA Clippers,-275.0,225.0,fanduel,openingLine
+776,2024-12-19,Phoenix Suns,Indiana Pacers,-260.0,215.0,fanduel,openingLine
+778,2024-12-19,Minnesota Timberwolves,New York Knicks,-126.0,108.0,fanduel,openingLine
+779,2024-12-19,Portland Trail Blazers,Denver Nuggets,290.0,-360.0,fanduel,openingLine
+782,2024-12-19,Sacramento Kings,Los Angeles Lakers,-168.0,142.0,fanduel,openingLine
+14461,2023-11-08,Indiana Pacers,Utah Jazz,-210.0,176.0,fanduel,openingLine
+14463,2023-11-08,Charlotte Hornets,Washington Wizards,-198.0,166.0,fanduel,openingLine
+14462,2023-11-08,Philadelphia 76ers,Boston Celtics,-102.0,-116.0,fanduel,openingLine
+14465,2023-11-08,Brooklyn Nets,LA Clippers,156.0,-186.0,fanduel,openingLine
+14464,2023-11-08,New York Knicks,San Antonio Spurs,-450.0,350.0,fanduel,openingLine
+14471,2023-11-08,Oklahoma City Thunder,Cleveland Cavaliers,-102.0,-116.0,fanduel,openingLine
+14469,2023-11-08,Chicago Bulls,Phoenix Suns,-126.0,108.0,fanduel,openingLine
+14467,2023-11-08,Houston Rockets,Los Angeles Lakers,168.0,-200.0,fanduel,openingLine
+14468,2023-11-08,Memphis Grizzlies,Miami Heat,-120.0,102.0,fanduel,openingLine
+14470,2023-11-08,Milwaukee Bucks,Detroit Pistons,-900.0,610.0,fanduel,openingLine
+14466,2023-11-08,Minnesota Timberwolves,New Orleans Pelicans,-275.0,225.0,fanduel,openingLine
+14472,2023-11-08,Dallas Mavericks,Toronto Raptors,-260.0,215.0,fanduel,openingLine
+14474,2023-11-08,Sacramento Kings,Portland Trail Blazers,-350.0,280.0,fanduel,openingLine
+14473,2023-11-08,Denver Nuggets,Golden State Warriors,-215.0,180.0,fanduel,openingLine
+14475,2023-11-09,Indiana Pacers,Milwaukee Bucks,152.0,-180.0,fanduel,openingLine
+14476,2023-11-09,Orlando Magic,Atlanta Hawks,118.0,-138.0,fanduel,openingLine
+784,2024-12-20,Philadelphia 76ers,Charlotte Hornets,-390.0,310.0,fanduel,openingLine
+786,2024-12-20,Cleveland Cavaliers,Milwaukee Bucks,-330.0,265.0,fanduel,openingLine
+787,2024-12-20,Miami Heat,Oklahoma City Thunder,102.0,-120.0,fanduel,openingLine
+789,2024-12-21,Sacramento Kings,Los Angeles Lakers,-210.0,176.0,fanduel,openingLine
+792,2024-12-21,Orlando Magic,Miami Heat,-118.0,100.0,fanduel,openingLine
+793,2024-12-21,Brooklyn Nets,Utah Jazz,-144.0,122.0,fanduel,openingLine
+795,2024-12-21,Atlanta Hawks,Memphis Grizzlies,108.0,-126.0,fanduel,openingLine
+798,2024-12-21,New Orleans Pelicans,New York Knicks,290.0,-360.0,fanduel,openingLine
+800,2024-12-21,Minnesota Timberwolves,Golden State Warriors,-220.0,184.0,fanduel,openingLine
+802,2024-12-21,Cleveland Cavaliers,Philadelphia 76ers,-510.0,390.0,fanduel,openingLine
+803,2024-12-21,Chicago Bulls,Boston Celtics,360.0,-460.0,fanduel,openingLine
+806,2024-12-21,Milwaukee Bucks,Washington Wizards,-620.0,460.0,fanduel,openingLine
+808,2024-12-21,Dallas Mavericks,LA Clippers,-146.0,124.0,fanduel,openingLine
+810,2024-12-21,San Antonio Spurs,Portland Trail Blazers,-255.0,210.0,fanduel,openingLine
+812,2024-12-21,Phoenix Suns,Detroit Pistons,-260.0,215.0,fanduel,openingLine
+14477,2023-11-10,Detroit Pistons,Philadelphia 76ers,265.0,-330.0,fanduel,openingLine
+14478,2023-11-10,Washington Wizards,Charlotte Hornets,-142.0,120.0,fanduel,openingLine
+14479,2023-11-10,Boston Celtics,Brooklyn Nets,-600.0,450.0,fanduel,openingLine
+14481,2023-11-10,Houston Rockets,New Orleans Pelicans,-104.0,-112.0,fanduel,openingLine
+14482,2023-11-10,Memphis Grizzlies,Utah Jazz,-215.0,180.0,fanduel,openingLine
+14480,2023-11-10,San Antonio Spurs,Minnesota Timberwolves,215.0,-260.0,fanduel,openingLine
+14483,2023-11-10,Dallas Mavericks,LA Clippers,-136.0,116.0,fanduel,openingLine
+14484,2023-11-10,Sacramento Kings,Oklahoma City Thunder,102.0,-120.0,fanduel,openingLine
+14485,2023-11-10,Phoenix Suns,Los Angeles Lakers,-178.0,150.0,fanduel,openingLine
+814,2024-12-22,Toronto Raptors,Houston Rockets,260.0,-320.0,fanduel,openingLine
+816,2024-12-22,Sacramento Kings,Indiana Pacers,-168.0,142.0,fanduel,openingLine
+818,2024-12-22,New Orleans Pelicans,Denver Nuggets,270.0,-335.0,fanduel,openingLine
+14486,2023-11-11,Orlando Magic,Milwaukee Bucks,126.0,-148.0,fanduel,openingLine
+14487,2023-11-11,Boston Celtics,Toronto Raptors,-370.0,295.0,fanduel,openingLine
+14488,2023-11-11,Atlanta Hawks,Miami Heat,-176.0,148.0,fanduel,openingLine
+14489,2023-11-11,Golden State Warriors,Cleveland Cavaliers,-196.0,164.0,fanduel,openingLine
+819,2024-12-23,Cleveland Cavaliers,Utah Jazz,-1200.0,750.0,fanduel,openingLine
+821,2024-12-23,Charlotte Hornets,Houston Rockets,220.0,-270.0,fanduel,openingLine
+824,2024-12-23,Orlando Magic,Boston Celtics,200.0,-245.0,fanduel,openingLine
+826,2024-12-23,Philadelphia 76ers,San Antonio Spurs,-230.0,190.0,fanduel,openingLine
+827,2024-12-23,Atlanta Hawks,Minnesota Timberwolves,150.0,-178.0,fanduel,openingLine
+830,2024-12-23,Miami Heat,Brooklyn Nets,-375.0,300.0,fanduel,openingLine
+832,2024-12-23,New York Knicks,Toronto Raptors,-1100.0,700.0,fanduel,openingLine
+834,2024-12-23,Chicago Bulls,Milwaukee Bucks,108.0,-126.0,fanduel,openingLine
+835,2024-12-23,Oklahoma City Thunder,Washington Wizards,-2200.0,1100.0,fanduel,openingLine
+838,2024-12-23,Memphis Grizzlies,LA Clippers,-215.0,180.0,fanduel,openingLine
+839,2024-12-23,Dallas Mavericks,Portland Trail Blazers,-450.0,350.0,fanduel,openingLine
+841,2024-12-23,Denver Nuggets,Phoenix Suns,-275.0,225.0,fanduel,openingLine
+843,2024-12-23,Golden State Warriors,Indiana Pacers,-220.0,184.0,fanduel,openingLine
+845,2024-12-23,Los Angeles Lakers,Detroit Pistons,-240.0,198.0,fanduel,openingLine
+14490,2023-11-12,New York Knicks,Charlotte Hornets,-500.0,385.0,fanduel,openingLine
+14491,2023-11-12,Brooklyn Nets,Washington Wizards,-300.0,245.0,fanduel,openingLine
+14492,2023-11-12,LA Clippers,Memphis Grizzlies,-355.0,285.0,fanduel,openingLine
+14493,2023-11-12,Philadelphia 76ers,Indiana Pacers,-300.0,245.0,fanduel,openingLine
+14496,2023-11-12,Chicago Bulls,Detroit Pistons,-295.0,240.0,fanduel,openingLine
+14495,2023-11-12,Houston Rockets,Denver Nuggets,160.0,-190.0,fanduel,openingLine
+14497,2023-11-12,New Orleans Pelicans,Dallas Mavericks,110.0,-130.0,fanduel,openingLine
+14494,2023-11-12,San Antonio Spurs,Miami Heat,100.0,-118.0,fanduel,openingLine
+14498,2023-11-12,Phoenix Suns,Oklahoma City Thunder,-142.0,120.0,fanduel,openingLine
+14499,2023-11-12,Golden State Warriors,Minnesota Timberwolves,-112.0,-104.0,fanduel,openingLine
+14500,2023-11-12,Los Angeles Lakers,Portland Trail Blazers,-560.0,420.0,fanduel,openingLine
+14501,2023-11-13,Boston Celtics,New York Knicks,-370.0,295.0,fanduel,openingLine
+14502,2023-11-13,Toronto Raptors,Washington Wizards,-370.0,295.0,fanduel,openingLine
+14503,2023-11-13,Milwaukee Bucks,Chicago Bulls,-295.0,240.0,fanduel,openingLine
+14504,2023-11-13,Sacramento Kings,Cleveland Cavaliers,-116.0,-102.0,fanduel,openingLine
+848,2024-12-25,New York Knicks,San Antonio Spurs,-450.0,350.0,fanduel,openingLine
+849,2024-12-25,Dallas Mavericks,Minnesota Timberwolves,-172.0,144.0,fanduel,openingLine
+851,2024-12-25,Boston Celtics,Philadelphia 76ers,-200.0,168.0,fanduel,openingLine
+853,2024-12-25,Golden State Warriors,Los Angeles Lakers,-166.0,140.0,fanduel,openingLine
+856,2024-12-25,Phoenix Suns,Denver Nuggets,-126.0,108.0,fanduel,openingLine
+14506,2023-11-14,Charlotte Hornets,Miami Heat,134.0,-158.0,fanduel,openingLine
+14505,2023-11-14,Detroit Pistons,Atlanta Hawks,146.0,-174.0,fanduel,openingLine
+14507,2023-11-14,Philadelphia 76ers,Indiana Pacers,-230.0,190.0,fanduel,openingLine
+14509,2023-11-14,Brooklyn Nets,Orlando Magic,-130.0,110.0,fanduel,openingLine
+14508,2023-11-14,Oklahoma City Thunder,San Antonio Spurs,-400.0,315.0,fanduel,openingLine
+14510,2023-11-14,New Orleans Pelicans,Dallas Mavericks,144.0,-172.0,fanduel,openingLine
+14511,2023-11-14,Utah Jazz,Portland Trail Blazers,-280.0,230.0,fanduel,openingLine
+14512,2023-11-14,Denver Nuggets,LA Clippers,-230.0,190.0,fanduel,openingLine
+14513,2023-11-14,Golden State Warriors,Minnesota Timberwolves,-136.0,116.0,fanduel,openingLine
+14514,2023-11-14,Los Angeles Lakers,Memphis Grizzlies,-198.0,166.0,fanduel,openingLine
+857,2024-12-26,Indiana Pacers,Oklahoma City Thunder,158.0,-188.0,fanduel,openingLine
+859,2024-12-26,Orlando Magic,Miami Heat,-130.0,110.0,fanduel,openingLine
+862,2024-12-26,Washington Wizards,Charlotte Hornets,142.0,-168.0,fanduel,openingLine
+863,2024-12-26,Atlanta Hawks,Chicago Bulls,-260.0,215.0,fanduel,openingLine
+866,2024-12-26,Milwaukee Bucks,Brooklyn Nets,-420.0,320.0,fanduel,openingLine
+867,2024-12-26,Memphis Grizzlies,Toronto Raptors,-700.0,500.0,fanduel,openingLine
+869,2024-12-26,New Orleans Pelicans,Houston Rockets,245.0,-300.0,fanduel,openingLine
+872,2024-12-26,Portland Trail Blazers,Utah Jazz,-166.0,140.0,fanduel,openingLine
+874,2024-12-26,Sacramento Kings,Detroit Pistons,-166.0,140.0,fanduel,openingLine
+14515,2023-11-15,Washington Wizards,Dallas Mavericks,198.0,-240.0,fanduel,openingLine
+14517,2023-11-15,Toronto Raptors,Milwaukee Bucks,144.0,-172.0,fanduel,openingLine
+14516,2023-11-15,Philadelphia 76ers,Boston Celtics,110.0,-130.0,fanduel,openingLine
+14518,2023-11-15,Atlanta Hawks,New York Knicks,-118.0,100.0,fanduel,openingLine
+14519,2023-11-15,Chicago Bulls,Orlando Magic,-138.0,118.0,fanduel,openingLine
+14520,2023-11-15,Phoenix Suns,Minnesota Timberwolves,-215.0,180.0,fanduel,openingLine
+14522,2023-11-15,Portland Trail Blazers,Cleveland Cavaliers,440.0,-590.0,fanduel,openingLine
+14521,2023-11-15,Los Angeles Lakers,Sacramento Kings,-122.0,104.0,fanduel,openingLine
+14523,2023-11-16,Miami Heat,Brooklyn Nets,-148.0,126.0,fanduel,openingLine
+14524,2023-11-16,Golden State Warriors,Oklahoma City Thunder,116.0,-136.0,fanduel,openingLine
+14525,2023-11-17,Charlotte Hornets,Milwaukee Bucks,210.0,-255.0,fanduel,openingLine
+14526,2023-11-17,Washington Wizards,New York Knicks,215.0,-260.0,fanduel,openingLine
+14529,2023-11-17,Atlanta Hawks,Philadelphia 76ers,104.0,-122.0,fanduel,openingLine
+14530,2023-11-17,Cleveland Cavaliers,Detroit Pistons,-500.0,385.0,fanduel,openingLine
+14527,2023-11-17,Toronto Raptors,Boston Celtics,162.0,-194.0,fanduel,openingLine
+14528,2023-11-17,San Antonio Spurs,Sacramento Kings,230.0,-280.0,fanduel,openingLine
+14531,2023-11-17,Chicago Bulls,Orlando Magic,-130.0,110.0,fanduel,openingLine
+14532,2023-11-17,New Orleans Pelicans,Denver Nuggets,166.0,-198.0,fanduel,openingLine
+14534,2023-11-17,Utah Jazz,Phoenix Suns,180.0,-215.0,fanduel,openingLine
+14533,2023-11-17,Portland Trail Blazers,Los Angeles Lakers,250.0,-320.0,fanduel,openingLine
+14535,2023-11-17,LA Clippers,Houston Rockets,-250.0,205.0,fanduel,openingLine
+14536,2023-11-18,Charlotte Hornets,New York Knicks,220.0,-270.0,fanduel,openingLine
+14537,2023-11-18,New Orleans Pelicans,Minnesota Timberwolves,184.0,-220.0,fanduel,openingLine
+14538,2023-11-18,Chicago Bulls,Miami Heat,124.0,-146.0,fanduel,openingLine
+14540,2023-11-18,Milwaukee Bucks,Dallas Mavericks,-124.0,106.0,fanduel,openingLine
+14539,2023-11-18,San Antonio Spurs,Memphis Grizzlies,124.0,-146.0,fanduel,openingLine
+14541,2023-11-18,Golden State Warriors,Oklahoma City Thunder,116.0,-136.0,fanduel,openingLine
+14542,2023-11-19,Brooklyn Nets,Philadelphia 76ers,132.0,-156.0,fanduel,openingLine
+14543,2023-11-19,Toronto Raptors,Detroit Pistons,-230.0,190.0,fanduel,openingLine
+14544,2023-11-19,Indiana Pacers,Orlando Magic,-176.0,148.0,fanduel,openingLine
+14545,2023-11-19,Cleveland Cavaliers,Denver Nuggets,124.0,-146.0,fanduel,openingLine
+14546,2023-11-19,Dallas Mavericks,Sacramento Kings,-116.0,-102.0,fanduel,openingLine
+14548,2023-11-19,Utah Jazz,Phoenix Suns,162.0,-194.0,fanduel,openingLine
+14547,2023-11-19,Memphis Grizzlies,Boston Celtics,225.0,-275.0,fanduel,openingLine
+14549,2023-11-19,Portland Trail Blazers,Oklahoma City Thunder,260.0,-320.0,fanduel,openingLine
+14550,2023-11-19,Los Angeles Lakers,Houston Rockets,-255.0,210.0,fanduel,openingLine
+15176,2024-02-29,Charlotte Hornets,Milwaukee Bucks,500.0,-700.0,fanduel,openingLine
+15177,2024-02-29,Orlando Magic,Utah Jazz,-225.0,188.0,fanduel,openingLine
+15179,2024-02-29,Brooklyn Nets,Atlanta Hawks,-130.0,110.0,fanduel,openingLine
+15178,2024-02-29,New York Knicks,Golden State Warriors,116.0,-136.0,fanduel,openingLine
+15180,2024-02-29,San Antonio Spurs,Oklahoma City Thunder,490.0,-670.0,fanduel,openingLine
+15181,2024-02-29,Phoenix Suns,Houston Rockets,-370.0,295.0,fanduel,openingLine
+15182,2024-02-29,Denver Nuggets,Miami Heat,-240.0,198.0,fanduel,openingLine
+15183,2024-02-29,Los Angeles Lakers,Washington Wizards,-590.0,430.0,fanduel,openingLine
+15184,2024-03-01,Detroit Pistons,Cleveland Cavaliers,370.0,-480.0,fanduel,openingLine
+15185,2024-03-01,Philadelphia 76ers,Charlotte Hornets,-650.0,480.0,fanduel,openingLine
+15186,2024-03-01,Toronto Raptors,Golden State Warriors,118.0,-138.0,fanduel,openingLine
+15187,2024-03-01,Boston Celtics,Dallas Mavericks,-350.0,275.0,fanduel,openingLine
+15189,2024-03-01,New Orleans Pelicans,Indiana Pacers,-198.0,166.0,fanduel,openingLine
+15188,2024-03-01,Memphis Grizzlies,Portland Trail Blazers,-144.0,122.0,fanduel,openingLine
+15190,2024-03-01,Minnesota Timberwolves,Sacramento Kings,-300.0,245.0,fanduel,openingLine
+15191,2024-03-01,Chicago Bulls,Milwaukee Bucks,148.0,-176.0,fanduel,openingLine
+15192,2024-03-01,LA Clippers,Washington Wizards,-1200.0,750.0,fanduel,openingLine
+14553,2023-11-20,Detroit Pistons,Denver Nuggets,310.0,-390.0,fanduel,openingLine
+14551,2023-11-20,Charlotte Hornets,Boston Celtics,370.0,-480.0,fanduel,openingLine
+14552,2023-11-20,Washington Wizards,Milwaukee Bucks,300.0,-375.0,fanduel,openingLine
+14555,2023-11-20,Chicago Bulls,Miami Heat,100.0,-118.0,fanduel,openingLine
+14554,2023-11-20,Minnesota Timberwolves,New York Knicks,-148.0,126.0,fanduel,openingLine
+14556,2023-11-20,New Orleans Pelicans,Sacramento Kings,-102.0,-116.0,fanduel,openingLine
+14557,2023-11-20,San Antonio Spurs,LA Clippers,220.0,-270.0,fanduel,openingLine
+14558,2023-11-20,Golden State Warriors,Houston Rockets,-320.0,260.0,fanduel,openingLine
+14559,2023-11-21,Orlando Magic,Toronto Raptors,-120.0,102.0,fanduel,openingLine
+14560,2023-11-21,Atlanta Hawks,Indiana Pacers,-180.0,150.0,fanduel,openingLine
+14561,2023-11-21,Philadelphia 76ers,Cleveland Cavaliers,-330.0,265.0,fanduel,openingLine
+14562,2023-11-21,Phoenix Suns,Portland Trail Blazers,-850.0,590.0,fanduel,openingLine
+14563,2023-11-21,Los Angeles Lakers,Utah Jazz,-375.0,300.0,fanduel,openingLine
+15193,2024-03-02,Brooklyn Nets,Atlanta Hawks,-134.0,114.0,fanduel,openingLine
+15194,2024-03-02,Miami Heat,Utah Jazz,-290.0,235.0,fanduel,openingLine
+15195,2024-03-02,Memphis Grizzlies,Portland Trail Blazers,-118.0,100.0,fanduel,openingLine
+15196,2024-03-02,Los Angeles Lakers,Denver Nuggets,-120.0,102.0,fanduel,openingLine
+15197,2024-03-02,Phoenix Suns,Houston Rockets,-450.0,350.0,fanduel,openingLine
+14565,2023-11-22,Orlando Magic,Denver Nuggets,166.0,-198.0,fanduel,openingLine
+14564,2023-11-22,Charlotte Hornets,Washington Wizards,-196.0,164.0,fanduel,openingLine
+14569,2023-11-22,Atlanta Hawks,Brooklyn Nets,-190.0,160.0,fanduel,openingLine
+14566,2023-11-22,Cleveland Cavaliers,Miami Heat,-104.0,-116.0,fanduel,openingLine
+14568,2023-11-22,Indiana Pacers,Toronto Raptors,-178.0,150.0,fanduel,openingLine
+14567,2023-11-22,Boston Celtics,Milwaukee Bucks,-190.0,160.0,fanduel,openingLine
+14572,2023-11-22,Houston Rockets,Memphis Grizzlies,-186.0,156.0,fanduel,openingLine
+14574,2023-11-22,Minnesota Timberwolves,Philadelphia 76ers,-164.0,138.0,fanduel,openingLine
+14571,2023-11-22,New Orleans Pelicans,Sacramento Kings,-102.0,-116.0,fanduel,openingLine
+14570,2023-11-22,Oklahoma City Thunder,Chicago Bulls,-295.0,240.0,fanduel,openingLine
+14573,2023-11-22,San Antonio Spurs,LA Clippers,315.0,-400.0,fanduel,openingLine
+14576,2023-11-22,Phoenix Suns,Golden State Warriors,-138.0,118.0,fanduel,openingLine
+14575,2023-11-22,Portland Trail Blazers,Utah Jazz,164.0,-198.0,fanduel,openingLine
+14577,2023-11-22,Los Angeles Lakers,Dallas Mavericks,108.0,-126.0,fanduel,openingLine
+15198,2024-03-03,Dallas Mavericks,Philadelphia 76ers,-370.0,295.0,fanduel,openingLine
+15199,2024-03-03,Boston Celtics,Golden State Warriors,-405.0,315.0,fanduel,openingLine
+15200,2024-03-03,Minnesota Timberwolves,LA Clippers,100.0,-118.0,fanduel,openingLine
+15201,2024-03-03,Orlando Magic,Detroit Pistons,-650.0,480.0,fanduel,openingLine
+15202,2024-03-03,Toronto Raptors,Charlotte Hornets,-405.0,320.0,fanduel,openingLine
+15204,2024-03-03,San Antonio Spurs,Indiana Pacers,220.0,-270.0,fanduel,openingLine
+15203,2024-03-03,Cleveland Cavaliers,New York Knicks,-235.0,194.0,fanduel,openingLine
+15205,2024-03-03,Phoenix Suns,Oklahoma City Thunder,112.0,-132.0,fanduel,openingLine
+15206,2024-03-04,Brooklyn Nets,Memphis Grizzlies,-330.0,265.0,fanduel,openingLine
+15208,2024-03-04,Milwaukee Bucks,LA Clippers,-164.0,138.0,fanduel,openingLine
+15207,2024-03-04,Minnesota Timberwolves,Portland Trail Blazers,-1100.0,700.0,fanduel,openingLine
+15209,2024-03-04,Utah Jazz,Washington Wizards,-500.0,385.0,fanduel,openingLine
+15210,2024-03-04,Sacramento Kings,Chicago Bulls,-300.0,245.0,fanduel,openingLine
+15211,2024-03-04,Los Angeles Lakers,Oklahoma City Thunder,-112.0,-104.0,fanduel,openingLine
+14578,2023-11-24,Orlando Magic,Boston Celtics,176.0,-210.0,fanduel,openingLine
+14579,2023-11-24,Memphis Grizzlies,Phoenix Suns,176.0,-210.0,fanduel,openingLine
+14581,2023-11-24,New York Knicks,Miami Heat,-148.0,126.0,fanduel,openingLine
+14580,2023-11-24,Toronto Raptors,Chicago Bulls,-190.0,160.0,fanduel,openingLine
+14583,2023-11-24,Minnesota Timberwolves,Sacramento Kings,-156.0,132.0,fanduel,openingLine
+14582,2023-11-24,Indiana Pacers,Detroit Pistons,-430.0,340.0,fanduel,openingLine
+14585,2023-11-24,Houston Rockets,Denver Nuggets,118.0,-138.0,fanduel,openingLine
+14584,2023-11-24,Milwaukee Bucks,Washington Wizards,-1100.0,700.0,fanduel,openingLine
+14586,2023-11-24,Golden State Warriors,San Antonio Spurs,-490.0,380.0,fanduel,openingLine
+14587,2023-11-24,LA Clippers,New Orleans Pelicans,-295.0,240.0,fanduel,openingLine
+15212,2024-03-05,Charlotte Hornets,Orlando Magic,295.0,-370.0,fanduel,openingLine
+15217,2024-03-05,Brooklyn Nets,Philadelphia 76ers,-104.0,-112.0,fanduel,openingLine
+15216,2024-03-05,Miami Heat,Detroit Pistons,-720.0,520.0,fanduel,openingLine
+15214,2024-03-05,Toronto Raptors,New Orleans Pelicans,275.0,-340.0,fanduel,openingLine
+15215,2024-03-05,New York Knicks,Atlanta Hawks,-178.0,150.0,fanduel,openingLine
+15213,2024-03-05,Cleveland Cavaliers,Boston Celtics,225.0,-275.0,fanduel,openingLine
+15218,2024-03-05,Houston Rockets,San Antonio Spurs,-270.0,220.0,fanduel,openingLine
+15219,2024-03-05,Dallas Mavericks,Indiana Pacers,-194.0,162.0,fanduel,openingLine
+15220,2024-03-05,Denver Nuggets,Phoenix Suns,-400.0,315.0,fanduel,openingLine
+14588,2023-11-25,Oklahoma City Thunder,Philadelphia 76ers,-120.0,102.0,fanduel,openingLine
+14589,2023-11-25,Brooklyn Nets,Miami Heat,-130.0,110.0,fanduel,openingLine
+14590,2023-11-25,Washington Wizards,Atlanta Hawks,260.0,-320.0,fanduel,openingLine
+14591,2023-11-25,Cleveland Cavaliers,Los Angeles Lakers,-210.0,176.0,fanduel,openingLine
+14592,2023-11-25,Utah Jazz,New Orleans Pelicans,-112.0,-104.0,fanduel,openingLine
+14593,2023-11-25,LA Clippers,Dallas Mavericks,-116.0,-102.0,fanduel,openingLine
+15221,2024-03-06,Washington Wizards,Orlando Magic,240.0,-295.0,fanduel,openingLine
+15222,2024-03-06,Atlanta Hawks,Cleveland Cavaliers,108.0,-126.0,fanduel,openingLine
+15223,2024-03-06,Philadelphia 76ers,Memphis Grizzlies,-230.0,190.0,fanduel,openingLine
+15224,2024-03-06,Houston Rockets,LA Clippers,225.0,-275.0,fanduel,openingLine
+15225,2024-03-06,Utah Jazz,Chicago Bulls,-154.0,130.0,fanduel,openingLine
+15227,2024-03-06,Golden State Warriors,Milwaukee Bucks,-146.0,124.0,fanduel,openingLine
+15226,2024-03-06,Portland Trail Blazers,Oklahoma City Thunder,480.0,-650.0,fanduel,openingLine
+15228,2024-03-06,Los Angeles Lakers,Sacramento Kings,-142.0,120.0,fanduel,openingLine
+15229,2024-03-07,Detroit Pistons,Brooklyn Nets,110.0,-130.0,fanduel,openingLine
+15230,2024-03-07,Indiana Pacers,Minnesota Timberwolves,110.0,-130.0,fanduel,openingLine
+15231,2024-03-07,Dallas Mavericks,Miami Heat,-215.0,180.0,fanduel,openingLine
+15232,2024-03-07,Phoenix Suns,Toronto Raptors,-560.0,420.0,fanduel,openingLine
+15235,2024-03-07,Denver Nuggets,Boston Celtics,100.0,-118.0,fanduel,openingLine
+15234,2024-03-07,Golden State Warriors,Chicago Bulls,-300.0,250.0,fanduel,openingLine
+15233,2024-03-07,Sacramento Kings,San Antonio Spurs,-405.0,320.0,fanduel,openingLine
+14649,2023-12-04,Indiana Pacers,Boston Celtics,168.0,-200.0,fanduel,openingLine
+14650,2023-12-04,Sacramento Kings,New Orleans Pelicans,-215.0,180.0,fanduel,openingLine
+15237,2024-03-08,Philadelphia 76ers,New Orleans Pelicans,215.0,-260.0,fanduel,openingLine
+15236,2024-03-08,Washington Wizards,Charlotte Hornets,-138.0,118.0,fanduel,openingLine
+15239,2024-03-08,Cleveland Cavaliers,Minnesota Timberwolves,-112.0,-104.0,fanduel,openingLine
+15238,2024-03-08,New York Knicks,Orlando Magic,-120.0,102.0,fanduel,openingLine
+15241,2024-03-08,Memphis Grizzlies,Atlanta Hawks,128.0,-152.0,fanduel,openingLine
+15240,2024-03-08,Oklahoma City Thunder,Miami Heat,-335.0,270.0,fanduel,openingLine
+15243,2024-03-08,Portland Trail Blazers,Houston Rockets,168.0,-200.0,fanduel,openingLine
+15242,2024-03-08,Los Angeles Lakers,Milwaukee Bucks,-116.0,-102.0,fanduel,openingLine
+14594,2023-11-26,Milwaukee Bucks,Portland Trail Blazers,-670.0,490.0,fanduel,openingLine
+14597,2023-11-26,New York Knicks,Phoenix Suns,-142.0,120.0,fanduel,openingLine
+14596,2023-11-26,Orlando Magic,Charlotte Hornets,-295.0,240.0,fanduel,openingLine
+14598,2023-11-26,Memphis Grizzlies,Minnesota Timberwolves,205.0,-250.0,fanduel,openingLine
+14595,2023-11-26,Boston Celtics,Atlanta Hawks,-300.0,245.0,fanduel,openingLine
+14600,2023-11-26,Brooklyn Nets,Chicago Bulls,-148.0,126.0,fanduel,openingLine
+14599,2023-11-26,Cleveland Cavaliers,Toronto Raptors,-235.0,194.0,fanduel,openingLine
+14601,2023-11-26,Denver Nuggets,San Antonio Spurs,-720.0,520.0,fanduel,openingLine
+14603,2023-11-27,Indiana Pacers,Portland Trail Blazers,-620.0,460.0,fanduel,openingLine
+14604,2023-11-27,Philadelphia 76ers,Los Angeles Lakers,-205.0,172.0,fanduel,openingLine
+14602,2023-11-27,Detroit Pistons,Washington Wizards,-174.0,146.0,fanduel,openingLine
+14605,2023-11-27,Utah Jazz,New Orleans Pelicans,152.0,-180.0,fanduel,openingLine
+14606,2023-11-27,LA Clippers,Denver Nuggets,-196.0,164.0,fanduel,openingLine
+15244,2024-03-09,LA Clippers,Chicago Bulls,-420.0,330.0,fanduel,openingLine
+15245,2024-03-09,Charlotte Hornets,Brooklyn Nets,194.0,-235.0,fanduel,openingLine
+15246,2024-03-09,Detroit Pistons,Dallas Mavericks,220.0,-270.0,fanduel,openingLine
+15248,2024-03-09,Golden State Warriors,San Antonio Spurs,-405.0,320.0,fanduel,openingLine
+15247,2024-03-09,Phoenix Suns,Boston Celtics,190.0,-230.0,fanduel,openingLine
+15249,2024-03-09,Denver Nuggets,Utah Jazz,-620.0,460.0,fanduel,openingLine
+15250,2024-03-09,Portland Trail Blazers,Toronto Raptors,102.0,-120.0,fanduel,openingLine
+14611,2023-11-28,Miami Heat,Milwaukee Bucks,134.0,-158.0,fanduel,openingLine
+14609,2023-11-28,New York Knicks,Charlotte Hornets,-620.0,460.0,fanduel,openingLine
+14610,2023-11-28,Cleveland Cavaliers,Atlanta Hawks,-210.0,176.0,fanduel,openingLine
+14608,2023-11-28,Brooklyn Nets,Toronto Raptors,-132.0,112.0,fanduel,openingLine
+14607,2023-11-28,Boston Celtics,Chicago Bulls,-800.0,560.0,fanduel,openingLine
+14612,2023-11-28,Minnesota Timberwolves,Oklahoma City Thunder,-174.0,146.0,fanduel,openingLine
+14613,2023-11-28,Dallas Mavericks,Houston Rockets,-196.0,164.0,fanduel,openingLine
+14614,2023-11-28,Sacramento Kings,Golden State Warriors,-120.0,102.0,fanduel,openingLine
+15251,2024-03-10,LA Clippers,Milwaukee Bucks,-108.0,-108.0,fanduel,openingLine
+15252,2024-03-10,Atlanta Hawks,New Orleans Pelicans,194.0,-235.0,fanduel,openingLine
+15253,2024-03-10,Sacramento Kings,Houston Rockets,-260.0,215.0,fanduel,openingLine
+15255,2024-03-10,Miami Heat,Washington Wizards,-500.0,385.0,fanduel,openingLine
+15254,2024-03-10,Orlando Magic,Indiana Pacers,-118.0,100.0,fanduel,openingLine
+15257,2024-03-10,Cleveland Cavaliers,Brooklyn Nets,-320.0,260.0,fanduel,openingLine
+15258,2024-03-10,New York Knicks,Philadelphia 76ers,-295.0,240.0,fanduel,openingLine
+15256,2024-03-10,Oklahoma City Thunder,Memphis Grizzlies,-1200.0,750.0,fanduel,openingLine
+15259,2024-03-10,Los Angeles Lakers,Minnesota Timberwolves,-104.0,-112.0,fanduel,openingLine
+14615,2023-11-29,Detroit Pistons,Los Angeles Lakers,250.0,-310.0,fanduel,openingLine
+14616,2023-11-29,Orlando Magic,Washington Wizards,-450.0,350.0,fanduel,openingLine
+14617,2023-11-29,Toronto Raptors,Phoenix Suns,108.0,-126.0,fanduel,openingLine
+14618,2023-11-29,Memphis Grizzlies,Utah Jazz,-186.0,156.0,fanduel,openingLine
+14619,2023-11-29,New Orleans Pelicans,Philadelphia 76ers,102.0,-120.0,fanduel,openingLine
+14620,2023-11-29,Denver Nuggets,Houston Rockets,-194.0,162.0,fanduel,openingLine
+14621,2023-11-29,Sacramento Kings,LA Clippers,-110.0,-108.0,fanduel,openingLine
+15260,2024-03-11,Detroit Pistons,Charlotte Hornets,-176.0,148.0,fanduel,openingLine
+15261,2024-03-11,Cleveland Cavaliers,Phoenix Suns,138.0,-164.0,fanduel,openingLine
+15262,2024-03-11,Chicago Bulls,Dallas Mavericks,144.0,-172.0,fanduel,openingLine
+15263,2024-03-11,San Antonio Spurs,Golden State Warriors,184.0,-220.0,fanduel,openingLine
+15264,2024-03-11,Denver Nuggets,Toronto Raptors,-1100.0,700.0,fanduel,openingLine
+15265,2024-03-11,Portland Trail Blazers,Boston Celtics,380.0,-490.0,fanduel,openingLine
+14622,2023-11-30,Cleveland Cavaliers,Portland Trail Blazers,-650.0,480.0,fanduel,openingLine
+14623,2023-11-30,Brooklyn Nets,Charlotte Hornets,-390.0,310.0,fanduel,openingLine
+14625,2023-11-30,Miami Heat,Indiana Pacers,-130.0,110.0,fanduel,openingLine
+14624,2023-11-30,New York Knicks,Detroit Pistons,-1000.0,660.0,fanduel,openingLine
+14629,2023-11-30,Chicago Bulls,Milwaukee Bucks,265.0,-330.0,fanduel,openingLine
+14628,2023-11-30,Minnesota Timberwolves,Utah Jazz,-520.0,400.0,fanduel,openingLine
+14626,2023-11-30,Oklahoma City Thunder,Los Angeles Lakers,-255.0,210.0,fanduel,openingLine
+14627,2023-11-30,San Antonio Spurs,Atlanta Hawks,200.0,-245.0,fanduel,openingLine
+14630,2023-11-30,Golden State Warriors,LA Clippers,-198.0,166.0,fanduel,openingLine
+15266,2024-03-12,New York Knicks,Philadelphia 76ers,-194.0,162.0,fanduel,openingLine
+15268,2024-03-12,Memphis Grizzlies,Washington Wizards,-116.0,-102.0,fanduel,openingLine
+15267,2024-03-12,Oklahoma City Thunder,Indiana Pacers,-270.0,220.0,fanduel,openingLine
+15269,2024-03-12,San Antonio Spurs,Houston Rockets,134.0,-158.0,fanduel,openingLine
+15270,2024-03-12,Utah Jazz,Boston Celtics,210.0,-255.0,fanduel,openingLine
+15271,2024-03-12,LA Clippers,Minnesota Timberwolves,-260.0,220.0,fanduel,openingLine
+15272,2024-03-12,Sacramento Kings,Milwaukee Bucks,-116.0,-102.0,fanduel,openingLine
+14631,2023-12-01,Orlando Magic,Washington Wizards,-600.0,450.0,fanduel,openingLine
+14634,2023-12-01,Dallas Mavericks,Memphis Grizzlies,-500.0,385.0,fanduel,openingLine
+14633,2023-12-01,Toronto Raptors,New York Knicks,-122.0,104.0,fanduel,openingLine
+14632,2023-12-01,Boston Celtics,Philadelphia 76ers,-295.0,240.0,fanduel,openingLine
+14635,2023-12-01,New Orleans Pelicans,San Antonio Spurs,-720.0,520.0,fanduel,openingLine
+14636,2023-12-01,Phoenix Suns,Denver Nuggets,100.0,-118.0,fanduel,openingLine
+15273,2024-03-13,Detroit Pistons,Toronto Raptors,-138.0,118.0,fanduel,openingLine
+15274,2024-03-13,Orlando Magic,Brooklyn Nets,-275.0,225.0,fanduel,openingLine
+15276,2024-03-13,Indiana Pacers,Chicago Bulls,-174.0,146.0,fanduel,openingLine
+15275,2024-03-13,Miami Heat,Denver Nuggets,126.0,-148.0,fanduel,openingLine
+15278,2024-03-13,Memphis Grizzlies,Charlotte Hornets,106.0,-124.0,fanduel,openingLine
+15277,2024-03-13,New Orleans Pelicans,Cleveland Cavaliers,-310.0,250.0,fanduel,openingLine
+15279,2024-03-13,Dallas Mavericks,Golden State Warriors,-295.0,240.0,fanduel,openingLine
+15281,2024-03-13,Sacramento Kings,Los Angeles Lakers,-104.0,-112.0,fanduel,openingLine
+15280,2024-03-13,Portland Trail Blazers,Atlanta Hawks,102.0,-120.0,fanduel,openingLine
+14637,2023-12-02,LA Clippers,Golden State Warriors,-198.0,166.0,fanduel,openingLine
+14638,2023-12-02,Charlotte Hornets,Minnesota Timberwolves,200.0,-245.0,fanduel,openingLine
+14640,2023-12-02,Brooklyn Nets,Orlando Magic,-138.0,118.0,fanduel,openingLine
+14639,2023-12-02,Detroit Pistons,Cleveland Cavaliers,270.0,-335.0,fanduel,openingLine
+14641,2023-12-02,Miami Heat,Indiana Pacers,-138.0,118.0,fanduel,openingLine
+14642,2023-12-02,Chicago Bulls,New Orleans Pelicans,152.0,-180.0,fanduel,openingLine
+14643,2023-12-02,Milwaukee Bucks,Atlanta Hawks,-275.0,225.0,fanduel,openingLine
+14644,2023-12-02,Dallas Mavericks,Oklahoma City Thunder,112.0,-132.0,fanduel,openingLine
+14645,2023-12-02,Phoenix Suns,Memphis Grizzlies,-450.0,350.0,fanduel,openingLine
+14646,2023-12-02,Utah Jazz,Portland Trail Blazers,-162.0,136.0,fanduel,openingLine
+14647,2023-12-02,Sacramento Kings,Denver Nuggets,-142.0,120.0,fanduel,openingLine
+14648,2023-12-02,Los Angeles Lakers,Houston Rockets,-210.0,176.0,fanduel,openingLine
+15282,2024-03-14,Boston Celtics,Phoenix Suns,-200.0,168.0,fanduel,openingLine
+15283,2024-03-14,Chicago Bulls,LA Clippers,168.0,-200.0,fanduel,openingLine
+15284,2024-03-14,Milwaukee Bucks,Philadelphia 76ers,-460.0,360.0,fanduel,openingLine
+15285,2024-03-14,Houston Rockets,Washington Wizards,-375.0,300.0,fanduel,openingLine
+15287,2024-03-14,Oklahoma City Thunder,Dallas Mavericks,-330.0,265.0,fanduel,openingLine
+15286,2024-03-14,Portland Trail Blazers,New York Knicks,265.0,-330.0,fanduel,openingLine
+15289,2024-03-15,Charlotte Hornets,Phoenix Suns,350.0,-450.0,fanduel,openingLine
+15288,2024-03-15,Detroit Pistons,Miami Heat,198.0,-240.0,fanduel,openingLine
+15290,2024-03-15,Toronto Raptors,Orlando Magic,225.0,-275.0,fanduel,openingLine
+15291,2024-03-15,New Orleans Pelicans,LA Clippers,-210.0,176.0,fanduel,openingLine
+15292,2024-03-15,San Antonio Spurs,Denver Nuggets,410.0,-550.0,fanduel,openingLine
+15293,2024-03-15,Utah Jazz,Atlanta Hawks,-130.0,110.0,fanduel,openingLine
+14651,2023-12-05,Milwaukee Bucks,New York Knicks,-260.0,215.0,fanduel,openingLine
+14652,2023-12-05,Los Angeles Lakers,Phoenix Suns,-126.0,108.0,fanduel,openingLine
+15294,2024-03-16,Houston Rockets,Cleveland Cavaliers,220.0,-270.0,fanduel,openingLine
+15295,2024-03-16,Indiana Pacers,Brooklyn Nets,-310.0,250.0,fanduel,openingLine
+15297,2024-03-16,Philadelphia 76ers,Charlotte Hornets,-460.0,360.0,fanduel,openingLine
+15296,2024-03-16,New Orleans Pelicans,Portland Trail Blazers,-1200.0,750.0,fanduel,openingLine
+15298,2024-03-16,Memphis Grizzlies,Oklahoma City Thunder,320.0,-420.0,fanduel,openingLine
+15299,2024-03-16,Chicago Bulls,Washington Wizards,-590.0,440.0,fanduel,openingLine
+15300,2024-03-16,Los Angeles Lakers,Golden State Warriors,-154.0,130.0,fanduel,openingLine
+15301,2024-03-16,Utah Jazz,Minnesota Timberwolves,265.0,-330.0,fanduel,openingLine
+15302,2024-03-16,Sacramento Kings,New York Knicks,-134.0,114.0,fanduel,openingLine
+14653,2023-12-06,Detroit Pistons,Memphis Grizzlies,-112.0,-104.0,fanduel,openingLine
+14654,2023-12-06,Cleveland Cavaliers,Orlando Magic,-188.0,158.0,fanduel,openingLine
+14655,2023-12-06,Washington Wizards,Philadelphia 76ers,310.0,-390.0,fanduel,openingLine
+14656,2023-12-06,Toronto Raptors,Miami Heat,-126.0,108.0,fanduel,openingLine
+14658,2023-12-06,Atlanta Hawks,Brooklyn Nets,-178.0,150.0,fanduel,openingLine
+14657,2023-12-06,Minnesota Timberwolves,San Antonio Spurs,-590.0,440.0,fanduel,openingLine
+14660,2023-12-06,Chicago Bulls,Charlotte Hornets,-188.0,158.0,fanduel,openingLine
+14659,2023-12-06,Houston Rockets,Oklahoma City Thunder,-106.0,-110.0,fanduel,openingLine
+14661,2023-12-06,Dallas Mavericks,Utah Jazz,-375.0,300.0,fanduel,openingLine
+14662,2023-12-06,LA Clippers,Denver Nuggets,-116.0,-102.0,fanduel,openingLine
+14663,2023-12-06,Golden State Warriors,Portland Trail Blazers,-500.0,380.0,fanduel,openingLine
+15303,2024-03-17,Milwaukee Bucks,Phoenix Suns,-164.0,138.0,fanduel,openingLine
+15304,2024-03-17,Detroit Pistons,Miami Heat,260.0,-320.0,fanduel,openingLine
+15305,2024-03-17,Dallas Mavericks,Denver Nuggets,132.0,-156.0,fanduel,openingLine
+15307,2024-03-17,Orlando Magic,Toronto Raptors,-650.0,480.0,fanduel,openingLine
+15306,2024-03-17,Washington Wizards,Boston Celtics,980.0,-1800.0,fanduel,openingLine
+15308,2024-03-17,San Antonio Spurs,Brooklyn Nets,-116.0,-102.0,fanduel,openingLine
+15309,2024-03-17,LA Clippers,Atlanta Hawks,-520.0,400.0,fanduel,openingLine
+15310,2024-03-18,Indiana Pacers,Cleveland Cavaliers,-300.0,245.0,fanduel,openingLine
+15311,2024-03-18,Boston Celtics,Detroit Pistons,-1350.0,810.0,fanduel,openingLine
+15312,2024-03-18,Philadelphia 76ers,Miami Heat,-154.0,130.0,fanduel,openingLine
+15313,2024-03-18,Chicago Bulls,Portland Trail Blazers,-275.0,225.0,fanduel,openingLine
+15314,2024-03-18,Utah Jazz,Minnesota Timberwolves,265.0,-330.0,fanduel,openingLine
+15316,2024-03-18,Sacramento Kings,Memphis Grizzlies,-480.0,370.0,fanduel,openingLine
+15315,2024-03-18,Golden State Warriors,New York Knicks,-164.0,138.0,fanduel,openingLine
+15317,2024-03-18,Los Angeles Lakers,Atlanta Hawks,-420.0,330.0,fanduel,openingLine
+14664,2023-12-07,Milwaukee Bucks,Indiana Pacers,-180.0,150.0,fanduel,openingLine
+14665,2023-12-07,Los Angeles Lakers,New Orleans Pelicans,-132.0,112.0,fanduel,openingLine
+15318,2024-03-19,Orlando Magic,Charlotte Hornets,-950.0,640.0,fanduel,openingLine
+15319,2024-03-19,Washington Wizards,Houston Rockets,198.0,-240.0,fanduel,openingLine
+15320,2024-03-19,Brooklyn Nets,New Orleans Pelicans,240.0,-295.0,fanduel,openingLine
+15321,2024-03-19,San Antonio Spurs,Dallas Mavericks,275.0,-340.0,fanduel,openingLine
+15322,2024-03-19,Minnesota Timberwolves,Denver Nuggets,134.0,-158.0,fanduel,openingLine
+14666,2023-12-08,Philadelphia 76ers,Atlanta Hawks,-275.0,225.0,fanduel,openingLine
+14668,2023-12-08,Orlando Magic,Detroit Pistons,-800.0,560.0,fanduel,openingLine
+14667,2023-12-08,Charlotte Hornets,Toronto Raptors,134.0,-158.0,fanduel,openingLine
+14669,2023-12-08,Boston Celtics,New York Knicks,-255.0,210.0,fanduel,openingLine
+14670,2023-12-08,Brooklyn Nets,Washington Wizards,-405.0,320.0,fanduel,openingLine
+14672,2023-12-08,Miami Heat,Cleveland Cavaliers,-130.0,110.0,fanduel,openingLine
+14671,2023-12-08,Memphis Grizzlies,Minnesota Timberwolves,220.0,-270.0,fanduel,openingLine
+14673,2023-12-08,Oklahoma City Thunder,Golden State Warriors,-196.0,164.0,fanduel,openingLine
+14674,2023-12-08,San Antonio Spurs,Chicago Bulls,100.0,-118.0,fanduel,openingLine
+14676,2023-12-08,Denver Nuggets,Houston Rockets,-335.0,270.0,fanduel,openingLine
+14675,2023-12-08,Phoenix Suns,Sacramento Kings,100.0,-118.0,fanduel,openingLine
+14678,2023-12-08,Utah Jazz,LA Clippers,172.0,-205.0,fanduel,openingLine
+14677,2023-12-08,Portland Trail Blazers,Dallas Mavericks,265.0,-330.0,fanduel,openingLine
+14679,2023-12-09,Los Angeles Lakers,Indiana Pacers,-172.0,144.0,fanduel,openingLine
+15323,2024-03-20,Detroit Pistons,Indiana Pacers,315.0,-400.0,fanduel,openingLine
+15324,2024-03-20,Cleveland Cavaliers,Miami Heat,-136.0,116.0,fanduel,openingLine
+15325,2024-03-20,Toronto Raptors,Sacramento Kings,275.0,-340.0,fanduel,openingLine
+15326,2024-03-20,Boston Celtics,Milwaukee Bucks,-290.0,235.0,fanduel,openingLine
+15327,2024-03-20,Oklahoma City Thunder,Utah Jazz,-820.0,570.0,fanduel,openingLine
+15329,2024-03-20,Portland Trail Blazers,LA Clippers,530.0,-750.0,fanduel,openingLine
+15330,2024-03-20,Golden State Warriors,Memphis Grizzlies,-550.0,410.0,fanduel,openingLine
+15328,2024-03-20,Phoenix Suns,Philadelphia 76ers,-420.0,330.0,fanduel,openingLine
+15331,2024-03-21,Washington Wizards,Sacramento Kings,440.0,-590.0,fanduel,openingLine
+15332,2024-03-21,Orlando Magic,New Orleans Pelicans,106.0,-124.0,fanduel,openingLine
+15333,2024-03-21,Milwaukee Bucks,Brooklyn Nets,-340.0,275.0,fanduel,openingLine
+15334,2024-03-21,Houston Rockets,Chicago Bulls,-154.0,130.0,fanduel,openingLine
+15335,2024-03-21,Dallas Mavericks,Utah Jazz,-900.0,610.0,fanduel,openingLine
+15336,2024-03-21,Denver Nuggets,New York Knicks,-370.0,295.0,fanduel,openingLine
+15337,2024-03-21,Phoenix Suns,Atlanta Hawks,-360.0,290.0,fanduel,openingLine
+15339,2024-03-22,Toronto Raptors,Oklahoma City Thunder,750.0,-1200.0,fanduel,openingLine
+15338,2024-03-22,Detroit Pistons,Boston Celtics,750.0,-1200.0,fanduel,openingLine
+15341,2024-03-22,Miami Heat,New Orleans Pelicans,-120.0,102.0,fanduel,openingLine
+15342,2024-03-22,San Antonio Spurs,Memphis Grizzlies,-184.0,154.0,fanduel,openingLine
+15340,2024-03-22,Minnesota Timberwolves,Cleveland Cavaliers,-220.0,184.0,fanduel,openingLine
+15344,2024-03-22,Golden State Warriors,Indiana Pacers,-200.0,168.0,fanduel,openingLine
+15343,2024-03-22,Portland Trail Blazers,LA Clippers,640.0,-950.0,fanduel,openingLine
+15345,2024-03-22,Los Angeles Lakers,Philadelphia 76ers,-450.0,350.0,fanduel,openingLine
+14682,2023-12-11,Detroit Pistons,Indiana Pacers,260.0,-320.0,fanduel,openingLine
+14680,2023-12-11,Orlando Magic,Cleveland Cavaliers,-142.0,120.0,fanduel,openingLine
+14683,2023-12-11,Charlotte Hornets,Miami Heat,126.0,-148.0,fanduel,openingLine
+14681,2023-12-11,Philadelphia 76ers,Washington Wizards,-620.0,460.0,fanduel,openingLine
+14685,2023-12-11,Atlanta Hawks,Denver Nuggets,114.0,-134.0,fanduel,openingLine
+14684,2023-12-11,New York Knicks,Toronto Raptors,-235.0,194.0,fanduel,openingLine
+14686,2023-12-11,Houston Rockets,San Antonio Spurs,-350.0,280.0,fanduel,openingLine
+14688,2023-12-11,Memphis Grizzlies,Dallas Mavericks,126.0,-148.0,fanduel,openingLine
+14690,2023-12-11,Milwaukee Bucks,Chicago Bulls,-590.0,440.0,fanduel,openingLine
+14689,2023-12-11,New Orleans Pelicans,Minnesota Timberwolves,-130.0,110.0,fanduel,openingLine
+14687,2023-12-11,Oklahoma City Thunder,Utah Jazz,-850.0,590.0,fanduel,openingLine
+14691,2023-12-11,Sacramento Kings,Brooklyn Nets,-230.0,190.0,fanduel,openingLine
+14692,2023-12-11,LA Clippers,Portland Trail Blazers,-850.0,590.0,fanduel,openingLine
+15346,2024-03-23,New York Knicks,Brooklyn Nets,-290.0,235.0,fanduel,openingLine
+15347,2024-03-23,Orlando Magic,Sacramento Kings,-158.0,134.0,fanduel,openingLine
+15348,2024-03-23,Atlanta Hawks,Charlotte Hornets,-480.0,370.0,fanduel,openingLine
+15350,2024-03-23,San Antonio Spurs,Phoenix Suns,350.0,-450.0,fanduel,openingLine
+15351,2024-03-23,Houston Rockets,Utah Jazz,-330.0,265.0,fanduel,openingLine
+15349,2024-03-23,Chicago Bulls,Boston Celtics,290.0,-360.0,fanduel,openingLine
+15352,2024-03-23,Washington Wizards,Toronto Raptors,-230.0,194.0,fanduel,openingLine
+15353,2024-03-23,Portland Trail Blazers,Denver Nuggets,810.0,-1350.0,fanduel,openingLine
+14693,2023-12-12,Dallas Mavericks,Los Angeles Lakers,-116.0,-102.0,fanduel,openingLine
+14694,2023-12-12,Boston Celtics,Cleveland Cavaliers,-430.0,340.0,fanduel,openingLine
+14695,2023-12-12,Chicago Bulls,Denver Nuggets,230.0,-280.0,fanduel,openingLine
+14696,2023-12-12,Phoenix Suns,Golden State Warriors,-152.0,128.0,fanduel,openingLine
+14697,2023-12-12,LA Clippers,Sacramento Kings,-205.0,172.0,fanduel,openingLine
+15354,2024-03-24,Detroit Pistons,New Orleans Pelicans,480.0,-650.0,fanduel,openingLine
+15355,2024-03-24,LA Clippers,Philadelphia 76ers,-490.0,380.0,fanduel,openingLine
+15356,2024-03-24,Miami Heat,Cleveland Cavaliers,-190.0,158.0,fanduel,openingLine
+15357,2024-03-24,Milwaukee Bucks,Oklahoma City Thunder,-146.0,124.0,fanduel,openingLine
+15358,2024-03-24,Minnesota Timberwolves,Golden State Warriors,-172.0,144.0,fanduel,openingLine
+15359,2024-03-24,Los Angeles Lakers,Indiana Pacers,-146.0,124.0,fanduel,openingLine
+14699,2023-12-13,Detroit Pistons,Philadelphia 76ers,520.0,-720.0,fanduel,openingLine
+14698,2023-12-13,Washington Wizards,New Orleans Pelicans,295.0,-370.0,fanduel,openingLine
+14700,2023-12-13,Miami Heat,Charlotte Hornets,-375.0,300.0,fanduel,openingLine
+14701,2023-12-13,Toronto Raptors,Atlanta Hawks,-120.0,102.0,fanduel,openingLine
+14702,2023-12-13,San Antonio Spurs,Los Angeles Lakers,190.0,-230.0,fanduel,openingLine
+14703,2023-12-13,Houston Rockets,Memphis Grizzlies,-270.0,220.0,fanduel,openingLine
+14704,2023-12-13,Milwaukee Bucks,Indiana Pacers,-240.0,198.0,fanduel,openingLine
+14705,2023-12-13,Phoenix Suns,Brooklyn Nets,-205.0,172.0,fanduel,openingLine
+14706,2023-12-13,Utah Jazz,New York Knicks,176.0,-210.0,fanduel,openingLine
+14708,2023-12-14,Miami Heat,Chicago Bulls,-235.0,194.0,fanduel,openingLine
+14707,2023-12-14,Boston Celtics,Cleveland Cavaliers,-370.0,295.0,fanduel,openingLine
+14709,2023-12-14,Dallas Mavericks,Minnesota Timberwolves,-138.0,118.0,fanduel,openingLine
+14710,2023-12-14,Denver Nuggets,Brooklyn Nets,-420.0,330.0,fanduel,openingLine
+14711,2023-12-14,Portland Trail Blazers,Utah Jazz,-122.0,104.0,fanduel,openingLine
+14712,2023-12-14,Sacramento Kings,Oklahoma City Thunder,-122.0,104.0,fanduel,openingLine
+14713,2023-12-14,LA Clippers,Golden State Warriors,-225.0,188.0,fanduel,openingLine
+15360,2024-03-25,Cleveland Cavaliers,Charlotte Hornets,-700.0,500.0,fanduel,openingLine
+15361,2024-03-25,Toronto Raptors,Brooklyn Nets,215.0,-260.0,fanduel,openingLine
+15362,2024-03-25,Atlanta Hawks,Boston Celtics,460.0,-620.0,fanduel,openingLine
+15363,2024-03-25,New York Knicks,Detroit Pistons,-2200.0,1100.0,fanduel,openingLine
+15365,2024-03-25,Houston Rockets,Portland Trail Blazers,-650.0,480.0,fanduel,openingLine
+15364,2024-03-25,San Antonio Spurs,Phoenix Suns,430.0,-590.0,fanduel,openingLine
+15366,2024-03-25,Chicago Bulls,Washington Wizards,-430.0,340.0,fanduel,openingLine
+15367,2024-03-25,Utah Jazz,Dallas Mavericks,270.0,-335.0,fanduel,openingLine
+15368,2024-03-25,Denver Nuggets,Memphis Grizzlies,-2200.0,1100.0,fanduel,openingLine
+15369,2024-03-25,Sacramento Kings,Philadelphia 76ers,-360.0,290.0,fanduel,openingLine
+15370,2024-03-25,LA Clippers,Indiana Pacers,-255.0,210.0,fanduel,openingLine
+15371,2024-03-26,Miami Heat,Golden State Warriors,110.0,-130.0,fanduel,openingLine
+15372,2024-03-26,Milwaukee Bucks,Los Angeles Lakers,-215.0,180.0,fanduel,openingLine
+15373,2024-03-26,New Orleans Pelicans,Oklahoma City Thunder,-104.0,-112.0,fanduel,openingLine
+15374,2024-03-26,Sacramento Kings,Dallas Mavericks,-118.0,100.0,fanduel,openingLine
+14714,2023-12-15,Philadelphia 76ers,Detroit Pistons,-1600.0,900.0,fanduel,openingLine
+14715,2023-12-15,Charlotte Hornets,New Orleans Pelicans,176.0,-210.0,fanduel,openingLine
+14716,2023-12-15,Washington Wizards,Indiana Pacers,310.0,-390.0,fanduel,openingLine
+14717,2023-12-15,Toronto Raptors,Atlanta Hawks,-138.0,118.0,fanduel,openingLine
+14719,2023-12-15,San Antonio Spurs,Los Angeles Lakers,162.0,-190.0,fanduel,openingLine
+14718,2023-12-15,Boston Celtics,Orlando Magic,-230.0,190.0,fanduel,openingLine
+14720,2023-12-15,Memphis Grizzlies,Houston Rockets,164.0,-196.0,fanduel,openingLine
+14721,2023-12-15,Phoenix Suns,New York Knicks,-205.0,172.0,fanduel,openingLine
+15376,2024-03-27,Orlando Magic,Golden State Warriors,-188.0,158.0,fanduel,openingLine
+15377,2024-03-27,Washington Wizards,Brooklyn Nets,118.0,-138.0,fanduel,openingLine
+15375,2024-03-27,Charlotte Hornets,Cleveland Cavaliers,385.0,-500.0,fanduel,openingLine
+15379,2024-03-27,Atlanta Hawks,Portland Trail Blazers,-670.0,490.0,fanduel,openingLine
+15380,2024-03-27,Philadelphia 76ers,LA Clippers,215.0,-260.0,fanduel,openingLine
+15378,2024-03-27,Toronto Raptors,New York Knicks,540.0,-770.0,fanduel,openingLine
+15382,2024-03-27,Chicago Bulls,Indiana Pacers,126.0,-148.0,fanduel,openingLine
+15383,2024-03-27,Memphis Grizzlies,Los Angeles Lakers,180.0,-215.0,fanduel,openingLine
+15381,2024-03-27,Minnesota Timberwolves,Detroit Pistons,-2200.0,1100.0,fanduel,openingLine
+15384,2024-03-27,Oklahoma City Thunder,Houston Rockets,-270.0,220.0,fanduel,openingLine
+15385,2024-03-27,Utah Jazz,San Antonio Spurs,-102.0,-116.0,fanduel,openingLine
+15386,2024-03-27,Denver Nuggets,Phoenix Suns,-275.0,225.0,fanduel,openingLine
+14722,2023-12-16,Milwaukee Bucks,Detroit Pistons,-2200.0,1100.0,fanduel,openingLine
+14723,2023-12-16,Charlotte Hornets,Philadelphia 76ers,370.0,-480.0,fanduel,openingLine
+14724,2023-12-16,Cleveland Cavaliers,Atlanta Hawks,-132.0,112.0,fanduel,openingLine
+14726,2023-12-16,Miami Heat,Chicago Bulls,-180.0,152.0,fanduel,openingLine
+14725,2023-12-16,Minnesota Timberwolves,Indiana Pacers,-310.0,250.0,fanduel,openingLine
+14727,2023-12-16,Golden State Warriors,Brooklyn Nets,-162.0,136.0,fanduel,openingLine
+14729,2023-12-16,Denver Nuggets,Oklahoma City Thunder,-290.0,235.0,fanduel,openingLine
+14728,2023-12-16,Portland Trail Blazers,Dallas Mavericks,200.0,-245.0,fanduel,openingLine
+14730,2023-12-16,Sacramento Kings,Utah Jazz,-620.0,460.0,fanduel,openingLine
+14731,2023-12-16,LA Clippers,New York Knicks,-225.0,188.0,fanduel,openingLine
+15387,2024-03-28,Atlanta Hawks,Boston Celtics,590.0,-850.0,fanduel,openingLine
+15388,2024-03-28,New Orleans Pelicans,Milwaukee Bucks,104.0,-122.0,fanduel,openingLine
+14732,2023-12-17,Boston Celtics,Orlando Magic,-350.0,280.0,fanduel,openingLine
+14733,2023-12-17,San Antonio Spurs,New Orleans Pelicans,250.0,-310.0,fanduel,openingLine
+14734,2023-12-17,Milwaukee Bucks,Houston Rockets,-255.0,210.0,fanduel,openingLine
+14735,2023-12-17,Phoenix Suns,Washington Wizards,-900.0,610.0,fanduel,openingLine
+14736,2023-12-17,Portland Trail Blazers,Golden State Warriors,150.0,-178.0,fanduel,openingLine
+14738,2023-12-18,Indiana Pacers,LA Clippers,114.0,-134.0,fanduel,openingLine
+14737,2023-12-18,Philadelphia 76ers,Chicago Bulls,-560.0,430.0,fanduel,openingLine
+14739,2023-12-18,Cleveland Cavaliers,Houston Rockets,-196.0,164.0,fanduel,openingLine
+14742,2023-12-18,Atlanta Hawks,Detroit Pistons,-500.0,385.0,fanduel,openingLine
+14741,2023-12-18,Miami Heat,Minnesota Timberwolves,-104.0,-112.0,fanduel,openingLine
+14740,2023-12-18,Toronto Raptors,Charlotte Hornets,-490.0,380.0,fanduel,openingLine
+14743,2023-12-18,Oklahoma City Thunder,Memphis Grizzlies,-400.0,315.0,fanduel,openingLine
+14745,2023-12-18,Denver Nuggets,Dallas Mavericks,-295.0,240.0,fanduel,openingLine
+14744,2023-12-18,Utah Jazz,Brooklyn Nets,136.0,-162.0,fanduel,openingLine
+14746,2023-12-18,Sacramento Kings,Washington Wizards,-620.0,460.0,fanduel,openingLine
+14747,2023-12-18,Los Angeles Lakers,New York Knicks,-190.0,160.0,fanduel,openingLine
+14748,2023-12-19,New Orleans Pelicans,Memphis Grizzlies,-290.0,235.0,fanduel,openingLine
+14749,2023-12-19,Milwaukee Bucks,San Antonio Spurs,-950.0,660.0,fanduel,openingLine
+14751,2023-12-19,Golden State Warriors,Boston Celtics,200.0,-245.0,fanduel,openingLine
+14750,2023-12-19,Portland Trail Blazers,Phoenix Suns,265.0,-330.0,fanduel,openingLine
+15389,2024-03-30,New Orleans Pelicans,Boston Celtics,152.0,-180.0,fanduel,openingLine
+15390,2024-03-30,Orlando Magic,Memphis Grizzlies,-770.0,540.0,fanduel,openingLine
+15391,2024-03-30,Atlanta Hawks,Milwaukee Bucks,180.0,-215.0,fanduel,openingLine
+14753,2023-12-20,Cleveland Cavaliers,Utah Jazz,-330.0,265.0,fanduel,openingLine
+14752,2023-12-20,Indiana Pacers,Charlotte Hornets,-500.0,385.0,fanduel,openingLine
+14754,2023-12-20,Orlando Magic,Miami Heat,-194.0,162.0,fanduel,openingLine
+14755,2023-12-20,Philadelphia 76ers,Minnesota Timberwolves,-158.0,134.0,fanduel,openingLine
+14757,2023-12-20,Brooklyn Nets,New York Knicks,-104.0,-112.0,fanduel,openingLine
+14756,2023-12-20,Toronto Raptors,Denver Nuggets,166.0,-198.0,fanduel,openingLine
+14759,2023-12-20,Chicago Bulls,Los Angeles Lakers,180.0,-210.0,fanduel,openingLine
+14758,2023-12-20,Houston Rockets,Atlanta Hawks,-152.0,128.0,fanduel,openingLine
+14760,2023-12-20,Dallas Mavericks,LA Clippers,124.0,-146.0,fanduel,openingLine
+14761,2023-12-20,Sacramento Kings,Boston Celtics,108.0,-126.0,fanduel,openingLine
+15392,2024-03-31,Denver Nuggets,Cleveland Cavaliers,-210.0,176.0,fanduel,openingLine
+15396,2024-03-31,Brooklyn Nets,Los Angeles Lakers,210.0,-255.0,fanduel,openingLine
+15393,2024-03-31,Charlotte Hornets,LA Clippers,980.0,-1800.0,fanduel,openingLine
+15394,2024-03-31,Toronto Raptors,Philadelphia 76ers,500.0,-700.0,fanduel,openingLine
+15395,2024-03-31,Washington Wizards,Miami Heat,440.0,-590.0,fanduel,openingLine
+15399,2024-03-31,San Antonio Spurs,Golden State Warriors,340.0,-430.0,fanduel,openingLine
+15398,2024-03-31,Houston Rockets,Dallas Mavericks,102.0,-120.0,fanduel,openingLine
+15397,2024-03-31,Minnesota Timberwolves,Chicago Bulls,-340.0,275.0,fanduel,openingLine
+15400,2024-03-31,New York Knicks,Oklahoma City Thunder,-102.0,-116.0,fanduel,openingLine
+15401,2024-03-31,Sacramento Kings,Utah Jazz,-700.0,500.0,fanduel,openingLine
+14762,2023-12-21,Detroit Pistons,Utah Jazz,108.0,-130.0,fanduel,openingLine
+14763,2023-12-21,Cleveland Cavaliers,New Orleans Pelicans,-120.0,102.0,fanduel,openingLine
+14764,2023-12-21,Chicago Bulls,San Antonio Spurs,-152.0,128.0,fanduel,openingLine
+14765,2023-12-21,Memphis Grizzlies,Indiana Pacers,-180.0,152.0,fanduel,openingLine
+14767,2023-12-21,Milwaukee Bucks,Orlando Magic,-320.0,260.0,fanduel,openingLine
+14766,2023-12-21,Oklahoma City Thunder,LA Clippers,-154.0,130.0,fanduel,openingLine
+14768,2023-12-21,Minnesota Timberwolves,Los Angeles Lakers,-190.0,160.0,fanduel,openingLine
+14769,2023-12-21,Portland Trail Blazers,Washington Wizards,-176.0,148.0,fanduel,openingLine
+15404,2024-04-01,Detroit Pistons,Memphis Grizzlies,-116.0,-102.0,fanduel,openingLine
+15405,2024-04-01,Indiana Pacers,Brooklyn Nets,-500.0,385.0,fanduel,openingLine
+15403,2024-04-01,Orlando Magic,Portland Trail Blazers,-1600.0,900.0,fanduel,openingLine
+15402,2024-04-01,Charlotte Hornets,Boston Celtics,1100.0,-2200.0,fanduel,openingLine
+15406,2024-04-01,Chicago Bulls,Atlanta Hawks,-134.0,116.0,fanduel,openingLine
+15407,2024-04-01,New Orleans Pelicans,Phoenix Suns,-112.0,-104.0,fanduel,openingLine
+14770,2023-12-22,Philadelphia 76ers,Toronto Raptors,-350.0,280.0,fanduel,openingLine
+14771,2023-12-22,Brooklyn Nets,Denver Nuggets,148.0,-176.0,fanduel,openingLine
+14772,2023-12-22,Miami Heat,Atlanta Hawks,-120.0,102.0,fanduel,openingLine
+14773,2023-12-22,Houston Rockets,Dallas Mavericks,-138.0,118.0,fanduel,openingLine
+14775,2023-12-22,Sacramento Kings,Phoenix Suns,-142.0,118.0,fanduel,openingLine
+14774,2023-12-22,Golden State Warriors,Washington Wizards,-770.0,540.0,fanduel,openingLine
+15409,2024-04-02,Toronto Raptors,Los Angeles Lakers,640.0,-950.0,fanduel,openingLine
+15408,2024-04-02,Washington Wizards,Milwaukee Bucks,610.0,-900.0,fanduel,openingLine
+15410,2024-04-02,Philadelphia 76ers,Oklahoma City Thunder,176.0,-210.0,fanduel,openingLine
+15411,2024-04-02,Miami Heat,New York Knicks,-144.0,122.0,fanduel,openingLine
+15412,2024-04-02,Minnesota Timberwolves,Houston Rockets,-340.0,275.0,fanduel,openingLine
+15414,2024-04-02,Denver Nuggets,San Antonio Spurs,-2200.0,1100.0,fanduel,openingLine
+15413,2024-04-02,Utah Jazz,Cleveland Cavaliers,520.0,-720.0,fanduel,openingLine
+15416,2024-04-02,Sacramento Kings,LA Clippers,100.0,-118.0,fanduel,openingLine
+14776,2023-12-23,New York Knicks,Milwaukee Bucks,110.0,-130.0,fanduel,openingLine
+14777,2023-12-23,LA Clippers,Boston Celtics,100.0,-118.0,fanduel,openingLine
+14779,2023-12-23,Charlotte Hornets,Denver Nuggets,280.0,-350.0,fanduel,openingLine
+14778,2023-12-23,Indiana Pacers,Orlando Magic,-126.0,108.0,fanduel,openingLine
+14780,2023-12-23,New Orleans Pelicans,Houston Rockets,-255.0,210.0,fanduel,openingLine
+14781,2023-12-23,Atlanta Hawks,Memphis Grizzlies,-102.0,-116.0,fanduel,openingLine
+14783,2023-12-23,Brooklyn Nets,Detroit Pistons,-460.0,360.0,fanduel,openingLine
+14782,2023-12-23,Toronto Raptors,Utah Jazz,-260.0,215.0,fanduel,openingLine
+14784,2023-12-23,Chicago Bulls,Cleveland Cavaliers,-186.0,156.0,fanduel,openingLine
+14785,2023-12-23,Oklahoma City Thunder,Los Angeles Lakers,-178.0,150.0,fanduel,openingLine
+14787,2023-12-23,Dallas Mavericks,San Antonio Spurs,-275.0,225.0,fanduel,openingLine
+14786,2023-12-23,Golden State Warriors,Portland Trail Blazers,-350.0,280.0,fanduel,openingLine
+14788,2023-12-23,Sacramento Kings,Minnesota Timberwolves,-116.0,-102.0,fanduel,openingLine
+2,2024-10-24,Washington Wizards,Boston Celtics,590.0,-850.0,fanduel,openingLine
+3,2024-10-24,Dallas Mavericks,San Antonio Spurs,-335.0,270.0,fanduel,openingLine
+6,2024-10-24,Sacramento Kings,Minnesota Timberwolves,-118.0,100.0,fanduel,openingLine
+7,2024-10-24,Denver Nuggets,Oklahoma City Thunder,-142.0,120.0,fanduel,openingLine
+15418,2024-04-03,Washington Wizards,Los Angeles Lakers,570.0,-820.0,fanduel,openingLine
+15417,2024-04-03,Charlotte Hornets,Portland Trail Blazers,-112.0,-104.0,fanduel,openingLine
+15420,2024-04-03,Atlanta Hawks,Detroit Pistons,-1000.0,660.0,fanduel,openingLine
+15419,2024-04-03,Brooklyn Nets,Indiana Pacers,245.0,-300.0,fanduel,openingLine
+15421,2024-04-03,Boston Celtics,Oklahoma City Thunder,-370.0,295.0,fanduel,openingLine
+15423,2024-04-03,Minnesota Timberwolves,Toronto Raptors,-1500.0,870.0,fanduel,openingLine
+15422,2024-04-03,Milwaukee Bucks,Memphis Grizzlies,-950.0,640.0,fanduel,openingLine
+15424,2024-04-03,New Orleans Pelicans,Orlando Magic,-172.0,144.0,fanduel,openingLine
+15425,2024-04-03,Phoenix Suns,Cleveland Cavaliers,-250.0,205.0,fanduel,openingLine
+15426,2024-04-04,Miami Heat,Philadelphia 76ers,-142.0,120.0,fanduel,openingLine
+15427,2024-04-04,Dallas Mavericks,Atlanta Hawks,-620.0,460.0,fanduel,openingLine
+15428,2024-04-04,New York Knicks,Sacramento Kings,-162.0,136.0,fanduel,openingLine
+15429,2024-04-04,Houston Rockets,Golden State Warriors,138.0,-164.0,fanduel,openingLine
+15430,2024-04-04,LA Clippers,Denver Nuggets,124.0,-146.0,fanduel,openingLine
+14789,2023-12-25,New York Knicks,Milwaukee Bucks,114.0,-134.0,fanduel,openingLine
+14790,2023-12-25,Denver Nuggets,Golden State Warriors,-205.0,172.0,fanduel,openingLine
+14791,2023-12-25,Los Angeles Lakers,Boston Celtics,-104.0,-116.0,fanduel,openingLine
+14792,2023-12-25,Miami Heat,Philadelphia 76ers,-144.0,122.0,fanduel,openingLine
+14793,2023-12-25,Phoenix Suns,Dallas Mavericks,-240.0,198.0,fanduel,openingLine
+10,2024-10-25,Toronto Raptors,Philadelphia 76ers,176.0,-210.0,fanduel,openingLine
+11,2024-10-25,Orlando Magic,Brooklyn Nets,-500.0,385.0,fanduel,openingLine
+13,2024-10-25,Cleveland Cavaliers,Detroit Pistons,-490.0,380.0,fanduel,openingLine
+16,2024-10-25,New York Knicks,Indiana Pacers,-210.0,176.0,fanduel,openingLine
+17,2024-10-25,Atlanta Hawks,Charlotte Hornets,-200.0,168.0,fanduel,openingLine
+20,2024-10-25,Houston Rockets,Memphis Grizzlies,-126.0,108.0,fanduel,openingLine
+21,2024-10-25,Milwaukee Bucks,Chicago Bulls,-400.0,315.0,fanduel,openingLine
+24,2024-10-25,Utah Jazz,Golden State Warriors,168.0,-200.0,fanduel,openingLine
+26,2024-10-25,Portland Trail Blazers,New Orleans Pelicans,205.0,-250.0,fanduel,openingLine
+28,2024-10-25,Los Angeles Lakers,Phoenix Suns,-146.0,124.0,fanduel,openingLine
+15432,2024-04-05,Charlotte Hornets,Orlando Magic,460.0,-620.0,fanduel,openingLine
+15431,2024-04-05,Indiana Pacers,Oklahoma City Thunder,-205.0,172.0,fanduel,openingLine
+15433,2024-04-05,Washington Wizards,Portland Trail Blazers,-130.0,110.0,fanduel,openingLine
+15434,2024-04-05,Boston Celtics,Sacramento Kings,-370.0,295.0,fanduel,openingLine
+15436,2024-04-05,New Orleans Pelicans,San Antonio Spurs,-560.0,420.0,fanduel,openingLine
+15437,2024-04-05,Houston Rockets,Miami Heat,-112.0,-104.0,fanduel,openingLine
+15435,2024-04-05,Memphis Grizzlies,Detroit Pistons,100.0,-118.0,fanduel,openingLine
+15439,2024-04-05,Milwaukee Bucks,Toronto Raptors,-2200.0,1100.0,fanduel,openingLine
+15438,2024-04-05,Chicago Bulls,New York Knicks,-112.0,-104.0,fanduel,openingLine
+15440,2024-04-05,Dallas Mavericks,Golden State Warriors,-210.0,176.0,fanduel,openingLine
+15441,2024-04-05,Phoenix Suns,Minnesota Timberwolves,-148.0,126.0,fanduel,openingLine
+15442,2024-04-05,LA Clippers,Utah Jazz,-1000.0,660.0,fanduel,openingLine
+14794,2023-12-26,Detroit Pistons,Brooklyn Nets,215.0,-260.0,fanduel,openingLine
+14795,2023-12-26,Washington Wizards,Orlando Magic,215.0,-260.0,fanduel,openingLine
+14796,2023-12-26,Chicago Bulls,Atlanta Hawks,100.0,-118.0,fanduel,openingLine
+14800,2023-12-26,Houston Rockets,Indiana Pacers,-138.0,118.0,fanduel,openingLine
+14799,2023-12-26,New Orleans Pelicans,Memphis Grizzlies,-176.0,148.0,fanduel,openingLine
+14797,2023-12-26,San Antonio Spurs,Utah Jazz,102.0,-120.0,fanduel,openingLine
+14798,2023-12-26,Oklahoma City Thunder,Minnesota Timberwolves,-174.0,148.0,fanduel,openingLine
+14801,2023-12-26,Portland Trail Blazers,Sacramento Kings,190.0,-230.0,fanduel,openingLine
+14802,2023-12-26,LA Clippers,Charlotte Hornets,-560.0,420.0,fanduel,openingLine
+29,2024-10-26,Denver Nuggets,LA Clippers,-320.0,250.0,fanduel,openingLine
+32,2024-10-26,Washington Wizards,Cleveland Cavaliers,340.0,-430.0,fanduel,openingLine
+34,2024-10-26,Charlotte Hornets,Miami Heat,138.0,-164.0,fanduel,openingLine
+36,2024-10-26,Detroit Pistons,Boston Celtics,560.0,-800.0,fanduel,openingLine
+37,2024-10-26,Memphis Grizzlies,Orlando Magic,114.0,-134.0,fanduel,openingLine
+40,2024-10-26,Minnesota Timberwolves,Toronto Raptors,-490.0,380.0,fanduel,openingLine
+41,2024-10-26,Chicago Bulls,Oklahoma City Thunder,315.0,-400.0,fanduel,openingLine
+44,2024-10-26,San Antonio Spurs,Houston Rockets,102.0,-120.0,fanduel,openingLine
+46,2024-10-26,Phoenix Suns,Dallas Mavericks,118.0,-138.0,fanduel,openingLine
+47,2024-10-26,Los Angeles Lakers,Sacramento Kings,-148.0,126.0,fanduel,openingLine
+15443,2024-04-06,Los Angeles Lakers,Cleveland Cavaliers,-190.0,160.0,fanduel,openingLine
+15444,2024-04-06,Brooklyn Nets,Detroit Pistons,-460.0,360.0,fanduel,openingLine
+15445,2024-04-06,Memphis Grizzlies,Philadelphia 76ers,570.0,-800.0,fanduel,openingLine
+15446,2024-04-06,Denver Nuggets,Atlanta Hawks,-720.0,530.0,fanduel,openingLine
+50,2024-10-27,Indiana Pacers,Philadelphia 76ers,-290.0,235.0,fanduel,openingLine
+51,2024-10-27,Portland Trail Blazers,New Orleans Pelicans,200.0,-245.0,fanduel,openingLine
+53,2024-10-27,Brooklyn Nets,Milwaukee Bucks,285.0,-355.0,fanduel,openingLine
+56,2024-10-27,Oklahoma City Thunder,Atlanta Hawks,-420.0,330.0,fanduel,openingLine
+57,2024-10-27,Golden State Warriors,LA Clippers,-450.0,350.0,fanduel,openingLine
+14804,2023-12-27,Orlando Magic,Philadelphia 76ers,-112.0,-104.0,fanduel,openingLine
+14803,2023-12-27,Washington Wizards,Toronto Raptors,205.0,-250.0,fanduel,openingLine
+14805,2023-12-27,Brooklyn Nets,Milwaukee Bucks,126.0,-148.0,fanduel,openingLine
+14807,2023-12-27,Houston Rockets,Phoenix Suns,102.0,-120.0,fanduel,openingLine
+14806,2023-12-27,Oklahoma City Thunder,New York Knicks,-142.0,120.0,fanduel,openingLine
+14808,2023-12-27,Dallas Mavericks,Cleveland Cavaliers,-184.0,154.0,fanduel,openingLine
+15448,2024-04-07,Dallas Mavericks,Houston Rockets,-310.0,250.0,fanduel,openingLine
+15447,2024-04-07,LA Clippers,Cleveland Cavaliers,-196.0,164.0,fanduel,openingLine
+15449,2024-04-07,Indiana Pacers,Miami Heat,-116.0,-102.0,fanduel,openingLine
+15450,2024-04-07,Boston Celtics,Portland Trail Blazers,-1600.0,900.0,fanduel,openingLine
+15452,2024-04-07,Charlotte Hornets,Oklahoma City Thunder,310.0,-390.0,fanduel,openingLine
+15453,2024-04-07,Orlando Magic,Chicago Bulls,-355.0,285.0,fanduel,openingLine
+15451,2024-04-07,Phoenix Suns,New Orleans Pelicans,-235.0,194.0,fanduel,openingLine
+15454,2024-04-07,Toronto Raptors,Washington Wizards,-190.0,160.0,fanduel,openingLine
+15455,2024-04-07,Milwaukee Bucks,New York Knicks,-112.0,-104.0,fanduel,openingLine
+15456,2024-04-07,San Antonio Spurs,Philadelphia 76ers,265.0,-330.0,fanduel,openingLine
+15457,2024-04-07,Brooklyn Nets,Sacramento Kings,220.0,-270.0,fanduel,openingLine
+15458,2024-04-07,Golden State Warriors,Utah Jazz,-750.0,530.0,fanduel,openingLine
+15459,2024-04-07,Los Angeles Lakers,Minnesota Timberwolves,-166.0,140.0,fanduel,openingLine
+60,2024-10-28,Orlando Magic,Indiana Pacers,-230.0,190.0,fanduel,openingLine
+61,2024-10-28,Miami Heat,Detroit Pistons,-340.0,275.0,fanduel,openingLine
+63,2024-10-28,Atlanta Hawks,Washington Wizards,-300.0,245.0,fanduel,openingLine
+66,2024-10-28,Toronto Raptors,Denver Nuggets,270.0,-335.0,fanduel,openingLine
+68,2024-10-28,Boston Celtics,Milwaukee Bucks,-390.0,310.0,fanduel,openingLine
+69,2024-10-28,New York Knicks,Cleveland Cavaliers,-148.0,126.0,fanduel,openingLine
+72,2024-10-28,Memphis Grizzlies,Chicago Bulls,-300.0,245.0,fanduel,openingLine
+74,2024-10-28,San Antonio Spurs,Houston Rockets,116.0,-136.0,fanduel,openingLine
+75,2024-10-28,Dallas Mavericks,Utah Jazz,-550.0,410.0,fanduel,openingLine
+78,2024-10-28,Sacramento Kings,Portland Trail Blazers,-750.0,530.0,fanduel,openingLine
+80,2024-10-28,Phoenix Suns,Los Angeles Lakers,-142.0,120.0,fanduel,openingLine
+14809,2023-12-28,Boston Celtics,Detroit Pistons,-2200.0,1100.0,fanduel,openingLine
+14810,2023-12-28,Chicago Bulls,Indiana Pacers,110.0,-130.0,fanduel,openingLine
+14812,2023-12-28,Minnesota Timberwolves,Dallas Mavericks,-460.0,360.0,fanduel,openingLine
+14811,2023-12-28,New Orleans Pelicans,Utah Jazz,-405.0,320.0,fanduel,openingLine
+14813,2023-12-28,Denver Nuggets,Memphis Grizzlies,-260.0,215.0,fanduel,openingLine
+14815,2023-12-28,Golden State Warriors,Miami Heat,-132.0,112.0,fanduel,openingLine
+14814,2023-12-28,Portland Trail Blazers,San Antonio Spurs,-215.0,180.0,fanduel,openingLine
+14816,2023-12-28,Los Angeles Lakers,Charlotte Hornets,-850.0,590.0,fanduel,openingLine
+81,2024-10-29,Minnesota Timberwolves,Dallas Mavericks,-172.0,144.0,fanduel,openingLine
+83,2024-10-29,Brooklyn Nets,Denver Nuggets,250.0,-310.0,fanduel,openingLine
+86,2024-10-29,Utah Jazz,Sacramento Kings,164.0,-196.0,fanduel,openingLine
+87,2024-10-29,Golden State Warriors,New Orleans Pelicans,-118.0,100.0,fanduel,openingLine
+14817,2023-12-29,Washington Wizards,Brooklyn Nets,210.0,-255.0,fanduel,openingLine
+14818,2023-12-29,Orlando Magic,New York Knicks,-122.0,104.0,fanduel,openingLine
+14819,2023-12-29,Atlanta Hawks,Sacramento Kings,-104.0,-112.0,fanduel,openingLine
+14820,2023-12-29,Boston Celtics,Toronto Raptors,-430.0,340.0,fanduel,openingLine
+14821,2023-12-29,Cleveland Cavaliers,Milwaukee Bucks,180.0,-215.0,fanduel,openingLine
+14822,2023-12-29,Houston Rockets,Philadelphia 76ers,100.0,-118.0,fanduel,openingLine
+14824,2023-12-29,Phoenix Suns,Charlotte Hornets,-1350.0,810.0,fanduel,openingLine
+14823,2023-12-29,Denver Nuggets,Oklahoma City Thunder,-162.0,136.0,fanduel,openingLine
+14825,2023-12-29,Portland Trail Blazers,San Antonio Spurs,-255.0,210.0,fanduel,openingLine
+14826,2023-12-29,LA Clippers,Memphis Grizzlies,-260.0,215.0,fanduel,openingLine
+15461,2024-04-09,Philadelphia 76ers,Detroit Pistons,-1400.0,830.0,fanduel,openingLine
+15462,2024-04-09,Toronto Raptors,Indiana Pacers,275.0,-350.0,fanduel,openingLine
+15460,2024-04-09,Charlotte Hornets,Dallas Mavericks,400.0,-520.0,fanduel,openingLine
+15464,2024-04-09,Atlanta Hawks,Miami Heat,116.0,-136.0,fanduel,openingLine
+15463,2024-04-09,Milwaukee Bucks,Boston Celtics,-116.0,-102.0,fanduel,openingLine
+15466,2024-04-09,Houston Rockets,Orlando Magic,106.0,-124.0,fanduel,openingLine
+15465,2024-04-09,Memphis Grizzlies,San Antonio Spurs,114.0,-134.0,fanduel,openingLine
+15467,2024-04-09,Chicago Bulls,New York Knicks,112.0,-132.0,fanduel,openingLine
+15468,2024-04-09,Minnesota Timberwolves,Washington Wizards,-2000.0,1040.0,fanduel,openingLine
+15469,2024-04-09,Oklahoma City Thunder,Sacramento Kings,-134.0,114.0,fanduel,openingLine
+15470,2024-04-09,Utah Jazz,Denver Nuggets,660.0,-1000.0,fanduel,openingLine
+15472,2024-04-09,Portland Trail Blazers,New Orleans Pelicans,380.0,-490.0,fanduel,openingLine
+15471,2024-04-09,Los Angeles Lakers,Golden State Warriors,-136.0,116.0,fanduel,openingLine
+15473,2024-04-09,Phoenix Suns,LA Clippers,-154.0,130.0,fanduel,openingLine
+14827,2023-12-30,Utah Jazz,Miami Heat,110.0,-130.0,fanduel,openingLine
+14828,2023-12-30,Detroit Pistons,Toronto Raptors,164.0,-196.0,fanduel,openingLine
+14829,2023-12-30,Indiana Pacers,New York Knicks,-154.0,130.0,fanduel,openingLine
+14830,2023-12-30,Chicago Bulls,Philadelphia 76ers,-116.0,-104.0,fanduel,openingLine
+14831,2023-12-30,Minnesota Timberwolves,Los Angeles Lakers,-164.0,136.0,fanduel,openingLine
+14832,2023-12-30,Golden State Warriors,Dallas Mavericks,-180.0,152.0,fanduel,openingLine
+89,2024-10-30,Cleveland Cavaliers,Los Angeles Lakers,-205.0,172.0,fanduel,openingLine
+91,2024-10-30,Charlotte Hornets,Toronto Raptors,-245.0,200.0,fanduel,openingLine
+94,2024-10-30,Washington Wizards,Atlanta Hawks,166.0,-198.0,fanduel,openingLine
+96,2024-10-30,Philadelphia 76ers,Detroit Pistons,-194.0,162.0,fanduel,openingLine
+98,2024-10-30,Indiana Pacers,Boston Celtics,225.0,-275.0,fanduel,openingLine
+99,2024-10-30,Miami Heat,New York Knicks,104.0,-122.0,fanduel,openingLine
+101,2024-10-30,Memphis Grizzlies,Brooklyn Nets,-750.0,530.0,fanduel,openingLine
+103,2024-10-30,Chicago Bulls,Orlando Magic,166.0,-198.0,fanduel,openingLine
+106,2024-10-30,Oklahoma City Thunder,San Antonio Spurs,-820.0,570.0,fanduel,openingLine
+108,2024-10-30,Golden State Warriors,New Orleans Pelicans,-126.0,108.0,fanduel,openingLine
+109,2024-10-30,LA Clippers,Portland Trail Blazers,-375.0,300.0,fanduel,openingLine
+15474,2024-04-10,Cleveland Cavaliers,Memphis Grizzlies,-1800.0,980.0,fanduel,openingLine
+15475,2024-04-10,Atlanta Hawks,Charlotte Hornets,-900.0,610.0,fanduel,openingLine
+15476,2024-04-10,Brooklyn Nets,Toronto Raptors,-520.0,400.0,fanduel,openingLine
+15477,2024-04-10,Miami Heat,Dallas Mavericks,110.0,-130.0,fanduel,openingLine
+15479,2024-04-10,Milwaukee Bucks,Orlando Magic,-118.0,-102.0,fanduel,openingLine
+15478,2024-04-10,Oklahoma City Thunder,San Antonio Spurs,-1200.0,750.0,fanduel,openingLine
+15480,2024-04-10,Denver Nuggets,Minnesota Timberwolves,-245.0,205.0,fanduel,openingLine
+15481,2024-04-10,LA Clippers,Phoenix Suns,120.0,-142.0,fanduel,openingLine
+14833,2023-12-31,Washington Wizards,Atlanta Hawks,200.0,-245.0,fanduel,openingLine
+14835,2023-12-31,New Orleans Pelicans,Los Angeles Lakers,-230.0,190.0,fanduel,openingLine
+14836,2023-12-31,Oklahoma City Thunder,Brooklyn Nets,-320.0,260.0,fanduel,openingLine
+14834,2023-12-31,San Antonio Spurs,Boston Celtics,560.0,-800.0,fanduel,openingLine
+14838,2023-12-31,Memphis Grizzlies,Sacramento Kings,-104.0,-112.0,fanduel,openingLine
+14837,2023-12-31,Phoenix Suns,Orlando Magic,-220.0,184.0,fanduel,openingLine
+112,2024-10-31,Memphis Grizzlies,Milwaukee Bucks,184.0,-220.0,fanduel,openingLine
+113,2024-10-31,Dallas Mavericks,Houston Rockets,-230.0,190.0,fanduel,openingLine
+116,2024-10-31,Utah Jazz,San Antonio Spurs,-132.0,112.0,fanduel,openingLine
+117,2024-10-31,LA Clippers,Phoenix Suns,176.0,-210.0,fanduel,openingLine
+15482,2024-04-11,Detroit Pistons,Chicago Bulls,350.0,-450.0,fanduel,openingLine
+15483,2024-04-11,Boston Celtics,New York Knicks,-112.0,-104.0,fanduel,openingLine
+15484,2024-04-11,Utah Jazz,Houston Rockets,200.0,-245.0,fanduel,openingLine
+15485,2024-04-11,Portland Trail Blazers,Golden State Warriors,700.0,-1100.0,fanduel,openingLine
+15486,2024-04-11,Sacramento Kings,New Orleans Pelicans,-116.0,-104.0,fanduel,openingLine
+119,2024-11-01,Detroit Pistons,New York Knicks,250.0,-310.0,fanduel,openingLine
+121,2024-11-01,Cleveland Cavaliers,Orlando Magic,-250.0,205.0,fanduel,openingLine
+123,2024-11-01,Charlotte Hornets,Boston Celtics,450.0,-600.0,fanduel,openingLine
+125,2024-11-01,Brooklyn Nets,Chicago Bulls,-120.0,102.0,fanduel,openingLine
+128,2024-11-01,Toronto Raptors,Los Angeles Lakers,300.0,-375.0,fanduel,openingLine
+129,2024-11-01,Atlanta Hawks,Sacramento Kings,180.0,-215.0,fanduel,openingLine
+131,2024-11-01,New Orleans Pelicans,Indiana Pacers,136.0,-162.0,fanduel,openingLine
+134,2024-11-01,Minnesota Timberwolves,Denver Nuggets,-186.0,156.0,fanduel,openingLine
+136,2024-11-01,Portland Trail Blazers,Oklahoma City Thunder,420.0,-560.0,fanduel,openingLine
+15488,2024-04-12,Philadelphia 76ers,Orlando Magic,-295.0,240.0,fanduel,openingLine
+15487,2024-04-12,Washington Wizards,Chicago Bulls,100.0,-118.0,fanduel,openingLine
+15490,2024-04-12,Cleveland Cavaliers,Indiana Pacers,-146.0,124.0,fanduel,openingLine
+15491,2024-04-12,New York Knicks,Brooklyn Nets,-590.0,430.0,fanduel,openingLine
+15489,2024-04-12,Boston Celtics,Charlotte Hornets,-590.0,430.0,fanduel,openingLine
+15492,2024-04-12,Miami Heat,Toronto Raptors,-1200.0,750.0,fanduel,openingLine
+15495,2024-04-12,Memphis Grizzlies,Los Angeles Lakers,700.0,-1100.0,fanduel,openingLine
+15496,2024-04-12,Minnesota Timberwolves,Atlanta Hawks,-560.0,420.0,fanduel,openingLine
+15493,2024-04-12,Oklahoma City Thunder,Milwaukee Bucks,-550.0,410.0,fanduel,openingLine
+15494,2024-04-12,San Antonio Spurs,Denver Nuggets,400.0,-520.0,fanduel,openingLine
+15497,2024-04-12,Dallas Mavericks,Detroit Pistons,-1350.0,810.0,fanduel,openingLine
+15499,2024-04-12,Portland Trail Blazers,Houston Rockets,160.0,-190.0,fanduel,openingLine
+15498,2024-04-12,Golden State Warriors,New Orleans Pelicans,-168.0,142.0,fanduel,openingLine
+15501,2024-04-12,Sacramento Kings,Phoenix Suns,126.0,-148.0,fanduel,openingLine
+15500,2024-04-12,LA Clippers,Utah Jazz,-900.0,610.0,fanduel,openingLine
+14839,2024-01-01,New York Knicks,Minnesota Timberwolves,-102.0,-116.0,fanduel,openingLine
+14840,2024-01-01,Toronto Raptors,Cleveland Cavaliers,-136.0,116.0,fanduel,openingLine
+14842,2024-01-01,Houston Rockets,Detroit Pistons,-300.0,245.0,fanduel,openingLine
+14841,2024-01-01,Milwaukee Bucks,Indiana Pacers,-300.0,245.0,fanduel,openingLine
+14844,2024-01-01,Denver Nuggets,Charlotte Hornets,-1350.0,810.0,fanduel,openingLine
+14843,2024-01-01,Phoenix Suns,Portland Trail Blazers,-560.0,420.0,fanduel,openingLine
+14845,2024-01-01,Utah Jazz,Dallas Mavericks,138.0,-164.0,fanduel,openingLine
+14846,2024-01-01,LA Clippers,Miami Heat,-295.0,240.0,fanduel,openingLine
+137,2024-11-02,Charlotte Hornets,Boston Celtics,450.0,-600.0,fanduel,openingLine
+140,2024-11-02,Philadelphia 76ers,Memphis Grizzlies,120.0,-142.0,fanduel,openingLine
+142,2024-11-02,Toronto Raptors,Sacramento Kings,176.0,-210.0,fanduel,openingLine
+144,2024-11-02,Milwaukee Bucks,Cleveland Cavaliers,-134.0,114.0,fanduel,openingLine
+145,2024-11-02,Houston Rockets,Golden State Warriors,-230.0,190.0,fanduel,openingLine
+148,2024-11-02,San Antonio Spurs,Minnesota Timberwolves,154.0,-184.0,fanduel,openingLine
+150,2024-11-02,Washington Wizards,Miami Heat,285.0,-355.0,fanduel,openingLine
+151,2024-11-02,Denver Nuggets,Utah Jazz,-480.0,370.0,fanduel,openingLine
+154,2024-11-02,Phoenix Suns,Portland Trail Blazers,-750.0,530.0,fanduel,openingLine
+155,2024-11-02,LA Clippers,Oklahoma City Thunder,176.0,-210.0,fanduel,openingLine
+14847,2024-01-02,Philadelphia 76ers,Chicago Bulls,-650.0,480.0,fanduel,openingLine
+14850,2024-01-02,Memphis Grizzlies,San Antonio Spurs,-770.0,540.0,fanduel,openingLine
+14848,2024-01-02,New Orleans Pelicans,Brooklyn Nets,-300.0,245.0,fanduel,openingLine
+14849,2024-01-02,Oklahoma City Thunder,Boston Celtics,124.0,-146.0,fanduel,openingLine
+14851,2024-01-02,Golden State Warriors,Orlando Magic,-158.0,134.0,fanduel,openingLine
+14852,2024-01-02,Sacramento Kings,Charlotte Hornets,-1500.0,870.0,fanduel,openingLine
+157,2024-11-03,Brooklyn Nets,Detroit Pistons,-180.0,152.0,fanduel,openingLine
+159,2024-11-03,New Orleans Pelicans,Atlanta Hawks,-235.0,194.0,fanduel,openingLine
+161,2024-11-03,Dallas Mavericks,Orlando Magic,-280.0,225.0,fanduel,openingLine
+14853,2024-01-03,Indiana Pacers,Milwaukee Bucks,132.0,-156.0,fanduel,openingLine
+14854,2024-01-03,Cleveland Cavaliers,Washington Wizards,-355.0,285.0,fanduel,openingLine
+14855,2024-01-03,Atlanta Hawks,Oklahoma City Thunder,-102.0,-116.0,fanduel,openingLine
+14858,2024-01-03,Houston Rockets,Brooklyn Nets,-260.0,220.0,fanduel,openingLine
+14857,2024-01-03,Memphis Grizzlies,Toronto Raptors,-130.0,110.0,fanduel,openingLine
+14856,2024-01-03,Minnesota Timberwolves,New Orleans Pelicans,-230.0,190.0,fanduel,openingLine
+14859,2024-01-03,New York Knicks,Chicago Bulls,-310.0,250.0,fanduel,openingLine
+14860,2024-01-03,Dallas Mavericks,Portland Trail Blazers,-620.0,460.0,fanduel,openingLine
+14861,2024-01-03,Phoenix Suns,LA Clippers,-116.0,-102.0,fanduel,openingLine
+14862,2024-01-03,Utah Jazz,Detroit Pistons,-280.0,230.0,fanduel,openingLine
+14864,2024-01-03,Sacramento Kings,Orlando Magic,-174.0,146.0,fanduel,openingLine
+14863,2024-01-03,Los Angeles Lakers,Miami Heat,-205.0,172.0,fanduel,openingLine
+15503,2024-04-14,Cleveland Cavaliers,Charlotte Hornets,-1400.0,830.0,fanduel,openingLine
+15504,2024-04-14,Indiana Pacers,Atlanta Hawks,-820.0,570.0,fanduel,openingLine
+15505,2024-04-14,Miami Heat,Toronto Raptors,-1800.0,980.0,fanduel,openingLine
+15507,2024-04-14,Orlando Magic,Milwaukee Bucks,-188.0,158.0,fanduel,openingLine
+15508,2024-04-14,Philadelphia 76ers,Brooklyn Nets,-1200.0,750.0,fanduel,openingLine
+15506,2024-04-14,New York Knicks,Chicago Bulls,-1800.0,980.0,fanduel,openingLine
+15502,2024-04-14,Boston Celtics,Washington Wizards,-500.0,385.0,fanduel,openingLine
+15516,2024-04-14,Sacramento Kings,Portland Trail Blazers,-2000.0,1040.0,fanduel,openingLine
+15512,2024-04-14,Oklahoma City Thunder,Dallas Mavericks,-2000.0,1040.0,fanduel,openingLine
+15513,2024-04-14,San Antonio Spurs,Detroit Pistons,-620.0,460.0,fanduel,openingLine
+15515,2024-04-14,LA Clippers,Houston Rockets,112.0,-132.0,fanduel,openingLine
+15509,2024-04-14,Memphis Grizzlies,Denver Nuggets,750.0,-1200.0,fanduel,openingLine
+15510,2024-04-14,Minnesota Timberwolves,Phoenix Suns,-198.0,164.0,fanduel,openingLine
+15511,2024-04-14,New Orleans Pelicans,Los Angeles Lakers,-162.0,136.0,fanduel,openingLine
+15514,2024-04-14,Golden State Warriors,Utah Jazz,-355.0,285.0,fanduel,openingLine
+163,2024-11-04,Cleveland Cavaliers,Milwaukee Bucks,-210.0,176.0,fanduel,openingLine
+166,2024-11-04,Washington Wizards,Golden State Warriors,320.0,-405.0,fanduel,openingLine
+167,2024-11-04,Detroit Pistons,Los Angeles Lakers,205.0,-250.0,fanduel,openingLine
+169,2024-11-04,Atlanta Hawks,Boston Celtics,460.0,-620.0,fanduel,openingLine
+171,2024-11-04,Brooklyn Nets,Memphis Grizzlies,172.0,-205.0,fanduel,openingLine
+174,2024-11-04,Miami Heat,Sacramento Kings,-156.0,132.0,fanduel,openingLine
+175,2024-11-04,Chicago Bulls,Utah Jazz,-245.0,200.0,fanduel,openingLine
+177,2024-11-04,Houston Rockets,New York Knicks,142.0,-168.0,fanduel,openingLine
+179,2024-11-04,Minnesota Timberwolves,Charlotte Hornets,-405.0,320.0,fanduel,openingLine
+182,2024-11-04,Oklahoma City Thunder,Orlando Magic,-620.0,460.0,fanduel,openingLine
+183,2024-11-04,New Orleans Pelicans,Portland Trail Blazers,-134.0,114.0,fanduel,openingLine
+185,2024-11-04,Dallas Mavericks,Indiana Pacers,-194.0,162.0,fanduel,openingLine
+187,2024-11-04,Denver Nuggets,Toronto Raptors,-355.0,285.0,fanduel,openingLine
+190,2024-11-04,Phoenix Suns,Philadelphia 76ers,-220.0,184.0,fanduel,openingLine
+191,2024-11-04,LA Clippers,San Antonio Spurs,-194.0,162.0,fanduel,openingLine
+14865,2024-01-04,San Antonio Spurs,Milwaukee Bucks,385.0,-500.0,fanduel,openingLine
+14866,2024-01-04,Golden State Warriors,Denver Nuggets,120.0,-142.0,fanduel,openingLine
+14868,2024-01-05,Indiana Pacers,Atlanta Hawks,-174.0,148.0,fanduel,openingLine
+14867,2024-01-05,Boston Celtics,Utah Jazz,-900.0,610.0,fanduel,openingLine
+14870,2024-01-05,Brooklyn Nets,Oklahoma City Thunder,176.0,-210.0,fanduel,openingLine
+14869,2024-01-05,Philadelphia 76ers,New York Knicks,-240.0,198.0,fanduel,openingLine
+14871,2024-01-05,Cleveland Cavaliers,Washington Wizards,-590.0,440.0,fanduel,openingLine
+14874,2024-01-05,Chicago Bulls,Charlotte Hornets,-360.0,290.0,fanduel,openingLine
+14873,2024-01-05,Houston Rockets,Minnesota Timberwolves,124.0,-146.0,fanduel,openingLine
+14872,2024-01-05,New Orleans Pelicans,LA Clippers,-102.0,-116.0,fanduel,openingLine
+14875,2024-01-05,Dallas Mavericks,Portland Trail Blazers,-550.0,410.0,fanduel,openingLine
+14876,2024-01-05,Phoenix Suns,Miami Heat,-168.0,142.0,fanduel,openingLine
+14877,2024-01-05,Denver Nuggets,Orlando Magic,-590.0,430.0,fanduel,openingLine
+14880,2024-01-05,Sacramento Kings,Toronto Raptors,-205.0,172.0,fanduel,openingLine
+14878,2024-01-05,Golden State Warriors,Detroit Pistons,-450.0,350.0,fanduel,openingLine
+14879,2024-01-05,Los Angeles Lakers,Memphis Grizzlies,-220.0,184.0,fanduel,openingLine
+15517,2024-04-16,New Orleans Pelicans,Los Angeles Lakers,-116.0,-102.0,fanduel,openingLine
+15518,2024-04-16,Sacramento Kings,Golden State Warriors,-104.0,-112.0,fanduel,openingLine
+193,2024-11-06,Charlotte Hornets,Detroit Pistons,-136.0,116.0,fanduel,openingLine
+196,2024-11-06,Indiana Pacers,Orlando Magic,-270.0,220.0,fanduel,openingLine
+197,2024-11-06,Atlanta Hawks,New York Knicks,235.0,-290.0,fanduel,openingLine
+199,2024-11-06,Boston Celtics,Golden State Warriors,-310.0,250.0,fanduel,openingLine
+201,2024-11-06,New Orleans Pelicans,Cleveland Cavaliers,240.0,-295.0,fanduel,openingLine
+203,2024-11-06,Memphis Grizzlies,Los Angeles Lakers,-118.0,100.0,fanduel,openingLine
+205,2024-11-06,Houston Rockets,San Antonio Spurs,-230.0,190.0,fanduel,openingLine
+207,2024-11-06,Dallas Mavericks,Chicago Bulls,-560.0,420.0,fanduel,openingLine
+210,2024-11-06,Phoenix Suns,Miami Heat,-230.0,190.0,fanduel,openingLine
+211,2024-11-06,Denver Nuggets,Oklahoma City Thunder,142.0,-168.0,fanduel,openingLine
+213,2024-11-06,LA Clippers,Philadelphia 76ers,-126.0,108.0,fanduel,openingLine
+216,2024-11-06,Sacramento Kings,Toronto Raptors,-400.0,315.0,fanduel,openingLine
+14882,2024-01-06,Indiana Pacers,Boston Celtics,194.0,-235.0,fanduel,openingLine
+14881,2024-01-06,Washington Wizards,New York Knicks,290.0,-360.0,fanduel,openingLine
+14883,2024-01-06,Philadelphia 76ers,Utah Jazz,-820.0,570.0,fanduel,openingLine
+14884,2024-01-06,Houston Rockets,Milwaukee Bucks,205.0,-250.0,fanduel,openingLine
+15519,2024-04-17,Philadelphia 76ers,Miami Heat,-196.0,164.0,fanduel,openingLine
+15520,2024-04-17,Chicago Bulls,Atlanta Hawks,-142.0,120.0,fanduel,openingLine
+217,2024-11-07,Chicago Bulls,Minnesota Timberwolves,245.0,-300.0,fanduel,openingLine
+220,2024-11-07,Milwaukee Bucks,Utah Jazz,-400.0,315.0,fanduel,openingLine
+221,2024-11-07,San Antonio Spurs,Portland Trail Blazers,-225.0,188.0,fanduel,openingLine
+14885,2024-01-07,Cleveland Cavaliers,San Antonio Spurs,-510.0,390.0,fanduel,openingLine
+14886,2024-01-07,Brooklyn Nets,Portland Trail Blazers,-300.0,245.0,fanduel,openingLine
+14888,2024-01-07,Orlando Magic,Atlanta Hawks,114.0,-134.0,fanduel,openingLine
+14887,2024-01-07,Sacramento Kings,New Orleans Pelicans,-158.0,134.0,fanduel,openingLine
+14889,2024-01-07,Dallas Mavericks,Minnesota Timberwolves,118.0,-138.0,fanduel,openingLine
+14891,2024-01-07,Denver Nuggets,Detroit Pistons,-2200.0,1100.0,fanduel,openingLine
+14890,2024-01-07,Phoenix Suns,Memphis Grizzlies,-168.0,142.0,fanduel,openingLine
+14892,2024-01-07,Golden State Warriors,Toronto Raptors,-134.0,114.0,fanduel,openingLine
+14893,2024-01-07,Los Angeles Lakers,LA Clippers,118.0,-138.0,fanduel,openingLine
+224,2024-11-08,Charlotte Hornets,Indiana Pacers,225.0,-275.0,fanduel,openingLine
+226,2024-11-08,Orlando Magic,New Orleans Pelicans,-180.0,150.0,fanduel,openingLine
+227,2024-11-08,Detroit Pistons,Atlanta Hawks,-122.0,104.0,fanduel,openingLine
+229,2024-11-08,Cleveland Cavaliers,Golden State Warriors,-178.0,150.0,fanduel,openingLine
+231,2024-11-08,Boston Celtics,Brooklyn Nets,-750.0,530.0,fanduel,openingLine
+233,2024-11-08,New York Knicks,Milwaukee Bucks,-270.0,220.0,fanduel,openingLine
+235,2024-11-08,Dallas Mavericks,Phoenix Suns,-148.0,126.0,fanduel,openingLine
+237,2024-11-08,Memphis Grizzlies,Washington Wizards,-205.0,172.0,fanduel,openingLine
+240,2024-11-08,Oklahoma City Thunder,Houston Rockets,-420.0,330.0,fanduel,openingLine
+242,2024-11-08,Denver Nuggets,Miami Heat,-190.0,160.0,fanduel,openingLine
+243,2024-11-08,Minnesota Timberwolves,Portland Trail Blazers,-700.0,500.0,fanduel,openingLine
+246,2024-11-08,Sacramento Kings,LA Clippers,-215.0,180.0,fanduel,openingLine
+248,2024-11-08,Los Angeles Lakers,Philadelphia 76ers,-360.0,290.0,fanduel,openingLine
+15521,2024-04-19,Miami Heat,Chicago Bulls,-120.0,102.0,fanduel,openingLine
+15522,2024-04-19,New Orleans Pelicans,Sacramento Kings,-120.0,102.0,fanduel,openingLine
+14895,2024-01-08,Charlotte Hornets,Chicago Bulls,194.0,-235.0,fanduel,openingLine
+14896,2024-01-08,Indiana Pacers,Boston Celtics,134.0,-158.0,fanduel,openingLine
+14894,2024-01-08,Washington Wizards,Oklahoma City Thunder,440.0,-590.0,fanduel,openingLine
+14897,2024-01-08,Miami Heat,Houston Rockets,-166.0,140.0,fanduel,openingLine
+14898,2024-01-08,Milwaukee Bucks,Utah Jazz,-550.0,410.0,fanduel,openingLine
+14899,2024-01-08,LA Clippers,Phoenix Suns,-255.0,210.0,fanduel,openingLine
+250,2024-11-09,San Antonio Spurs,Utah Jazz,-340.0,275.0,fanduel,openingLine
+252,2024-11-09,Cleveland Cavaliers,Brooklyn Nets,-590.0,440.0,fanduel,openingLine
+253,2024-11-09,Atlanta Hawks,Chicago Bulls,-162.0,136.0,fanduel,openingLine
+255,2024-11-09,LA Clippers,Toronto Raptors,-340.0,275.0,fanduel,openingLine
+14901,2024-01-09,Detroit Pistons,Sacramento Kings,460.0,-620.0,fanduel,openingLine
+14900,2024-01-09,Orlando Magic,Minnesota Timberwolves,154.0,-184.0,fanduel,openingLine
+14902,2024-01-09,New York Knicks,Portland Trail Blazers,-750.0,530.0,fanduel,openingLine
+14903,2024-01-09,Dallas Mavericks,Memphis Grizzlies,-196.0,164.0,fanduel,openingLine
+14904,2024-01-09,Los Angeles Lakers,Toronto Raptors,-205.0,172.0,fanduel,openingLine
+15523,2024-04-20,Cleveland Cavaliers,Orlando Magic,-190.0,160.0,fanduel,openingLine
+15524,2024-04-20,Minnesota Timberwolves,Phoenix Suns,-126.0,108.0,fanduel,openingLine
+15525,2024-04-20,New York Knicks,Philadelphia 76ers,-146.0,124.0,fanduel,openingLine
+15526,2024-04-20,Denver Nuggets,Los Angeles Lakers,-300.0,245.0,fanduel,openingLine
+257,2024-11-10,Detroit Pistons,Houston Rockets,166.0,-198.0,fanduel,openingLine
+259,2024-11-10,Milwaukee Bucks,Boston Celtics,112.0,-132.0,fanduel,openingLine
+262,2024-11-10,Indiana Pacers,New York Knicks,114.0,-134.0,fanduel,openingLine
+263,2024-11-10,Orlando Magic,Washington Wizards,-330.0,265.0,fanduel,openingLine
+265,2024-11-10,Oklahoma City Thunder,Golden State Warriors,-320.0,260.0,fanduel,openingLine
+268,2024-11-10,Philadelphia 76ers,Charlotte Hornets,-176.0,148.0,fanduel,openingLine
+270,2024-11-10,Minnesota Timberwolves,Miami Heat,-310.0,250.0,fanduel,openingLine
+272,2024-11-10,Phoenix Suns,Sacramento Kings,-230.0,190.0,fanduel,openingLine
+274,2024-11-10,Denver Nuggets,Dallas Mavericks,-225.0,190.0,fanduel,openingLine
+276,2024-11-10,Portland Trail Blazers,Memphis Grizzlies,118.0,-138.0,fanduel,openingLine
+278,2024-11-10,Los Angeles Lakers,Toronto Raptors,-600.0,450.0,fanduel,openingLine
+14906,2024-01-10,Charlotte Hornets,Sacramento Kings,210.0,-255.0,fanduel,openingLine
+14905,2024-01-10,Detroit Pistons,San Antonio Spurs,134.0,-158.0,fanduel,openingLine
+14908,2024-01-10,Boston Celtics,Minnesota Timberwolves,-245.0,200.0,fanduel,openingLine
+14907,2024-01-10,Indiana Pacers,Washington Wizards,-320.0,260.0,fanduel,openingLine
+14910,2024-01-10,Atlanta Hawks,Philadelphia 76ers,-138.0,118.0,fanduel,openingLine
+14909,2024-01-10,Miami Heat,Oklahoma City Thunder,138.0,-164.0,fanduel,openingLine
+14911,2024-01-10,Chicago Bulls,Houston Rockets,-148.0,126.0,fanduel,openingLine
+14912,2024-01-10,Golden State Warriors,New Orleans Pelicans,-104.0,-112.0,fanduel,openingLine
+14913,2024-01-10,Utah Jazz,Denver Nuggets,240.0,-295.0,fanduel,openingLine
+14914,2024-01-10,LA Clippers,Toronto Raptors,-520.0,400.0,fanduel,openingLine
+15527,2024-04-21,Boston Celtics,Miami Heat,-1200.0,750.0,fanduel,openingLine
+15528,2024-04-21,LA Clippers,Dallas Mavericks,-104.0,-112.0,fanduel,openingLine
+15529,2024-04-21,Milwaukee Bucks,Indiana Pacers,-152.0,128.0,fanduel,openingLine
+15530,2024-04-21,Oklahoma City Thunder,New Orleans Pelicans,-335.0,270.0,fanduel,openingLine
+279,2024-11-11,Houston Rockets,Washington Wizards,-950.0,640.0,fanduel,openingLine
+281,2024-11-11,Chicago Bulls,Cleveland Cavaliers,260.0,-320.0,fanduel,openingLine
+284,2024-11-11,New Orleans Pelicans,Brooklyn Nets,104.0,-122.0,fanduel,openingLine
+286,2024-11-11,Oklahoma City Thunder,LA Clippers,-450.0,350.0,fanduel,openingLine
+287,2024-11-11,San Antonio Spurs,Sacramento Kings,102.0,-120.0,fanduel,openingLine
+14915,2024-01-11,Cleveland Cavaliers,Brooklyn Nets,-146.0,124.0,fanduel,openingLine
+14916,2024-01-11,Milwaukee Bucks,Boston Celtics,-245.0,200.0,fanduel,openingLine
+14917,2024-01-11,Oklahoma City Thunder,Portland Trail Blazers,-1000.0,660.0,fanduel,openingLine
+14918,2024-01-11,Dallas Mavericks,New York Knicks,130.0,-154.0,fanduel,openingLine
+14919,2024-01-11,Los Angeles Lakers,Phoenix Suns,-130.0,110.0,fanduel,openingLine
+15531,2024-04-22,Cleveland Cavaliers,Orlando Magic,-225.0,188.0,fanduel,openingLine
+15532,2024-04-22,New York Knicks,Philadelphia 76ers,-210.0,180.0,fanduel,openingLine
+15533,2024-04-22,Denver Nuggets,Los Angeles Lakers,-300.0,240.0,fanduel,openingLine
+289,2024-11-12,Orlando Magic,Charlotte Hornets,-330.0,265.0,fanduel,openingLine
+291,2024-11-12,Boston Celtics,Atlanta Hawks,-700.0,500.0,fanduel,openingLine
+293,2024-11-12,Detroit Pistons,Miami Heat,142.0,-168.0,fanduel,openingLine
+295,2024-11-12,Philadelphia 76ers,New York Knicks,-148.0,126.0,fanduel,openingLine
+298,2024-11-12,Milwaukee Bucks,Toronto Raptors,-360.0,290.0,fanduel,openingLine
+300,2024-11-12,Utah Jazz,Phoenix Suns,142.0,-168.0,fanduel,openingLine
+302,2024-11-12,Portland Trail Blazers,Minnesota Timberwolves,230.0,-280.0,fanduel,openingLine
+303,2024-11-12,Golden State Warriors,Dallas Mavericks,-126.0,108.0,fanduel,openingLine
+14922,2024-01-12,Philadelphia 76ers,Sacramento Kings,-102.0,-116.0,fanduel,openingLine
+14920,2024-01-12,Atlanta Hawks,Indiana Pacers,-215.0,180.0,fanduel,openingLine
+14921,2024-01-12,Detroit Pistons,Houston Rockets,310.0,-390.0,fanduel,openingLine
+14926,2024-01-12,Miami Heat,Orlando Magic,-152.0,128.0,fanduel,openingLine
+14925,2024-01-12,Chicago Bulls,Golden State Warriors,-146.0,124.0,fanduel,openingLine
+14923,2024-01-12,Memphis Grizzlies,LA Clippers,260.0,-320.0,fanduel,openingLine
+14927,2024-01-12,Minnesota Timberwolves,Portland Trail Blazers,-1100.0,700.0,fanduel,openingLine
+14924,2024-01-12,San Antonio Spurs,Charlotte Hornets,-112.0,-104.0,fanduel,openingLine
+14928,2024-01-12,Utah Jazz,Toronto Raptors,-138.0,118.0,fanduel,openingLine
+14929,2024-01-12,Denver Nuggets,New Orleans Pelicans,-230.0,190.0,fanduel,openingLine
+15534,2024-04-23,Minnesota Timberwolves,Phoenix Suns,-154.0,130.0,fanduel,openingLine
+15535,2024-04-23,Milwaukee Bucks,Indiana Pacers,-130.0,110.0,fanduel,openingLine
+15536,2024-04-23,LA Clippers,Dallas Mavericks,-104.0,-112.0,fanduel,openingLine
+305,2024-11-13,Orlando Magic,Indiana Pacers,116.0,-136.0,fanduel,openingLine
+308,2024-11-13,Oklahoma City Thunder,New Orleans Pelicans,-950.0,640.0,fanduel,openingLine
+309,2024-11-13,Brooklyn Nets,Boston Celtics,330.0,-420.0,fanduel,openingLine
+312,2024-11-13,Philadelphia 76ers,Cleveland Cavaliers,350.0,-450.0,fanduel,openingLine
+314,2024-11-13,New York Knicks,Chicago Bulls,-400.0,315.0,fanduel,openingLine
+315,2024-11-13,Houston Rockets,LA Clippers,-190.0,160.0,fanduel,openingLine
+317,2024-11-13,Milwaukee Bucks,Detroit Pistons,250.0,-320.0,fanduel,openingLine
+320,2024-11-13,San Antonio Spurs,Washington Wizards,-320.0,260.0,fanduel,openingLine
+321,2024-11-13,Los Angeles Lakers,Memphis Grizzlies,-280.0,230.0,fanduel,openingLine
+324,2024-11-13,Portland Trail Blazers,Minnesota Timberwolves,310.0,-390.0,fanduel,openingLine
+326,2024-11-13,Sacramento Kings,Phoenix Suns,-250.0,205.0,fanduel,openingLine
+15537,2024-04-24,Boston Celtics,Miami Heat,-1400.0,830.0,fanduel,openingLine
+15538,2024-04-24,Oklahoma City Thunder,New Orleans Pelicans,-370.0,295.0,fanduel,openingLine
+14930,2024-01-13,Boston Celtics,Houston Rockets,-1150.0,730.0,fanduel,openingLine
+14931,2024-01-13,Atlanta Hawks,Washington Wizards,-350.0,280.0,fanduel,openingLine
+14934,2024-01-13,Milwaukee Bucks,Golden State Warriors,-550.0,410.0,fanduel,openingLine
+14932,2024-01-13,Memphis Grizzlies,New York Knicks,250.0,-310.0,fanduel,openingLine
+14933,2024-01-13,Oklahoma City Thunder,Orlando Magic,-560.0,420.0,fanduel,openingLine
+14936,2024-01-13,Dallas Mavericks,New Orleans Pelicans,-104.0,-112.0,fanduel,openingLine
+14935,2024-01-13,San Antonio Spurs,Chicago Bulls,172.0,-205.0,fanduel,openingLine
+14937,2024-01-13,Utah Jazz,Los Angeles Lakers,110.0,-130.0,fanduel,openingLine
+328,2024-11-14,Utah Jazz,Dallas Mavericks,295.0,-370.0,fanduel,openingLine
+14938,2024-01-14,Denver Nuggets,Indiana Pacers,-550.0,410.0,fanduel,openingLine
+14939,2024-01-14,Miami Heat,Charlotte Hornets,-335.0,275.0,fanduel,openingLine
+14941,2024-01-14,Milwaukee Bucks,Sacramento Kings,-225.0,188.0,fanduel,openingLine
+14940,2024-01-14,Minnesota Timberwolves,LA Clippers,-120.0,102.0,fanduel,openingLine
+14942,2024-01-14,Portland Trail Blazers,Phoenix Suns,420.0,-560.0,fanduel,openingLine
+15539,2024-04-25,Orlando Magic,Cleveland Cavaliers,100.0,-118.0,fanduel,openingLine
+15540,2024-04-25,Philadelphia 76ers,New York Knicks,-180.0,152.0,fanduel,openingLine
+15541,2024-04-25,Los Angeles Lakers,Denver Nuggets,100.0,-118.0,fanduel,openingLine
+329,2024-11-15,Indiana Pacers,Miami Heat,-164.0,138.0,fanduel,openingLine
+331,2024-11-15,Orlando Magic,Philadelphia 76ers,120.0,-142.0,fanduel,openingLine
+334,2024-11-15,Toronto Raptors,Detroit Pistons,-138.0,118.0,fanduel,openingLine
+336,2024-11-15,Cleveland Cavaliers,Chicago Bulls,-460.0,360.0,fanduel,openingLine
+337,2024-11-15,Atlanta Hawks,Washington Wizards,-250.0,205.0,fanduel,openingLine
+340,2024-11-15,New York Knicks,Brooklyn Nets,-550.0,410.0,fanduel,openingLine
+342,2024-11-15,San Antonio Spurs,Los Angeles Lakers,128.0,-152.0,fanduel,openingLine
+343,2024-11-15,Houston Rockets,LA Clippers,-200.0,168.0,fanduel,openingLine
+346,2024-11-15,New Orleans Pelicans,Denver Nuggets,295.0,-370.0,fanduel,openingLine
+347,2024-11-15,Oklahoma City Thunder,Phoenix Suns,-280.0,230.0,fanduel,openingLine
+350,2024-11-15,Sacramento Kings,Minnesota Timberwolves,-118.0,100.0,fanduel,openingLine
+352,2024-11-15,Golden State Warriors,Memphis Grizzlies,-370.0,295.0,fanduel,openingLine
+14943,2024-01-15,Philadelphia 76ers,Houston Rockets,-255.0,210.0,fanduel,openingLine
+14944,2024-01-15,Dallas Mavericks,New Orleans Pelicans,-116.0,-102.0,fanduel,openingLine
+14946,2024-01-15,New York Knicks,Orlando Magic,-270.0,220.0,fanduel,openingLine
+14945,2024-01-15,Washington Wizards,Detroit Pistons,-215.0,180.0,fanduel,openingLine
+14947,2024-01-15,Atlanta Hawks,San Antonio Spurs,-355.0,285.0,fanduel,openingLine
+14948,2024-01-15,Memphis Grizzlies,Golden State Warriors,245.0,-300.0,fanduel,openingLine
+14949,2024-01-15,Cleveland Cavaliers,Chicago Bulls,-188.0,158.0,fanduel,openingLine
+14951,2024-01-15,Brooklyn Nets,Miami Heat,-120.0,102.0,fanduel,openingLine
+14950,2024-01-15,Toronto Raptors,Boston Celtics,265.0,-330.0,fanduel,openingLine
+14952,2024-01-15,Utah Jazz,Indiana Pacers,-270.0,220.0,fanduel,openingLine
+14953,2024-01-15,Los Angeles Lakers,Oklahoma City Thunder,-120.0,102.0,fanduel,openingLine
+15542,2024-04-26,Indiana Pacers,Milwaukee Bucks,-200.0,168.0,fanduel,openingLine
+15543,2024-04-26,Dallas Mavericks,LA Clippers,-166.0,140.0,fanduel,openingLine
+15544,2024-04-26,Phoenix Suns,Minnesota Timberwolves,-154.0,130.0,fanduel,openingLine
+354,2024-11-16,Charlotte Hornets,Milwaukee Bucks,152.0,-180.0,fanduel,openingLine
+355,2024-11-16,Boston Celtics,Toronto Raptors,-2000.0,1040.0,fanduel,openingLine
+358,2024-11-16,New Orleans Pelicans,Los Angeles Lakers,215.0,-260.0,fanduel,openingLine
+359,2024-11-16,Dallas Mavericks,San Antonio Spurs,-500.0,385.0,fanduel,openingLine
+362,2024-11-16,Sacramento Kings,Utah Jazz,-355.0,285.0,fanduel,openingLine
+15545,2024-04-27,Orlando Magic,Cleveland Cavaliers,-134.0,114.0,fanduel,openingLine
+15546,2024-04-27,New Orleans Pelicans,Oklahoma City Thunder,100.0,-118.0,fanduel,openingLine
+15547,2024-04-27,Miami Heat,Boston Celtics,260.0,-320.0,fanduel,openingLine
+15548,2024-04-27,Los Angeles Lakers,Denver Nuggets,126.0,-148.0,fanduel,openingLine
+14954,2024-01-16,Philadelphia 76ers,Denver Nuggets,-116.0,-102.0,fanduel,openingLine
+14955,2024-01-16,Phoenix Suns,Sacramento Kings,-168.0,142.0,fanduel,openingLine
+14956,2024-01-16,LA Clippers,Oklahoma City Thunder,-210.0,176.0,fanduel,openingLine
+363,2024-11-17,Minnesota Timberwolves,Phoenix Suns,-300.0,245.0,fanduel,openingLine
+365,2024-11-17,Indiana Pacers,Miami Heat,-148.0,126.0,fanduel,openingLine
+368,2024-11-17,Memphis Grizzlies,Denver Nuggets,-126.0,108.0,fanduel,openingLine
+370,2024-11-17,Washington Wizards,Detroit Pistons,158.0,-188.0,fanduel,openingLine
+372,2024-11-17,Portland Trail Blazers,Atlanta Hawks,168.0,-200.0,fanduel,openingLine
+373,2024-11-17,Cleveland Cavaliers,Charlotte Hornets,-590.0,430.0,fanduel,openingLine
+376,2024-11-17,Oklahoma City Thunder,Dallas Mavericks,-225.0,188.0,fanduel,openingLine
+377,2024-11-17,New York Knicks,Brooklyn Nets,-375.0,300.0,fanduel,openingLine
+380,2024-11-17,Chicago Bulls,Houston Rockets,168.0,-200.0,fanduel,openingLine
+381,2024-11-17,LA Clippers,Utah Jazz,-520.0,400.0,fanduel,openingLine
+15549,2024-04-28,Philadelphia 76ers,New York Knicks,-225.0,188.0,fanduel,openingLine
+15550,2024-04-28,Dallas Mavericks,LA Clippers,-225.0,188.0,fanduel,openingLine
+15551,2024-04-28,Indiana Pacers,Milwaukee Bucks,-250.0,205.0,fanduel,openingLine
+15552,2024-04-28,Phoenix Suns,Minnesota Timberwolves,-104.0,-112.0,fanduel,openingLine
+14957,2024-01-17,Detroit Pistons,Minnesota Timberwolves,730.0,-1150.0,fanduel,openingLine
+14958,2024-01-17,Atlanta Hawks,Orlando Magic,-148.0,126.0,fanduel,openingLine
+14960,2024-01-17,Cleveland Cavaliers,Milwaukee Bucks,156.0,-186.0,fanduel,openingLine
+14962,2024-01-17,New York Knicks,Houston Rockets,-188.0,158.0,fanduel,openingLine
+14959,2024-01-17,Toronto Raptors,Miami Heat,100.0,-118.0,fanduel,openingLine
+14961,2024-01-17,Boston Celtics,San Antonio Spurs,-1100.0,700.0,fanduel,openingLine
+14963,2024-01-17,New Orleans Pelicans,Charlotte Hornets,-900.0,610.0,fanduel,openingLine
+14964,2024-01-17,Los Angeles Lakers,Dallas Mavericks,-154.0,130.0,fanduel,openingLine
+14965,2024-01-17,Portland Trail Blazers,Brooklyn Nets,168.0,-200.0,fanduel,openingLine
+384,2024-11-18,Detroit Pistons,Chicago Bulls,-156.0,132.0,fanduel,openingLine
+386,2024-11-18,New York Knicks,Washington Wizards,-1100.0,700.0,fanduel,openingLine
+387,2024-11-18,Miami Heat,Philadelphia 76ers,-146.0,124.0,fanduel,openingLine
+390,2024-11-18,Toronto Raptors,Indiana Pacers,136.0,-162.0,fanduel,openingLine
+391,2024-11-18,Milwaukee Bucks,Houston Rockets,-172.0,144.0,fanduel,openingLine
+394,2024-11-18,Phoenix Suns,Orlando Magic,-126.0,108.0,fanduel,openingLine
+396,2024-11-18,Sacramento Kings,Atlanta Hawks,-198.0,166.0,fanduel,openingLine
+398,2024-11-18,LA Clippers,Golden State Warriors,124.0,-146.0,fanduel,openingLine
+14966,2024-01-18,Toronto Raptors,Chicago Bulls,106.0,-124.0,fanduel,openingLine
+14967,2024-01-18,New York Knicks,Washington Wizards,-500.0,385.0,fanduel,openingLine
+14968,2024-01-18,Utah Jazz,Oklahoma City Thunder,138.0,-164.0,fanduel,openingLine
+14969,2024-01-18,Minnesota Timberwolves,Memphis Grizzlies,-850.0,590.0,fanduel,openingLine
+14970,2024-01-18,Sacramento Kings,Indiana Pacers,-340.0,275.0,fanduel,openingLine
+14972,2024-01-19,Orlando Magic,Philadelphia 76ers,172.0,-205.0,fanduel,openingLine
+14971,2024-01-19,Charlotte Hornets,San Antonio Spurs,-184.0,154.0,fanduel,openingLine
+14973,2024-01-19,Boston Celtics,Denver Nuggets,-210.0,176.0,fanduel,openingLine
+14975,2024-01-19,Miami Heat,Atlanta Hawks,-225.0,188.0,fanduel,openingLine
+14974,2024-01-19,New Orleans Pelicans,Phoenix Suns,-138.0,118.0,fanduel,openingLine
+14976,2024-01-19,Portland Trail Blazers,Indiana Pacers,156.0,-186.0,fanduel,openingLine
+14977,2024-01-19,Los Angeles Lakers,Brooklyn Nets,-290.0,235.0,fanduel,openingLine
+399,2024-11-19,Boston Celtics,Cleveland Cavaliers,-164.0,138.0,fanduel,openingLine
+401,2024-11-19,Brooklyn Nets,Charlotte Hornets,-134.0,114.0,fanduel,openingLine
+404,2024-11-19,Memphis Grizzlies,Denver Nuggets,-178.0,150.0,fanduel,openingLine
+405,2024-11-19,Dallas Mavericks,New Orleans Pelicans,-520.0,400.0,fanduel,openingLine
+407,2024-11-19,San Antonio Spurs,Oklahoma City Thunder,205.0,-250.0,fanduel,openingLine
+410,2024-11-19,Los Angeles Lakers,Utah Jazz,-550.0,410.0,fanduel,openingLine
+412,2024-11-20,Milwaukee Bucks,Chicago Bulls,-350.0,280.0,fanduel,openingLine
+413,2024-11-20,Cleveland Cavaliers,New Orleans Pelicans,-820.0,570.0,fanduel,openingLine
+416,2024-11-20,Oklahoma City Thunder,Portland Trail Blazers,-1150.0,730.0,fanduel,openingLine
+417,2024-11-20,Houston Rockets,Indiana Pacers,-260.0,215.0,fanduel,openingLine
+420,2024-11-20,Memphis Grizzlies,Philadelphia 76ers,-102.0,-116.0,fanduel,openingLine
+422,2024-11-20,Phoenix Suns,New York Knicks,180.0,-215.0,fanduel,openingLine
+423,2024-11-20,Golden State Warriors,Atlanta Hawks,-335.0,270.0,fanduel,openingLine
+426,2024-11-20,LA Clippers,Orlando Magic,106.0,-124.0,fanduel,openingLine
+14978,2024-01-20,Detroit Pistons,Milwaukee Bucks,560.0,-800.0,fanduel,openingLine
+14979,2024-01-20,Charlotte Hornets,Philadelphia 76ers,385.0,-500.0,fanduel,openingLine
+14980,2024-01-20,Washington Wizards,San Antonio Spurs,-130.0,110.0,fanduel,openingLine
+14981,2024-01-20,Atlanta Hawks,Cleveland Cavaliers,100.0,-118.0,fanduel,openingLine
+14982,2024-01-20,New York Knicks,Toronto Raptors,-330.0,265.0,fanduel,openingLine
+14984,2024-01-20,Houston Rockets,Utah Jazz,-134.0,114.0,fanduel,openingLine
+14985,2024-01-20,Minnesota Timberwolves,Oklahoma City Thunder,-142.0,120.0,fanduel,openingLine
+14983,2024-01-20,Chicago Bulls,Memphis Grizzlies,-300.0,245.0,fanduel,openingLine
+427,2024-11-21,Charlotte Hornets,Detroit Pistons,-120.0,102.0,fanduel,openingLine
+430,2024-11-21,Toronto Raptors,Minnesota Timberwolves,240.0,-295.0,fanduel,openingLine
+431,2024-11-21,San Antonio Spurs,Utah Jazz,-180.0,152.0,fanduel,openingLine
+433,2024-11-21,Los Angeles Lakers,Orlando Magic,-230.0,190.0,fanduel,openingLine
+14986,2024-01-21,LA Clippers,Brooklyn Nets,-420.0,340.0,fanduel,openingLine
+14988,2024-01-21,Orlando Magic,Miami Heat,-102.0,-116.0,fanduel,openingLine
+14987,2024-01-21,Washington Wizards,Denver Nuggets,660.0,-1000.0,fanduel,openingLine
+14989,2024-01-21,Houston Rockets,Boston Celtics,320.0,-405.0,fanduel,openingLine
+14990,2024-01-21,Phoenix Suns,Indiana Pacers,-176.0,148.0,fanduel,openingLine
+14991,2024-01-21,Los Angeles Lakers,Portland Trail Blazers,-500.0,385.0,fanduel,openingLine
+436,2024-11-22,Philadelphia 76ers,Brooklyn Nets,-270.0,220.0,fanduel,openingLine
+438,2024-11-22,Washington Wizards,Boston Celtics,730.0,-1150.0,fanduel,openingLine
+440,2024-11-22,New Orleans Pelicans,Golden State Warriors,300.0,-375.0,fanduel,openingLine
+442,2024-11-22,Houston Rockets,Portland Trail Blazers,-900.0,610.0,fanduel,openingLine
+444,2024-11-22,Milwaukee Bucks,Indiana Pacers,-198.0,166.0,fanduel,openingLine
+446,2024-11-22,Chicago Bulls,Atlanta Hawks,-126.0,108.0,fanduel,openingLine
+448,2024-11-22,Denver Nuggets,Dallas Mavericks,-200.0,168.0,fanduel,openingLine
+450,2024-11-22,LA Clippers,Sacramento Kings,100.0,-118.0,fanduel,openingLine
+14993,2024-01-22,Detroit Pistons,Milwaukee Bucks,530.0,-750.0,fanduel,openingLine
+14992,2024-01-22,Orlando Magic,Cleveland Cavaliers,-112.0,-104.0,fanduel,openingLine
+14994,2024-01-22,Philadelphia 76ers,San Antonio Spurs,-1150.0,730.0,fanduel,openingLine
+14995,2024-01-22,Toronto Raptors,Memphis Grizzlies,-270.0,220.0,fanduel,openingLine
+14996,2024-01-22,Minnesota Timberwolves,Charlotte Hornets,-1500.0,870.0,fanduel,openingLine
+14997,2024-01-22,Dallas Mavericks,Boston Celtics,138.0,-164.0,fanduel,openingLine
+14998,2024-01-22,Phoenix Suns,Chicago Bulls,-250.0,205.0,fanduel,openingLine
+14999,2024-01-22,Sacramento Kings,Atlanta Hawks,-350.0,280.0,fanduel,openingLine
+452,2024-11-23,Utah Jazz,New York Knicks,285.0,-355.0,fanduel,openingLine
+454,2024-11-23,Orlando Magic,Detroit Pistons,-450.0,350.0,fanduel,openingLine
+456,2024-11-23,Milwaukee Bucks,Charlotte Hornets,-330.0,265.0,fanduel,openingLine
+457,2024-11-23,Chicago Bulls,Memphis Grizzlies,172.0,-205.0,fanduel,openingLine
+459,2024-11-23,Houston Rockets,Portland Trail Blazers,-900.0,610.0,fanduel,openingLine
+462,2024-11-23,San Antonio Spurs,Golden State Warriors,176.0,-210.0,fanduel,openingLine
+464,2024-11-23,Los Angeles Lakers,Denver Nuggets,-172.0,144.0,fanduel,openingLine
+15000,2024-01-23,Indiana Pacers,Denver Nuggets,120.0,-142.0,fanduel,openingLine
+15001,2024-01-23,Brooklyn Nets,New York Knicks,136.0,-164.0,fanduel,openingLine
+15002,2024-01-23,New Orleans Pelicans,Utah Jazz,-260.0,215.0,fanduel,openingLine
+15003,2024-01-23,Oklahoma City Thunder,Portland Trail Blazers,-1150.0,730.0,fanduel,openingLine
+15004,2024-01-23,LA Clippers,Los Angeles Lakers,-275.0,225.0,fanduel,openingLine
+465,2024-11-24,Boston Celtics,Minnesota Timberwolves,-330.0,265.0,fanduel,openingLine
+467,2024-11-24,Indiana Pacers,Washington Wizards,-500.0,385.0,fanduel,openingLine
+470,2024-11-24,Miami Heat,Dallas Mavericks,-146.0,124.0,fanduel,openingLine
+471,2024-11-24,Philadelphia 76ers,LA Clippers,-116.0,-102.0,fanduel,openingLine
+474,2024-11-24,Cleveland Cavaliers,Toronto Raptors,-800.0,560.0,fanduel,openingLine
+476,2024-11-24,Sacramento Kings,Brooklyn Nets,-300.0,245.0,fanduel,openingLine
+15005,2024-01-24,Detroit Pistons,Charlotte Hornets,-144.0,122.0,fanduel,openingLine
+15006,2024-01-24,Washington Wizards,Minnesota Timberwolves,420.0,-560.0,fanduel,openingLine
+15007,2024-01-24,Miami Heat,Memphis Grizzlies,-500.0,385.0,fanduel,openingLine
+15009,2024-01-24,Houston Rockets,Portland Trail Blazers,-480.0,370.0,fanduel,openingLine
+15008,2024-01-24,Milwaukee Bucks,Cleveland Cavaliers,-260.0,215.0,fanduel,openingLine
+15010,2024-01-24,Dallas Mavericks,Phoenix Suns,100.0,-118.0,fanduel,openingLine
+15011,2024-01-24,San Antonio Spurs,Oklahoma City Thunder,265.0,-330.0,fanduel,openingLine
+15012,2024-01-24,Golden State Warriors,Atlanta Hawks,-300.0,245.0,fanduel,openingLine
+478,2024-11-25,Detroit Pistons,Toronto Raptors,-198.0,166.0,fanduel,openingLine
+479,2024-11-25,Indiana Pacers,New Orleans Pelicans,-230.0,190.0,fanduel,openingLine
+481,2024-11-25,Charlotte Hornets,Orlando Magic,152.0,-180.0,fanduel,openingLine
+483,2024-11-25,Atlanta Hawks,Dallas Mavericks,-124.0,106.0,fanduel,openingLine
+485,2024-11-25,Boston Celtics,LA Clippers,-490.0,380.0,fanduel,openingLine
+487,2024-11-25,Memphis Grizzlies,Portland Trail Blazers,-405.0,320.0,fanduel,openingLine
+489,2024-11-25,Denver Nuggets,New York Knicks,-158.0,134.0,fanduel,openingLine
+491,2024-11-25,Golden State Warriors,Brooklyn Nets,-770.0,540.0,fanduel,openingLine
+494,2024-11-25,Sacramento Kings,Oklahoma City Thunder,152.0,-180.0,fanduel,openingLine
+15014,2024-01-25,Indiana Pacers,Philadelphia 76ers,172.0,-205.0,fanduel,openingLine
+15013,2024-01-25,Washington Wizards,Utah Jazz,240.0,-295.0,fanduel,openingLine
+15017,2024-01-25,Brooklyn Nets,Minnesota Timberwolves,160.0,-190.0,fanduel,openingLine
+15016,2024-01-25,Miami Heat,Boston Celtics,210.0,-255.0,fanduel,openingLine
+15015,2024-01-25,New York Knicks,Denver Nuggets,118.0,-138.0,fanduel,openingLine
+15018,2024-01-25,Golden State Warriors,Sacramento Kings,102.0,-120.0,fanduel,openingLine
+15019,2024-01-25,Los Angeles Lakers,Chicago Bulls,-200.0,168.0,fanduel,openingLine
+15022,2024-01-26,Atlanta Hawks,Dallas Mavericks,108.0,-126.0,fanduel,openingLine
+15021,2024-01-26,Charlotte Hornets,Houston Rockets,198.0,-240.0,fanduel,openingLine
+15020,2024-01-26,Indiana Pacers,Phoenix Suns,188.0,-225.0,fanduel,openingLine
+15023,2024-01-26,Toronto Raptors,LA Clippers,265.0,-330.0,fanduel,openingLine
+15025,2024-01-26,Memphis Grizzlies,Orlando Magic,176.0,-210.0,fanduel,openingLine
+15026,2024-01-26,Milwaukee Bucks,Cleveland Cavaliers,-260.0,215.0,fanduel,openingLine
+15024,2024-01-26,New Orleans Pelicans,Oklahoma City Thunder,-132.0,112.0,fanduel,openingLine
+15027,2024-01-26,San Antonio Spurs,Portland Trail Blazers,-120.0,102.0,fanduel,openingLine
+495,2024-11-26,Washington Wizards,Chicago Bulls,148.0,-176.0,fanduel,openingLine
+498,2024-11-26,Miami Heat,Milwaukee Bucks,-130.0,110.0,fanduel,openingLine
+500,2024-11-26,Minnesota Timberwolves,Houston Rockets,-176.0,148.0,fanduel,openingLine
+502,2024-11-26,Utah Jazz,San Antonio Spurs,124.0,-146.0,fanduel,openingLine
+504,2024-11-26,Phoenix Suns,Los Angeles Lakers,-156.0,132.0,fanduel,openingLine
+506,2024-11-27,Washington Wizards,LA Clippers,385.0,-500.0,fanduel,openingLine
+508,2024-11-27,Cleveland Cavaliers,Atlanta Hawks,-520.0,400.0,fanduel,openingLine
+510,2024-11-27,Indiana Pacers,Portland Trail Blazers,-460.0,360.0,fanduel,openingLine
+511,2024-11-27,Orlando Magic,Chicago Bulls,-420.0,330.0,fanduel,openingLine
+514,2024-11-27,Philadelphia 76ers,Houston Rockets,215.0,-260.0,fanduel,openingLine
+516,2024-11-27,Charlotte Hornets,Miami Heat,134.0,-158.0,fanduel,openingLine
+517,2024-11-27,Dallas Mavericks,New York Knicks,140.0,-166.0,fanduel,openingLine
+519,2024-11-27,Minnesota Timberwolves,Sacramento Kings,-168.0,142.0,fanduel,openingLine
+521,2024-11-27,Memphis Grizzlies,Detroit Pistons,-375.0,300.0,fanduel,openingLine
+524,2024-11-27,New Orleans Pelicans,Toronto Raptors,-126.0,108.0,fanduel,openingLine
+526,2024-11-27,San Antonio Spurs,Los Angeles Lakers,116.0,-136.0,fanduel,openingLine
+528,2024-11-27,Utah Jazz,Denver Nuggets,250.0,-310.0,fanduel,openingLine
+530,2024-11-27,Phoenix Suns,Brooklyn Nets,-280.0,225.0,fanduel,openingLine
+531,2024-11-27,Golden State Warriors,Oklahoma City Thunder,-112.0,-104.0,fanduel,openingLine
+15028,2024-01-27,Detroit Pistons,Washington Wizards,-130.0,110.0,fanduel,openingLine
+15029,2024-01-27,New York Knicks,Miami Heat,-210.0,176.0,fanduel,openingLine
+15030,2024-01-27,Denver Nuggets,Philadelphia 76ers,-196.0,164.0,fanduel,openingLine
+15031,2024-01-27,Brooklyn Nets,Houston Rockets,-158.0,134.0,fanduel,openingLine
+15033,2024-01-27,Boston Celtics,LA Clippers,-240.0,198.0,fanduel,openingLine
+15032,2024-01-27,Charlotte Hornets,Utah Jazz,285.0,-355.0,fanduel,openingLine
+15034,2024-01-27,Milwaukee Bucks,New Orleans Pelicans,-260.0,215.0,fanduel,openingLine
+15035,2024-01-27,San Antonio Spurs,Minnesota Timberwolves,460.0,-620.0,fanduel,openingLine
+15036,2024-01-27,Golden State Warriors,Los Angeles Lakers,-120.0,102.0,fanduel,openingLine
+15037,2024-01-27,Dallas Mavericks,Sacramento Kings,-122.0,104.0,fanduel,openingLine
+15038,2024-01-28,Detroit Pistons,Oklahoma City Thunder,610.0,-900.0,fanduel,openingLine
+15039,2024-01-28,Indiana Pacers,Memphis Grizzlies,-405.0,320.0,fanduel,openingLine
+15040,2024-01-28,Atlanta Hawks,Toronto Raptors,-255.0,210.0,fanduel,openingLine
+15041,2024-01-28,Orlando Magic,Phoenix Suns,102.0,-120.0,fanduel,openingLine
+15042,2024-01-28,Portland Trail Blazers,Chicago Bulls,245.0,-300.0,fanduel,openingLine
+533,2024-11-29,Charlotte Hornets,New York Knicks,275.0,-340.0,fanduel,openingLine
+535,2024-11-29,Atlanta Hawks,Cleveland Cavaliers,166.0,-198.0,fanduel,openingLine
+538,2024-11-29,Memphis Grizzlies,New Orleans Pelicans,-450.0,350.0,fanduel,openingLine
+539,2024-11-29,Brooklyn Nets,Orlando Magic,168.0,-200.0,fanduel,openingLine
+542,2024-11-29,Minnesota Timberwolves,LA Clippers,-210.0,176.0,fanduel,openingLine
+543,2024-11-29,Chicago Bulls,Boston Celtics,340.0,-430.0,fanduel,openingLine
+546,2024-11-29,Miami Heat,Toronto Raptors,-270.0,220.0,fanduel,openingLine
+547,2024-11-29,Indiana Pacers,Detroit Pistons,-280.0,230.0,fanduel,openingLine
+549,2024-11-29,Los Angeles Lakers,Oklahoma City Thunder,-116.0,-102.0,fanduel,openingLine
+552,2024-11-29,Portland Trail Blazers,Sacramento Kings,164.0,-196.0,fanduel,openingLine
+15044,2024-01-29,Cleveland Cavaliers,LA Clippers,136.0,-162.0,fanduel,openingLine
+15043,2024-01-29,Charlotte Hornets,New York Knicks,235.0,-290.0,fanduel,openingLine
+15045,2024-01-29,Brooklyn Nets,Utah Jazz,-116.0,-102.0,fanduel,openingLine
+15047,2024-01-29,Miami Heat,Phoenix Suns,-162.0,136.0,fanduel,openingLine
+15046,2024-01-29,Boston Celtics,New Orleans Pelicans,-320.0,260.0,fanduel,openingLine
+15050,2024-01-29,Houston Rockets,Los Angeles Lakers,-118.0,100.0,fanduel,openingLine
+15048,2024-01-29,Memphis Grizzlies,Sacramento Kings,275.0,-340.0,fanduel,openingLine
+15049,2024-01-29,Oklahoma City Thunder,Minnesota Timberwolves,-136.0,118.0,fanduel,openingLine
+15051,2024-01-29,San Antonio Spurs,Washington Wizards,-178.0,150.0,fanduel,openingLine
+15052,2024-01-29,Dallas Mavericks,Orlando Magic,-205.0,172.0,fanduel,openingLine
+15053,2024-01-29,Denver Nuggets,Milwaukee Bucks,-190.0,160.0,fanduel,openingLine
+15054,2024-01-29,Portland Trail Blazers,Philadelphia 76ers,275.0,-340.0,fanduel,openingLine
+553,2024-11-30,Charlotte Hornets,Atlanta Hawks,144.0,-172.0,fanduel,openingLine
+556,2024-11-30,Detroit Pistons,Philadelphia 76ers,-116.0,-102.0,fanduel,openingLine
+558,2024-11-30,Milwaukee Bucks,Washington Wizards,-1500.0,870.0,fanduel,openingLine
+560,2024-11-30,Phoenix Suns,Golden State Warriors,-172.0,144.0,fanduel,openingLine
+562,2024-11-30,Utah Jazz,Dallas Mavericks,200.0,-245.0,fanduel,openingLine
+15056,2024-01-30,Atlanta Hawks,Los Angeles Lakers,-178.0,150.0,fanduel,openingLine
+15055,2024-01-30,New York Knicks,Utah Jazz,-184.0,154.0,fanduel,openingLine
+15057,2024-01-30,Boston Celtics,Indiana Pacers,-260.0,215.0,fanduel,openingLine
+15058,2024-01-30,Chicago Bulls,Toronto Raptors,-270.0,220.0,fanduel,openingLine
+15059,2024-01-30,Golden State Warriors,Philadelphia 76ers,-194.0,162.0,fanduel,openingLine
+563,2024-12-01,Brooklyn Nets,Orlando Magic,310.0,-400.0,fanduel,openingLine
+566,2024-12-01,Memphis Grizzlies,Indiana Pacers,-310.0,250.0,fanduel,openingLine
+568,2024-12-01,New York Knicks,New Orleans Pelicans,-700.0,500.0,fanduel,openingLine
+570,2024-12-01,Toronto Raptors,Miami Heat,176.0,-210.0,fanduel,openingLine
+571,2024-12-01,Cleveland Cavaliers,Boston Celtics,108.0,-126.0,fanduel,openingLine
+574,2024-12-01,Houston Rockets,Oklahoma City Thunder,108.0,-126.0,fanduel,openingLine
+576,2024-12-01,Utah Jazz,Los Angeles Lakers,260.0,-320.0,fanduel,openingLine
+577,2024-12-01,Portland Trail Blazers,Dallas Mavericks,260.0,-320.0,fanduel,openingLine
+579,2024-12-01,Sacramento Kings,San Antonio Spurs,-210.0,176.0,fanduel,openingLine
+581,2024-12-01,LA Clippers,Denver Nuggets,116.0,-136.0,fanduel,openingLine
+15060,2024-01-31,Cleveland Cavaliers,Detroit Pistons,-800.0,560.0,fanduel,openingLine
+15061,2024-01-31,Charlotte Hornets,Chicago Bulls,128.0,-152.0,fanduel,openingLine
+15062,2024-01-31,Washington Wizards,LA Clippers,560.0,-800.0,fanduel,openingLine
+15063,2024-01-31,Miami Heat,Sacramento Kings,-112.0,-104.0,fanduel,openingLine
+15065,2024-01-31,Houston Rockets,New Orleans Pelicans,120.0,-142.0,fanduel,openingLine
+15066,2024-01-31,Minnesota Timberwolves,Dallas Mavericks,-1000.0,660.0,fanduel,openingLine
+15064,2024-01-31,San Antonio Spurs,Orlando Magic,176.0,-210.0,fanduel,openingLine
+15067,2024-01-31,Oklahoma City Thunder,Denver Nuggets,-132.0,112.0,fanduel,openingLine
+15068,2024-01-31,Brooklyn Nets,Phoenix Suns,132.0,-156.0,fanduel,openingLine
+15069,2024-01-31,Portland Trail Blazers,Milwaukee Bucks,340.0,-430.0,fanduel,openingLine
+15070,2024-02-01,New York Knicks,Indiana Pacers,-194.0,162.0,fanduel,openingLine
+15071,2024-02-01,Boston Celtics,Los Angeles Lakers,-560.0,420.0,fanduel,openingLine
+15072,2024-02-01,Memphis Grizzlies,Cleveland Cavaliers,188.0,-225.0,fanduel,openingLine
+15073,2024-02-01,Utah Jazz,Philadelphia 76ers,-184.0,154.0,fanduel,openingLine
+583,2024-12-02,Boston Celtics,Miami Heat,-320.0,260.0,fanduel,openingLine
+585,2024-12-02,Atlanta Hawks,New Orleans Pelicans,-330.0,265.0,fanduel,openingLine
+588,2024-12-02,Chicago Bulls,Brooklyn Nets,-210.0,176.0,fanduel,openingLine
+590,2024-12-02,Minnesota Timberwolves,Los Angeles Lakers,-225.0,188.0,fanduel,openingLine
+591,2024-12-03,Detroit Pistons,Milwaukee Bucks,146.0,-174.0,fanduel,openingLine
+593,2024-12-03,Charlotte Hornets,Philadelphia 76ers,150.0,-178.0,fanduel,openingLine
+595,2024-12-03,Cleveland Cavaliers,Washington Wizards,-1600.0,900.0,fanduel,openingLine
+597,2024-12-03,New York Knicks,Orlando Magic,-230.0,190.0,fanduel,openingLine
+600,2024-12-03,Toronto Raptors,Indiana Pacers,116.0,-136.0,fanduel,openingLine
+602,2024-12-03,Oklahoma City Thunder,Utah Jazz,-1350.0,810.0,fanduel,openingLine
+604,2024-12-03,Dallas Mavericks,Memphis Grizzlies,-186.0,156.0,fanduel,openingLine
+606,2024-12-03,Phoenix Suns,San Antonio Spurs,-270.0,220.0,fanduel,openingLine
+607,2024-12-03,Denver Nuggets,Golden State Warriors,-230.0,190.0,fanduel,openingLine
+610,2024-12-03,Sacramento Kings,Houston Rockets,122.0,-144.0,fanduel,openingLine
+611,2024-12-03,LA Clippers,Portland Trail Blazers,-390.0,310.0,fanduel,openingLine
+15074,2024-02-02,Detroit Pistons,LA Clippers,350.0,-450.0,fanduel,openingLine
+15075,2024-02-02,Washington Wizards,Miami Heat,300.0,-375.0,fanduel,openingLine
+15077,2024-02-02,Atlanta Hawks,Phoenix Suns,126.0,-148.0,fanduel,openingLine
+15076,2024-02-02,Indiana Pacers,Sacramento Kings,102.0,-120.0,fanduel,openingLine
+15082,2024-02-02,Oklahoma City Thunder,Charlotte Hornets,-1600.0,900.0,fanduel,openingLine
+15079,2024-02-02,San Antonio Spurs,New Orleans Pelicans,245.0,-300.0,fanduel,openingLine
+15080,2024-02-02,Houston Rockets,Toronto Raptors,-230.0,190.0,fanduel,openingLine
+15081,2024-02-02,Memphis Grizzlies,Golden State Warriors,200.0,-245.0,fanduel,openingLine
+15078,2024-02-02,Minnesota Timberwolves,Orlando Magic,-310.0,250.0,fanduel,openingLine
+15083,2024-02-02,Denver Nuggets,Portland Trail Blazers,-750.0,530.0,fanduel,openingLine
+614,2024-12-04,Miami Heat,Los Angeles Lakers,-118.0,100.0,fanduel,openingLine
+615,2024-12-04,Boston Celtics,Detroit Pistons,-1200.0,750.0,fanduel,openingLine
+617,2024-12-04,Brooklyn Nets,Indiana Pacers,114.0,-134.0,fanduel,openingLine
+619,2024-12-04,Philadelphia 76ers,Orlando Magic,114.0,-134.0,fanduel,openingLine
+621,2024-12-04,Milwaukee Bucks,Atlanta Hawks,-168.0,142.0,fanduel,openingLine
+623,2024-12-04,LA Clippers,Minnesota Timberwolves,144.0,-172.0,fanduel,openingLine
+15084,2024-02-03,Philadelphia 76ers,Brooklyn Nets,-180.0,152.0,fanduel,openingLine
+15085,2024-02-03,Atlanta Hawks,Golden State Warriors,-138.0,118.0,fanduel,openingLine
+15086,2024-02-03,Chicago Bulls,Sacramento Kings,-116.0,-102.0,fanduel,openingLine
+15089,2024-02-03,Dallas Mavericks,Milwaukee Bucks,120.0,-142.0,fanduel,openingLine
+15087,2024-02-03,San Antonio Spurs,Cleveland Cavaliers,370.0,-480.0,fanduel,openingLine
+15088,2024-02-03,New York Knicks,Los Angeles Lakers,-240.0,198.0,fanduel,openingLine
+626,2024-12-05,Washington Wizards,Dallas Mavericks,350.0,-450.0,fanduel,openingLine
+627,2024-12-05,Cleveland Cavaliers,Denver Nuggets,-176.0,148.0,fanduel,openingLine
+630,2024-12-05,Toronto Raptors,Oklahoma City Thunder,330.0,-420.0,fanduel,openingLine
+632,2024-12-05,New York Knicks,Charlotte Hornets,-1400.0,810.0,fanduel,openingLine
+633,2024-12-05,Memphis Grizzlies,Sacramento Kings,-196.0,164.0,fanduel,openingLine
+636,2024-12-05,New Orleans Pelicans,Phoenix Suns,-118.0,100.0,fanduel,openingLine
+638,2024-12-05,San Antonio Spurs,Chicago Bulls,-146.0,124.0,fanduel,openingLine
+639,2024-12-05,Golden State Warriors,Houston Rockets,-174.0,146.0,fanduel,openingLine
+15090,2024-02-04,Detroit Pistons,Orlando Magic,235.0,-290.0,fanduel,openingLine
+15091,2024-02-04,Washington Wizards,Phoenix Suns,310.0,-390.0,fanduel,openingLine
+15093,2024-02-04,Charlotte Hornets,Indiana Pacers,270.0,-335.0,fanduel,openingLine
+15094,2024-02-04,Miami Heat,LA Clippers,118.0,-138.0,fanduel,openingLine
+15092,2024-02-04,Boston Celtics,Memphis Grizzlies,-1500.0,870.0,fanduel,openingLine
+15095,2024-02-04,Minnesota Timberwolves,Houston Rockets,-280.0,230.0,fanduel,openingLine
+15096,2024-02-04,Oklahoma City Thunder,Toronto Raptors,-460.0,360.0,fanduel,openingLine
+15097,2024-02-04,Utah Jazz,Milwaukee Bucks,-116.0,-102.0,fanduel,openingLine
+15098,2024-02-04,Denver Nuggets,Portland Trail Blazers,-820.0,570.0,fanduel,openingLine
+641,2024-12-06,Philadelphia 76ers,Orlando Magic,134.0,-158.0,fanduel,openingLine
+643,2024-12-06,Atlanta Hawks,Los Angeles Lakers,-116.0,-102.0,fanduel,openingLine
+645,2024-12-06,Boston Celtics,Milwaukee Bucks,-270.0,220.0,fanduel,openingLine
+647,2024-12-06,Chicago Bulls,Indiana Pacers,126.0,-148.0,fanduel,openingLine
+650,2024-12-06,San Antonio Spurs,Sacramento Kings,124.0,-146.0,fanduel,openingLine
+651,2024-12-06,Golden State Warriors,Minnesota Timberwolves,-134.0,114.0,fanduel,openingLine
+654,2024-12-06,Portland Trail Blazers,Utah Jazz,-164.0,138.0,fanduel,openingLine
+15100,2024-02-05,Charlotte Hornets,Los Angeles Lakers,350.0,-450.0,fanduel,openingLine
+15101,2024-02-05,Cleveland Cavaliers,Sacramento Kings,-230.0,190.0,fanduel,openingLine
+15099,2024-02-05,Philadelphia 76ers,Dallas Mavericks,110.0,-130.0,fanduel,openingLine
+15102,2024-02-05,Atlanta Hawks,LA Clippers,126.0,-148.0,fanduel,openingLine
+15103,2024-02-05,Brooklyn Nets,Golden State Warriors,-130.0,110.0,fanduel,openingLine
+15104,2024-02-05,New Orleans Pelicans,Toronto Raptors,-450.0,350.0,fanduel,openingLine
+655,2024-12-07,Charlotte Hornets,Cleveland Cavaliers,500.0,-700.0,fanduel,openingLine
+658,2024-12-07,New Orleans Pelicans,Oklahoma City Thunder,245.0,-300.0,fanduel,openingLine
+660,2024-12-07,Washington Wizards,Denver Nuggets,480.0,-650.0,fanduel,openingLine
+662,2024-12-07,New York Knicks,Detroit Pistons,-560.0,430.0,fanduel,openingLine
+663,2024-12-07,Toronto Raptors,Dallas Mavericks,285.0,-355.0,fanduel,openingLine
+665,2024-12-07,Miami Heat,Phoenix Suns,-240.0,198.0,fanduel,openingLine
+667,2024-12-07,Boston Celtics,Memphis Grizzlies,-370.0,295.0,fanduel,openingLine
+15105,2024-02-06,Indiana Pacers,Houston Rockets,-250.0,205.0,fanduel,openingLine
+15108,2024-02-06,Brooklyn Nets,Dallas Mavericks,100.0,-118.0,fanduel,openingLine
+15107,2024-02-06,Miami Heat,Orlando Magic,-154.0,130.0,fanduel,openingLine
+15106,2024-02-06,New York Knicks,Memphis Grizzlies,-1200.0,750.0,fanduel,openingLine
+15109,2024-02-06,Chicago Bulls,Minnesota Timberwolves,180.0,-215.0,fanduel,openingLine
+15110,2024-02-06,Utah Jazz,Oklahoma City Thunder,136.0,-162.0,fanduel,openingLine
+15111,2024-02-06,Phoenix Suns,Milwaukee Bucks,-138.0,118.0,fanduel,openingLine
+670,2024-12-08,Chicago Bulls,Philadelphia 76ers,-102.0,-118.0,fanduel,openingLine
+672,2024-12-08,Brooklyn Nets,Milwaukee Bucks,220.0,-270.0,fanduel,openingLine
+674,2024-12-08,Indiana Pacers,Charlotte Hornets,-550.0,410.0,fanduel,openingLine
+675,2024-12-08,Atlanta Hawks,Denver Nuggets,-178.0,150.0,fanduel,openingLine
+678,2024-12-08,Miami Heat,Cleveland Cavaliers,142.0,-168.0,fanduel,openingLine
+679,2024-12-08,Orlando Magic,Phoenix Suns,-138.0,118.0,fanduel,openingLine
+682,2024-12-08,Washington Wizards,Memphis Grizzlies,410.0,-550.0,fanduel,openingLine
+684,2024-12-08,San Antonio Spurs,New Orleans Pelicans,-225.0,188.0,fanduel,openingLine
+686,2024-12-08,Golden State Warriors,Minnesota Timberwolves,-118.0,100.0,fanduel,openingLine
+687,2024-12-08,LA Clippers,Houston Rockets,114.0,-134.0,fanduel,openingLine
+689,2024-12-08,Sacramento Kings,Utah Jazz,-600.0,450.0,fanduel,openingLine
+691,2024-12-08,Los Angeles Lakers,Portland Trail Blazers,-550.0,410.0,fanduel,openingLine
+14374,2023-10-27,Memphis Grizzlies,Denver Nuggets,134.0,-158.0,fanduel,openingLine
+14375,2023-10-27,Charlotte Hornets,Detroit Pistons,-168.0,142.0,fanduel,openingLine
+14378,2023-10-27,Cleveland Cavaliers,Oklahoma City Thunder,-158.0,134.0,fanduel,openingLine
+14377,2023-10-27,Boston Celtics,Miami Heat,-310.0,250.0,fanduel,openingLine
+14376,2023-10-27,Atlanta Hawks,New York Knicks,-126.0,108.0,fanduel,openingLine
+14380,2023-10-27,Chicago Bulls,Toronto Raptors,-130.0,110.0,fanduel,openingLine
+14379,2023-10-27,San Antonio Spurs,Houston Rockets,-122.0,104.0,fanduel,openingLine
+14381,2023-10-27,Dallas Mavericks,Brooklyn Nets,-250.0,205.0,fanduel,openingLine
+14382,2023-10-27,Utah Jazz,LA Clippers,134.0,-158.0,fanduel,openingLine
+14383,2023-10-27,Sacramento Kings,Golden State Warriors,-120.0,102.0,fanduel,openingLine
+14384,2023-10-27,Portland Trail Blazers,Orlando Magic,118.0,-138.0,fanduel,openingLine
+14386,2023-10-28,Detroit Pistons,Chicago Bulls,120.0,-142.0,fanduel,openingLine
+14385,2023-10-28,New Orleans Pelicans,New York Knicks,-184.0,154.0,fanduel,openingLine
+14387,2023-10-28,Washington Wizards,Memphis Grizzlies,120.0,-142.0,fanduel,openingLine
+14388,2023-10-28,Cleveland Cavaliers,Indiana Pacers,-176.0,148.0,fanduel,openingLine
+14389,2023-10-28,Toronto Raptors,Philadelphia 76ers,126.0,-148.0,fanduel,openingLine
+14390,2023-10-28,Minnesota Timberwolves,Miami Heat,-168.0,142.0,fanduel,openingLine
+14391,2023-10-28,Phoenix Suns,Utah Jazz,-255.0,210.0,fanduel,openingLine
+15113,2024-02-07,Charlotte Hornets,Toronto Raptors,225.0,-275.0,fanduel,openingLine
+15112,2024-02-07,Washington Wizards,Cleveland Cavaliers,420.0,-560.0,fanduel,openingLine
+15116,2024-02-07,Philadelphia 76ers,Golden State Warriors,120.0,-142.0,fanduel,openingLine
+15115,2024-02-07,Miami Heat,San Antonio Spurs,-350.0,275.0,fanduel,openingLine
+15114,2024-02-07,Boston Celtics,Atlanta Hawks,-620.0,460.0,fanduel,openingLine
+15117,2024-02-07,LA Clippers,New Orleans Pelicans,-255.0,210.0,fanduel,openingLine
+15118,2024-02-07,Sacramento Kings,Detroit Pistons,-750.0,530.0,fanduel,openingLine
+694,2024-12-09,Toronto Raptors,New York Knicks,198.0,-240.0,fanduel,openingLine
+14392,2023-10-29,Oklahoma City Thunder,Denver Nuggets,104.0,-122.0,fanduel,openingLine
+14393,2023-10-29,Houston Rockets,Golden State Warriors,205.0,-245.0,fanduel,openingLine
+14394,2023-10-29,Milwaukee Bucks,Atlanta Hawks,-320.0,260.0,fanduel,openingLine
+14395,2023-10-29,Philadelphia 76ers,Portland Trail Blazers,-480.0,370.0,fanduel,openingLine
+14397,2023-10-29,LA Clippers,San Antonio Spurs,-360.0,290.0,fanduel,openingLine
+14396,2023-10-29,Sacramento Kings,Los Angeles Lakers,-136.0,116.0,fanduel,openingLine
+15119,2024-02-08,Orlando Magic,San Antonio Spurs,-550.0,410.0,fanduel,openingLine
+15120,2024-02-08,Indiana Pacers,Golden State Warriors,-235.0,194.0,fanduel,openingLine
+15121,2024-02-08,Brooklyn Nets,Cleveland Cavaliers,180.0,-215.0,fanduel,openingLine
+15122,2024-02-08,New York Knicks,Dallas Mavericks,118.0,-138.0,fanduel,openingLine
+15124,2024-02-08,Memphis Grizzlies,Chicago Bulls,176.0,-210.0,fanduel,openingLine
+15123,2024-02-08,Milwaukee Bucks,Minnesota Timberwolves,-116.0,-102.0,fanduel,openingLine
+15125,2024-02-08,Phoenix Suns,Utah Jazz,-295.0,240.0,fanduel,openingLine
+15127,2024-02-08,Portland Trail Blazers,Detroit Pistons,-198.0,166.0,fanduel,openingLine
+15126,2024-02-08,Los Angeles Lakers,Denver Nuggets,134.0,-158.0,fanduel,openingLine
+696,2024-12-10,Milwaukee Bucks,Orlando Magic,-340.0,275.0,fanduel,openingLine
+698,2024-12-10,Oklahoma City Thunder,Dallas Mavericks,-196.0,164.0,fanduel,openingLine
+14400,2023-10-30,Indiana Pacers,Chicago Bulls,-158.0,136.0,fanduel,openingLine
+14399,2023-10-30,Charlotte Hornets,Brooklyn Nets,108.0,-126.0,fanduel,openingLine
+14398,2023-10-30,Washington Wizards,Boston Celtics,385.0,-500.0,fanduel,openingLine
+14401,2023-10-30,Atlanta Hawks,Minnesota Timberwolves,102.0,-120.0,fanduel,openingLine
+14402,2023-10-30,Toronto Raptors,Portland Trail Blazers,-330.0,265.0,fanduel,openingLine
+14403,2023-10-30,Memphis Grizzlies,Dallas Mavericks,118.0,-136.0,fanduel,openingLine
+14406,2023-10-30,Milwaukee Bucks,Miami Heat,-235.0,194.0,fanduel,openingLine
+14404,2023-10-30,New Orleans Pelicans,Golden State Warriors,-148.0,126.0,fanduel,openingLine
+14405,2023-10-30,Oklahoma City Thunder,Detroit Pistons,-235.0,194.0,fanduel,openingLine
+14407,2023-10-30,Denver Nuggets,Utah Jazz,-335.0,270.0,fanduel,openingLine
+14408,2023-10-30,Los Angeles Lakers,Orlando Magic,-144.0,122.0,fanduel,openingLine
+15128,2024-02-09,Philadelphia 76ers,Atlanta Hawks,168.0,-200.0,fanduel,openingLine
+15129,2024-02-09,Boston Celtics,Washington Wizards,-2500.0,1200.0,fanduel,openingLine
+15130,2024-02-09,Toronto Raptors,Houston Rockets,-136.0,118.0,fanduel,openingLine
+15131,2024-02-09,Milwaukee Bucks,Charlotte Hornets,-1100.0,700.0,fanduel,openingLine
+15132,2024-02-09,Sacramento Kings,Denver Nuggets,-118.0,100.0,fanduel,openingLine
+15133,2024-02-09,Los Angeles Lakers,New Orleans Pelicans,-102.0,-116.0,fanduel,openingLine
+700,2024-12-11,New York Knicks,Atlanta Hawks,-310.0,250.0,fanduel,openingLine
+701,2024-12-11,Houston Rockets,Golden State Warriors,-138.0,118.0,fanduel,openingLine
+14409,2023-10-31,Cleveland Cavaliers,New York Knicks,-116.0,-102.0,fanduel,openingLine
+14410,2023-10-31,Phoenix Suns,San Antonio Spurs,-320.0,260.0,fanduel,openingLine
+14411,2023-10-31,LA Clippers,Orlando Magic,-330.0,265.0,fanduel,openingLine
+15134,2024-02-10,Dallas Mavericks,Oklahoma City Thunder,110.0,-130.0,fanduel,openingLine
+15135,2024-02-10,LA Clippers,Detroit Pistons,-1500.0,870.0,fanduel,openingLine
+15136,2024-02-10,Brooklyn Nets,San Antonio Spurs,-245.0,200.0,fanduel,openingLine
+15137,2024-02-10,Charlotte Hornets,Memphis Grizzlies,146.0,-174.0,fanduel,openingLine
+15138,2024-02-10,Orlando Magic,Chicago Bulls,-215.0,180.0,fanduel,openingLine
+15139,2024-02-10,Washington Wizards,Philadelphia 76ers,132.0,-156.0,fanduel,openingLine
+15141,2024-02-10,Atlanta Hawks,Houston Rockets,-196.0,164.0,fanduel,openingLine
+15142,2024-02-10,Toronto Raptors,Cleveland Cavaliers,285.0,-355.0,fanduel,openingLine
+15140,2024-02-10,New York Knicks,Indiana Pacers,154.0,-184.0,fanduel,openingLine
+15143,2024-02-10,Golden State Warriors,Phoenix Suns,-112.0,-104.0,fanduel,openingLine
+15144,2024-02-10,Portland Trail Blazers,New Orleans Pelicans,240.0,-295.0,fanduel,openingLine
+703,2024-12-12,Boston Celtics,Detroit Pistons,-950.0,640.0,fanduel,openingLine
+706,2024-12-12,Miami Heat,Toronto Raptors,-590.0,430.0,fanduel,openingLine
+708,2024-12-12,New Orleans Pelicans,Sacramento Kings,190.0,-230.0,fanduel,openingLine
+710,2024-12-13,Philadelphia 76ers,Indiana Pacers,-225.0,188.0,fanduel,openingLine
+711,2024-12-13,Cleveland Cavaliers,Washington Wizards,-1800.0,980.0,fanduel,openingLine
+713,2024-12-13,Chicago Bulls,Charlotte Hornets,-215.0,180.0,fanduel,openingLine
+716,2024-12-13,Minnesota Timberwolves,Los Angeles Lakers,-250.0,205.0,fanduel,openingLine
+717,2024-12-13,Memphis Grizzlies,Brooklyn Nets,-500.0,385.0,fanduel,openingLine
+719,2024-12-13,Denver Nuggets,LA Clippers,-290.0,235.0,fanduel,openingLine
+722,2024-12-13,Utah Jazz,Phoenix Suns,176.0,-210.0,fanduel,openingLine
+724,2024-12-13,Portland Trail Blazers,San Antonio Spurs,132.0,-154.0,fanduel,openingLine

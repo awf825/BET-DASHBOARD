@@ -1,0 +1,194 @@
+{% extends "base.html" %}
+
+{% block title %}{{ sport }} Dashboard - Sports Betting{% endblock %}
+
+{% block content %}
+<div class="dashboard-header">
+    <h1>{{ sport }} Predictions</h1>
+    <p>Model predictions vs. betting lines</p>
+</div>
+
+<div class="filters">
+    <label>
+        Date:
+        <input type="date" id="filter-date" value="{{ today }}">
+    </label>
+    <label>
+        Min Confidence:
+        <select id="filter-confidence">
+            <option value="0">All</option>
+            <option value="0.55">55%+</option>
+            <option value="0.60">60%+</option>
+            <option value="0.65">65%+</option>
+            <option value="0.70">70%+</option>
+        </select>
+    </label>
+    <label>
+        Show Only Edges:
+        <input type="checkbox" id="filter-edges-only">
+    </label>
+    <button class="btn btn-secondary" id="refresh-btn">Refresh</button>
+</div>
+
+<section class="predictions-section">
+    <h2>Today's Games</h2>
+    <div class="table-container">
+        <table class="data-table" id="predictions-table">
+            <thead>
+                <tr>
+                    <th>Game</th>
+                    <th>Predicted Winner</th>
+                    <th>Pred. Spread</th>
+                    <th>Opening Spread</th>
+                    <th>Current Spread</th>
+                    <th>Edge (Spread)</th>
+                    <th>Pred. Total</th>
+                    <th>Opening Total</th>
+                    <th>Current Total</th>
+                    <th>Edge (Total)</th>
+                    <th>Confidence</th>
+                </tr>
+            </thead>
+            <tbody id="predictions-body">
+                <tr>
+                    <td colspan="11" class="loading">Loading {{ sport }} predictions...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="edge-summary">
+    <h2>Edge Summary</h2>
+    <div class="stats-grid">
+        <div class="stat-box">
+            <span class="stat-label">Games with Spread Edge</span>
+            <span class="stat-number" id="spread-edge-count">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Games with Total Edge</span>
+            <span class="stat-number" id="total-edge-count">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Avg Spread Edge</span>
+            <span class="stat-number" id="avg-spread-edge">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Avg Total Edge</span>
+            <span class="stat-number" id="avg-total-edge">--</span>
+        </div>
+    </div>
+</section>
+
+<section class="historical-performance">
+    <h2>Historical Performance</h2>
+    <div class="chart-container">
+        <canvas id="performance-chart"></canvas>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+const SPORT = '{{ sport|lower }}';
+
+document.addEventListener('DOMContentLoaded', function() {
+    loadPredictions();
+
+    document.getElementById('refresh-btn').addEventListener('click', loadPredictions);
+    document.getElementById('filter-date').addEventListener('change', loadPredictions);
+    document.getElementById('filter-confidence').addEventListener('change', filterTable);
+    document.getElementById('filter-edges-only').addEventListener('change', filterTable);
+});
+
+function loadPredictions() {
+    fetch(`/api/predictions/${SPORT}`)
+        .then(res => res.json())
+        .then(data => {
+            renderPredictions(data.predictions);
+            updateEdgeSummary(data.predictions);
+        })
+        .catch(err => {
+            console.error('Error loading predictions:', err);
+            document.getElementById('predictions-body').innerHTML =
+                '<tr><td colspan="11" class="error">Error loading data</td></tr>';
+        });
+}
+
+function renderPredictions(predictions) {
+    const tbody = document.getElementById('predictions-body');
+
+    if (!predictions || predictions.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="11">No games found</td></tr>';
+        return;
+    }
+
+    tbody.innerHTML = predictions.map(game => `
+        <tr data-confidence="${game.confidence}">
+            <td>${game.away_team} @ ${game.home_team}</td>
+            <td>${game.predicted_winner}</td>
+            <td>${formatSpread(game.predicted_spread)}</td>
+            <td>${formatSpread(game.opening_line)}</td>
+            <td>${formatSpread(game.closing_line)}</td>
+            <td class="${getEdgeClass(game.edge_spread)}">${formatEdge(game.edge_spread)}</td>
+            <td>${game.predicted_total}</td>
+            <td>--</td>
+            <td>--</td>
+            <td class="${getEdgeClass(game.edge_total)}">${formatEdge(game.edge_total)}</td>
+            <td>${(game.confidence * 100).toFixed(1)}%</td>
+        </tr>
+    `).join('');
+}
+
+function updateEdgeSummary(predictions) {
+    if (!predictions) return;
+
+    const spreadEdges = predictions.filter(p => Math.abs(p.edge_spread) > 0.5);
+    const totalEdges = predictions.filter(p => Math.abs(p.edge_total) > 0.5);
+
+    document.getElementById('spread-edge-count').textContent = spreadEdges.length;
+    document.getElementById('total-edge-count').textContent = totalEdges.length;
+
+    const avgSpread = spreadEdges.length > 0
+        ? spreadEdges.reduce((sum, p) => sum + p.edge_spread, 0) / spreadEdges.length
+        : 0;
+    const avgTotal = totalEdges.length > 0
+        ? totalEdges.reduce((sum, p) => sum + p.edge_total, 0) / totalEdges.length
+        : 0;
+
+    document.getElementById('avg-spread-edge').textContent = formatEdge(avgSpread);
+    document.getElementById('avg-total-edge').textContent = formatEdge(avgTotal);
+}
+
+function filterTable() {
+    const minConfidence = parseFloat(document.getElementById('filter-confidence').value);
+    const edgesOnly = document.getElementById('filter-edges-only').checked;
+    const rows = document.querySelectorAll('#predictions-body tr');
+
+    rows.forEach(row => {
+        const confidence = parseFloat(row.dataset.confidence) || 0;
+        const show = confidence >= minConfidence;
+        row.style.display = show ? '' : 'none';
+    });
+}
+
+function formatSpread(spread) {
+    if (spread === null || spread === undefined) return '--';
+    return spread > 0 ? `+${spread}` : spread.toString();
+}
+
+function formatEdge(edge) {
+    if (edge === null || edge === undefined) return '--';
+    return edge > 0 ? `+${edge.toFixed(1)}` : edge.toFixed(1);
+}
+
+function getEdgeClass(edge) {
+    if (!edge) return '';
+    if (edge > 1) return 'edge-positive-strong';
+    if (edge > 0) return 'edge-positive';
+    if (edge < -1) return 'edge-negative-strong';
+    if (edge < 0) return 'edge-negative';
+    return '';
+}
+</script>
+{% endblock %}

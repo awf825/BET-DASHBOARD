@@ -1,0 +1,1248 @@
+{% extends "base.html" %}
+
+{% block title %}NHL Dashboard - Sports Betting{% endblock %}
+
+{% block content %}
+<div class="dashboard-header">
+    <h1>NHL Predictions</h1>
+    <p>Model predictions vs. opening and closing lines</p>
+</div>
+
+<div class="action-buttons">
+    <button class="btn btn-primary" id="run-today" onclick="runPredictions('today')">
+        Run Today's Games
+    </button>
+    <button class="btn btn-secondary" id="run-tomorrow" onclick="runPredictions('tomorrow')">
+        Run Tomorrow's Games
+    </button>
+    <button class="btn btn-outline" id="view-heatmaps" onclick="openHeatmapModal()">
+        View ROI Heatmaps
+    </button>
+    <div class="strategy-toggle">
+        <label>Strategy:</label>
+        <select id="edge-strategy">
+            <option value="opening">Opening Lines</option>
+            <option value="closing">Closing Lines</option>
+        </select>
+    </div>
+    <div class="bankroll-input">
+        <label for="bankroll">Bankroll: $</label>
+        <input type="number" id="bankroll" value="5000" min="100" step="100">
+    </div>
+    <span class="status-indicator" id="status-indicator"></span>
+</div>
+
+<!-- Heatmap Modal -->
+<div class="modal-overlay" id="heatmap-modal" onclick="closeHeatmapModal(event)">
+    <div class="modal-content" onclick="event.stopPropagation()">
+        <div class="modal-header">
+            <h2>ROI Heatmaps by Segment & Edge</h2>
+            <button class="modal-close" onclick="closeHeatmapModal()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="heatmap-tabs">
+                <button class="heatmap-tab active" data-target="opening">Opening Lines</button>
+                <button class="heatmap-tab" data-target="closing">Closing Lines</button>
+            </div>
+            <div class="heatmap-container">
+                <div class="heatmap-panel active" id="panel-opening">
+                    <img src="/api/nhl/visuals/opening_edges.png" alt="Opening Lines ROI Heatmap">
+                </div>
+                <div class="heatmap-panel" id="panel-closing">
+                    <img src="/api/nhl/visuals/closing_edges.png" alt="Closing Lines ROI Heatmap">
+                </div>
+            </div>
+            <div class="heatmap-description">
+                <p><strong>How to read:</strong> Each cell shows ROI % and sample size (n) for that segment/edge combination.
+                Green/yellow = profitable, purple/blue = unprofitable.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Tools Section -->
+<section class="tools-section">
+    <div class="tools-header" onclick="toggleTools()">
+        <h3>⚙️ Strategy Settings</h3>
+        <span class="tools-toggle" id="tools-toggle">▼</span>
+    </div>
+    <div class="tools-content" id="tools-content">
+        <div class="tools-grid">
+            <!-- Opening Strategy Segments -->
+            <div class="tool-group">
+                <h4>Opening Strategy Segments</h4>
+                <p class="tool-description">Alpha-seeking: bet early when edge exists before market moves</p>
+                <div class="segment-toggles">
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="open-road-underdog" checked>
+                        <span>Road Underdog</span>
+                    </label>
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="open-home-underdog">
+                        <span>Home Underdog</span>
+                    </label>
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="open-road-favorite">
+                        <span>Road Favorite</span>
+                    </label>
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="open-home-favorite">
+                        <span>Home Favorite</span>
+                    </label>
+                </div>
+            </div>
+            <!-- Closing Strategy Segments -->
+            <div class="tool-group">
+                <h4>Closing Strategy Segments</h4>
+                <p class="tool-description">Confirmation-seeking: bet when edge remains after market correction</p>
+                <div class="segment-toggles">
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="close-road-underdog">
+                        <span>Road Underdog</span>
+                        <span class="conditional-note">(requires imp_drift &gt; 0)</span>
+                    </label>
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="close-home-underdog" checked>
+                        <span>Home Underdog</span>
+                    </label>
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="close-road-favorite" checked>
+                        <span>Road Favorite</span>
+                    </label>
+                    <label class="segment-toggle">
+                        <input type="checkbox" id="close-home-favorite">
+                        <span>Home Favorite</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{# Summary section hidden per user request
+<section class="summary-section" id="summary-section" style="display: none;">
+    <div class="stats-grid">
+        <div class="stat-box">
+            <span class="stat-label">Date</span>
+            <span class="stat-number" id="summary-date">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Strategy</span>
+            <span class="stat-number" id="summary-strategy">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Total Games</span>
+            <span class="stat-number" id="summary-total">--</span>
+        </div>
+        <div class="stat-box highlight">
+            <span class="stat-label">Games with Edge</span>
+            <span class="stat-number" id="summary-edges">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Avg Edge vs Open</span>
+            <span class="stat-number" id="summary-edge-open">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Avg Edge vs Close</span>
+            <span class="stat-number" id="summary-edge-close">--</span>
+        </div>
+    </div>
+</section>
+#}
+
+<section class="predictions-section">
+    <h2>Games</h2>
+    <div class="table-container">
+        <table class="data-table" id="predictions-table">
+            <thead>
+                <tr>
+                    <th>Matchup</th>
+                    <th>Open ML (A/H)</th>
+                    <th>Current ML (A/H)</th>
+                    <th>Model % (A/H)</th>
+                    <th>Pick</th>
+                    <th>Segment Type</th>
+                    <th>Edge Open</th>
+                    <th>Edge Close</th>
+                    <th>Agree</th>
+                    <th>Comp</th>
+                    <th>Bet</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+            <tbody id="predictions-body">
+                <tr>
+                    <td colspan="12" class="empty-state">
+                        Click "Run Today's Games" or "Run Tomorrow's Games" to load predictions
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!-- Mobile card view -->
+    <div class="game-cards" id="game-cards">
+        <div class="empty-state">Click a button above to load predictions</div>
+    </div>
+</section>
+
+<section class="legend-section">
+    <h3>Legend</h3>
+    <div class="legend-grid">
+        <div class="legend-item">
+            <span class="legend-color edge-positive-strong"></span>
+            <span>Strong Edge (>5%)</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-color edge-positive"></span>
+            <span>Positive Edge</span>
+        </div>
+        <div class="legend-item">
+            <span class="legend-color edge-negative"></span>
+            <span>Negative Edge</span>
+        </div>
+        <div class="legend-item">
+            <span class="line-move-positive">+1.5%</span>
+            <span>Line moved in your favor</span>
+        </div>
+        <div class="legend-item">
+            <span class="line-move-negative">-1.5%</span>
+            <span>Line moved against you</span>
+        </div>
+        <div class="legend-item">
+            <span class="b2b-indicator">❗</span>
+            <span>Back-to-back (team played yesterday)</span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_css %}
+<style>
+.action-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.status-indicator {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+}
+
+.status-indicator.loading { color: var(--warning-color); }
+.status-indicator.success { color: var(--success-color); }
+.status-indicator.error { color: var(--danger-color); }
+
+.summary-section { margin-bottom: 2rem; }
+
+.empty-state {
+    text-align: center;
+    color: var(--text-secondary);
+    padding: 3rem !important;
+    font-style: italic;
+}
+
+.bet-badge {
+    background-color: var(--success-color);
+    color: white;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.no-bet {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
+.pick-home {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.pick-away {
+    color: #a855f7;
+    font-weight: 600;
+}
+
+.legend-section { margin-top: 2rem; }
+.legend-section h3 {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-secondary);
+}
+
+.legend-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.legend-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+}
+
+.legend-color.edge-positive-strong { background-color: var(--success-color); }
+.legend-color.edge-positive { background-color: #4ade80; }
+.legend-color.edge-negative { background-color: var(--danger-color); }
+
+.row-has-edge { background-color: rgba(34, 197, 94, 0.1) !important; }
+.row-is-trap { background-color: rgba(251, 191, 36, 0.15) !important; }
+.row-missing { opacity: 0.6; }
+
+.agreement-yes { color: var(--success-color); font-weight: 600; }
+.agreement-no { color: var(--danger-color); }
+
+.segment-type { font-size: 0.8rem; white-space: nowrap; }
+
+.reason-cell {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    max-width: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: help;
+}
+
+.reason-tooltip {
+    position: fixed;
+    background: #1e1e2e;
+    border: 1px solid var(--border-color);
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    color: #fff;
+    z-index: 9999;
+    pointer-events: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+    max-width: 300px;
+    word-wrap: break-word;
+}
+
+.trap-indicator {
+    color: #fbbf24;
+    cursor: help;
+}
+
+.toggle-option {
+    display: flex;
+    align-items: center;
+}
+
+.toggle-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.toggle-label input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.toggle-label:hover .toggle-text {
+    color: var(--text-primary);
+}
+
+/* Tools Section */
+.tools-section {
+    background: var(--bg-secondary);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border-color);
+}
+
+.tools-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+.tools-header:hover {
+    background: rgba(255,255,255,0.02);
+}
+
+.tools-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.tools-toggle {
+    transition: transform 0.2s;
+    color: var(--text-secondary);
+}
+
+.tools-toggle.collapsed {
+    transform: rotate(-90deg);
+}
+
+.tools-content {
+    padding: 0 1rem 1rem;
+    display: block;
+}
+
+.tools-content.hidden {
+    display: none;
+}
+
+.tools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.tool-group {
+    background: var(--bg-primary);
+    border-radius: 6px;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+.tool-group h4 {
+    margin: 0 0 0.25rem 0;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+}
+
+.tool-description {
+    font-size: 0.75rem;
+    color: var(--text-secondary);
+    margin: 0 0 0.75rem 0;
+}
+
+.segment-toggles {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.segment-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 0.25rem 0;
+}
+
+.segment-toggle input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.segment-toggle:hover {
+    color: var(--primary-color);
+}
+
+.conditional-note {
+    font-size: 0.7rem;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+.matchup-cell { white-space: nowrap; }
+.matchup-cell .away { color: var(--text-secondary); }
+.matchup-cell .at { color: var(--text-secondary); margin: 0 0.25rem; }
+.matchup-cell .home { font-weight: 600; }
+
+.odds-cell {
+    font-family: monospace;
+    font-size: 0.85rem;
+}
+
+.odds-home { color: var(--primary-color); }
+.odds-away { color: #a855f7; }
+
+.line-move-positive { color: var(--success-color); font-weight: 600; }
+.line-move-negative { color: var(--danger-color); font-weight: 600; }
+.line-move-neutral { color: var(--text-secondary); }
+
+.btn:disabled { opacity: 0.6; cursor: not-allowed; }
+
+.strategy-toggle {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: var(--bg-card);
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+.strategy-toggle label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.strategy-toggle select {
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+.strategy-toggle select:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.bankroll-input {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    background: var(--bg-card);
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    border: 1px solid var(--border-color);
+}
+
+.bankroll-input label {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+}
+
+.bankroll-input input {
+    width: 80px;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: 4px;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-primary);
+}
+
+.bankroll-input input:focus {
+    outline: none;
+    border-color: var(--primary-color);
+}
+
+.btn-outline {
+    background: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+.btn-outline:hover {
+    background: var(--primary-color);
+    color: white;
+}
+
+/* Modal styles */
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.modal-overlay.active {
+    display: flex;
+}
+
+.modal-content {
+    background: var(--bg-surface);
+    border-radius: 12px;
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    overflow: auto;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.25rem;
+}
+
+.modal-close {
+    background: none;
+    border: none;
+    font-size: 1.75rem;
+    cursor: pointer;
+    color: var(--text-secondary);
+    line-height: 1;
+    padding: 0;
+}
+
+.modal-close:hover {
+    color: var(--text-primary);
+}
+
+.modal-body {
+    padding: 1.5rem;
+}
+
+.heatmap-tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.heatmap-tab {
+    padding: 0.5rem 1.25rem;
+    border: 1px solid var(--border-color);
+    background: var(--bg-card);
+    color: var(--text-secondary);
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.2s;
+}
+
+.heatmap-tab:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.heatmap-tab.active {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+    color: white;
+}
+
+.heatmap-container {
+    background: #1a1a2e;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.heatmap-panel {
+    display: none;
+}
+
+.heatmap-panel.active {
+    display: block;
+}
+
+.heatmap-panel img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.heatmap-description {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: var(--bg-card);
+    border-radius: 6px;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+}
+
+.heatmap-description p {
+    margin: 0;
+}
+
+.time-tag {
+    font-size: 0.7rem;
+    background: var(--bg-card);
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+    color: var(--text-secondary);
+    margin-left: 0.5rem;
+}
+
+.b2b-indicator {
+    color: var(--danger-color);
+    font-weight: 700;
+    margin-left: 0.25rem;
+    cursor: help;
+}
+
+/* Make table more compact */
+.data-table th, .data-table td {
+    padding: 0.75rem 0.5rem;
+    font-size: 0.85rem;
+}
+
+/* Mobile card layout */
+.game-cards {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .action-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .action-buttons .btn {
+        width: 100%;
+    }
+
+    .bankroll-input {
+        justify-content: center;
+    }
+
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .table-container {
+        display: none;
+    }
+
+    .game-cards {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .game-card {
+        background: var(--bg-card);
+        border-radius: 10px;
+        padding: 1rem;
+        border: 1px solid var(--border-color);
+    }
+
+    .game-card.has-edge {
+        border-left: 3px solid var(--success-color);
+    }
+
+    .game-card.no-odds {
+        opacity: 0.6;
+    }
+
+    .game-card-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 0.75rem;
+        padding-bottom: 0.75rem;
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    .game-card-matchup {
+        font-size: 1.1rem;
+        font-weight: 600;
+    }
+
+    .game-card-matchup .away {
+        color: var(--text-secondary);
+    }
+
+    .game-card-matchup .at {
+        color: var(--text-secondary);
+        margin: 0 0.25rem;
+        font-weight: 400;
+    }
+
+    .game-card-time {
+        font-size: 0.75rem;
+        background: var(--bg-surface);
+        padding: 0.2rem 0.5rem;
+        border-radius: 4px;
+        color: var(--text-secondary);
+        font-weight: 500;
+    }
+
+    .game-card-body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 0.75rem;
+    }
+
+    .game-card-stat {
+        display: flex;
+        flex-direction: column;
+        gap: 0.2rem;
+    }
+
+    .game-card-stat .label {
+        font-size: 0.7rem;
+        color: var(--text-secondary);
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+    }
+
+    .game-card-stat .value {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .game-card-stat .value.positive { color: var(--success-color); }
+    .game-card-stat .value.negative { color: var(--danger-color); }
+
+    .game-card-pick {
+        grid-column: 1 / -1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0.5rem;
+        padding-top: 0.75rem;
+        border-top: 1px solid var(--border-color);
+    }
+
+    .game-card-pick .pick-team {
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    .game-card-pick .pick-team.home { color: var(--primary-color); }
+    .game-card-pick .pick-team.away { color: #a855f7; }
+
+    .game-card-no-odds {
+        text-align: center;
+        color: var(--warning-color);
+        padding: 0.5rem 0;
+    }
+
+    .legend-section { display: none; }
+}
+</style>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let currentData = null;
+
+async function runPredictions(dateType) {
+    const btnToday = document.getElementById('run-today');
+    const btnTomorrow = document.getElementById('run-tomorrow');
+    const status = document.getElementById('status-indicator');
+    const tbody = document.getElementById('predictions-body');
+
+    btnToday.disabled = true;
+    btnTomorrow.disabled = true;
+    status.textContent = 'Scraping lines and running model...';
+    status.className = 'status-indicator loading';
+
+    tbody.innerHTML = '<tr><td colspan="10" class="loading">Fetching odds from SportsBookReview...</td></tr>';
+
+    try {
+        const bankroll = parseFloat(document.getElementById('bankroll').value) || 5000;
+        const edgeStrategy = document.getElementById('edge-strategy').value;
+        const enabledSegments = getEnabledSegments();
+        const response = await fetch('/api/nhl/run', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                edge_strategy: edgeStrategy,
+                date_type: dateType,
+                bankroll: bankroll,
+                enabled_segments: enabledSegments
+            })
+        });
+
+        const data = await response.json();
+        currentData = data;
+
+        if (!data.success) {
+            throw new Error(data.error || 'Unknown error');
+        }
+
+        renderGames(data.games);
+        renderCards(data.games);
+
+        status.textContent = `Loaded ${data.games.length} games`;
+        status.className = 'status-indicator success';
+
+    } catch (error) {
+        console.error('Error:', error);
+        status.textContent = `Error: ${error.message}`;
+        status.className = 'status-indicator error';
+        tbody.innerHTML = `<tr><td colspan="10" class="error">Error: ${error.message}</td></tr>`;
+    } finally {
+        btnToday.disabled = false;
+        btnTomorrow.disabled = false;
+    }
+}
+
+function updateSummary(summary) {
+    document.getElementById('summary-date').textContent = summary.date || '--';
+    document.getElementById('summary-strategy').textContent = (summary.edge_strategy || '').toUpperCase();
+    document.getElementById('summary-total').textContent = summary.total_games || 0;
+    document.getElementById('summary-edges').textContent = summary.games_with_edge || 0;
+    document.getElementById('summary-edge-open').textContent =
+        summary.avg_edge_vs_open ? formatEdge(summary.avg_edge_vs_open) : '--';
+    document.getElementById('summary-edge-close').textContent =
+        summary.avg_edge_vs_current ? formatEdge(summary.avg_edge_vs_current) : '--';
+}
+
+function renderGames(games) {
+    const tbody = document.getElementById('predictions-body');
+
+    if (!games || games.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="12" class="empty-state">No games found for this date</td></tr>';
+        return;
+    }
+
+    tbody.innerHTML = games.map(game => {
+        if (game.status === 'MISSING_FEATURES' || game.status === 'NO_ODDS') {
+            return `
+                <tr class="row-missing">
+                    <td class="matchup-cell">
+                        <span class="away">${game.away}</span>
+                        <span class="at">@</span>
+                        <span class="home">${game.home}</span>
+                    </td>
+                    <td colspan="11" style="text-align: center; color: var(--warning-color);">
+                        ${game.status === 'NO_ODDS' ? 'No odds available' : 'Missing feature data'}
+                    </td>
+                </tr>
+            `;
+        }
+
+        const rowClass = game.bet ? 'row-has-edge' : (game.is_trap ? 'row-is-trap' : '');
+        const pickClass = game.side === 'home' ? 'pick-home' : 'pick-away';
+        const pickTeam = game.side === 'home' ? game.home : game.away;
+        const b2bIndicator = game.back_to_back ? '<span class="b2b-indicator" title="Back-to-back: One or both teams played yesterday">❗</span>' : '';
+        const trapIndicator = game.is_trap ? '<span class="trap-indicator" title="' + (game.trap_reason || 'Potential trap') + '">⚠️</span>' : '';
+        const agreementIcon = game.agreement === true ? '✓' : (game.agreement === false ? '✗' : '--');
+        const agreementClass = game.agreement === true ? 'agreement-yes' : (game.agreement === false ? 'agreement-no' : '');
+
+        return `
+            <tr class="${rowClass}">
+                <td class="matchup-cell">
+                    <span class="away">${game.away}</span>
+                    <span class="at">@</span>
+                    <span class="home">${game.home}</span>
+                    <span class="time-tag">${formatStartTime(game.start_time)}</span>${b2bIndicator}
+                </td>
+                <td class="odds-cell">
+                    <span class="odds-away">${formatOdds(game.open_away_ml)}</span> /
+                    <span class="odds-home">${formatOdds(game.open_home_ml)}</span>
+                </td>
+                <td class="odds-cell">
+                    <span class="odds-away">${formatOdds(game.current_away_ml)}</span> /
+                    <span class="odds-home">${formatOdds(game.current_home_ml)}</span>
+                </td>
+                <td class="odds-cell">
+                    <span class="odds-away">${formatPercent(game.p_away)}</span> /
+                    <span class="odds-home">${formatPercent(game.p_home)}</span>
+                </td>
+                <td class="${pickClass}">${pickTeam}</td>
+                <td class="segment-type">${formatSegmentType(game.segment_type)}</td>
+                <td class="${getEdgeClass(game.edge_vs_open)}">${formatEdge(game.edge_vs_open)}</td>
+                <td class="${getEdgeClass(game.edge_vs_current)}">${formatEdge(game.edge_vs_current)}</td>
+                <td class="${agreementClass}">${agreementIcon}</td>
+                <td>${game.compression != null ? game.compression.toFixed(2) : '--'}</td>
+                <td>${game.bet ? `<span class="bet-badge">$${game.stake}</span>` : (game.is_trap ? trapIndicator : '<span class="no-bet">--</span>')}</td>
+                <td class="reason-cell" data-reason="${game.bet_reason || 'No reason'}">${formatBetReason(game.bet_reason)}</td>
+            </tr>
+        `;
+    }).join('');
+}
+
+function renderCards(games) {
+    const container = document.getElementById('game-cards');
+
+    if (!games || games.length === 0) {
+        container.innerHTML = '<div class="empty-state">No games found for this date</div>';
+        return;
+    }
+
+    container.innerHTML = games.map(game => {
+        if (game.status === 'MISSING_FEATURES' || game.status === 'NO_ODDS') {
+            return `
+                <div class="game-card no-odds">
+                    <div class="game-card-header">
+                        <div class="game-card-matchup">
+                            <span class="away">${game.away}</span>
+                            <span class="at">@</span>
+                            <span class="home">${game.home}</span>
+                        </div>
+                    </div>
+                    <div class="game-card-no-odds">
+                        ${game.status === 'NO_ODDS' ? 'No odds available' : 'Missing feature data'}
+                    </div>
+                </div>
+            `;
+        }
+
+        const edgeOpenClass = game.edge_vs_open > 0 ? 'positive' : 'negative';
+        const edgeCloseClass = game.edge_vs_current > 0 ? 'positive' : 'negative';
+        const pickClass = game.side === 'home' ? 'home' : 'away';
+        const pickTeam = game.side === 'home' ? game.home : game.away;
+        const b2bIndicator = game.back_to_back ? '<span class="b2b-indicator" title="Back-to-back: One or both teams played yesterday">❗</span>' : '';
+
+        return `
+            <div class="game-card ${game.bet ? 'has-edge' : ''}">
+                <div class="game-card-header">
+                    <div class="game-card-matchup">
+                        <span class="away">${game.away}</span>
+                        <span class="at">@</span>
+                        <span class="home">${game.home}</span>
+                    </div>
+                    <span class="game-card-time">${formatStartTime(game.start_time)}${b2bIndicator}</span>
+                </div>
+                <div class="game-card-body">
+                    <div class="game-card-stat">
+                        <span class="label">Model (A/H)</span>
+                        <span class="value">${formatPercent(game.p_away)} / ${formatPercent(game.p_home)}</span>
+                    </div>
+                    <div class="game-card-stat">
+                        <span class="label">Open ML (A/H)</span>
+                        <span class="value">${formatOdds(game.open_away_ml)} / ${formatOdds(game.open_home_ml)}</span>
+                    </div>
+                    <div class="game-card-stat">
+                        <span class="label">Current ML (A/H)</span>
+                        <span class="value">${formatOdds(game.current_away_ml)} / ${formatOdds(game.current_home_ml)}</span>
+                    </div>
+                    <div class="game-card-stat">
+                        <span class="label">Edge vs Open</span>
+                        <span class="value ${edgeOpenClass}">${formatEdge(game.edge_vs_open)}</span>
+                    </div>
+                    <div class="game-card-stat">
+                        <span class="label">Edge vs Close</span>
+                        <span class="value ${edgeCloseClass}">${formatEdge(game.edge_vs_current)}</span>
+                    </div>
+                    <div class="game-card-pick">
+                        <div>
+                            <span class="label">Pick: </span>
+                            <span class="pick-team ${pickClass}">${pickTeam}</span>
+                        </div>
+                        ${game.bet ? `<span class="bet-badge">$${game.stake}</span>` : '<span class="no-bet">No bet</span>'}
+                    </div>
+                </div>
+            </div>
+        `;
+    }).join('');
+}
+
+function formatOdds(odds) {
+    if (odds === null || odds === undefined) return '--';
+    return odds > 0 ? `+${odds}` : odds.toString();
+}
+
+function formatPercent(value) {
+    if (value === null || value === undefined) return '--';
+    return `${(value * 100).toFixed(1)}%`;
+}
+
+function formatEdge(edge) {
+    if (edge === null || edge === undefined) return '--';
+    const pct = (edge * 100).toFixed(1);
+    return edge >= 0 ? `+${pct}%` : `${pct}%`;
+}
+
+function formatLineMove(move) {
+    if (move === null || move === undefined) return '--';
+    const pct = (move * 100).toFixed(1);
+    if (move > 0) return `+${pct}%`;
+    if (move < 0) return `${pct}%`;
+    return '0%';
+}
+
+function formatStartTime(isoString) {
+    if (!isoString) return '--';
+    try {
+        const date = new Date(isoString);
+        return date.toLocaleTimeString('en-US', {
+            hour: 'numeric',
+            minute: '2-digit',
+            timeZone: 'America/New_York'
+        }) + ' ET';
+    } catch (e) {
+        return '--';
+    }
+}
+
+function getEdgeClass(edge) {
+    if (edge === null || edge === undefined) return '';
+    if (edge >= 0.05) return 'edge-positive-strong';
+    if (edge > 0) return 'edge-positive';
+    return 'edge-negative';
+}
+
+function getLineMoveClass(move) {
+    if (move === null || move === undefined) return 'line-move-neutral';
+    if (move > 0.005) return 'line-move-positive';
+    if (move < -0.005) return 'line-move-negative';
+    return 'line-move-neutral';
+}
+
+function formatSegmentType(segType) {
+    if (!segType) return '--';
+    // Convert snake_case to readable format
+    const labels = {
+        'road_underdog': 'Road UD',
+        'road_favorite': 'Road Fav',
+        'home_underdog': 'Home UD',
+        'home_favorite': 'Home Fav'
+    };
+    return labels[segType] || segType;
+}
+
+function formatBetReason(reason) {
+    if (!reason) return '--';
+    // Shorten common reasons for display
+    if (reason === 'all_criteria_met') return '✓';
+    if (reason.startsWith('segment_')) return 'Seg';
+    if (reason.startsWith('edge_')) return 'Edge';
+    if (reason === 'no_agreement') return 'Agree';
+    if (reason.startsWith('compression_')) return 'Comp';
+    if (reason === 'trap_flagged') return 'Trap';
+    if (reason.startsWith('high_compression_')) return 'Comp↑';
+    return reason.substring(0, 6);
+}
+
+// Tools section toggle
+function toggleTools() {
+    const content = document.getElementById('tools-content');
+    const toggle = document.getElementById('tools-toggle');
+    content.classList.toggle('hidden');
+    toggle.classList.toggle('collapsed');
+}
+
+// Get enabled segments from checkboxes
+function getEnabledSegments() {
+    return {
+        opening: {
+            road_underdog: document.getElementById('open-road-underdog').checked,
+            home_underdog: document.getElementById('open-home-underdog').checked,
+            road_favorite: document.getElementById('open-road-favorite').checked,
+            home_favorite: document.getElementById('open-home-favorite').checked,
+        },
+        closing: {
+            road_underdog: document.getElementById('close-road-underdog').checked,
+            home_underdog: document.getElementById('close-home-underdog').checked,
+            road_favorite: document.getElementById('close-road-favorite').checked,
+            home_favorite: document.getElementById('close-home-favorite').checked,
+        }
+    };
+}
+
+// Tooltip for reason cells
+let reasonTooltip = null;
+
+function showReasonTooltip(e) {
+    const reason = e.target.getAttribute('data-reason');
+    if (!reason || reason === 'No reason') return;
+
+    if (!reasonTooltip) {
+        reasonTooltip = document.createElement('div');
+        reasonTooltip.className = 'reason-tooltip';
+        document.body.appendChild(reasonTooltip);
+    }
+
+    reasonTooltip.textContent = reason;
+    reasonTooltip.style.display = 'block';
+    reasonTooltip.style.left = (e.clientX + 10) + 'px';
+    reasonTooltip.style.top = (e.clientY - 30) + 'px';
+}
+
+function hideReasonTooltip() {
+    if (reasonTooltip) {
+        reasonTooltip.style.display = 'none';
+    }
+}
+
+function moveReasonTooltip(e) {
+    if (reasonTooltip && reasonTooltip.style.display === 'block') {
+        reasonTooltip.style.left = (e.clientX + 10) + 'px';
+        reasonTooltip.style.top = (e.clientY - 30) + 'px';
+    }
+}
+
+// Delegate tooltip events to table
+document.addEventListener('mouseover', function(e) {
+    if (e.target.classList.contains('reason-cell')) {
+        showReasonTooltip(e);
+    }
+});
+
+document.addEventListener('mouseout', function(e) {
+    if (e.target.classList.contains('reason-cell')) {
+        hideReasonTooltip();
+    }
+});
+
+document.addEventListener('mousemove', function(e) {
+    if (e.target.classList.contains('reason-cell')) {
+        moveReasonTooltip(e);
+    }
+});
+
+// Check NHL status on page load
+document.addEventListener('DOMContentLoaded', async function() {
+    try {
+        const response = await fetch('/api/nhl/status');
+        const status = await response.json();
+        if (!status.available) {
+            document.getElementById('status-indicator').textContent = `Warning: ${status.error}`;
+            document.getElementById('status-indicator').className = 'status-indicator error';
+        }
+    } catch (e) {
+        console.error('Could not check NHL status:', e);
+    }
+
+    // Setup heatmap tab switching
+    document.querySelectorAll('.heatmap-tab').forEach(tab => {
+        tab.addEventListener('click', function() {
+            const target = this.dataset.target;
+
+            // Update active tab
+            document.querySelectorAll('.heatmap-tab').forEach(t => t.classList.remove('active'));
+            this.classList.add('active');
+
+            // Update active panel
+            document.querySelectorAll('.heatmap-panel').forEach(p => p.classList.remove('active'));
+            document.getElementById(`panel-${target}`).classList.add('active');
+        });
+    });
+});
+
+// Heatmap modal functions
+function openHeatmapModal() {
+    document.getElementById('heatmap-modal').classList.add('active');
+    document.body.style.overflow = 'hidden';
+}
+
+function closeHeatmapModal(event) {
+    if (!event || event.target === event.currentTarget) {
+        document.getElementById('heatmap-modal').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+}
+
+// Close modal on Escape key
+document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+        closeHeatmapModal();
+    }
+});
+</script>
+{% endblock %}

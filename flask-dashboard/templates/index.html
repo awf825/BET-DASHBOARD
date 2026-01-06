@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block title %}Home - Sports Betting Dashboard{% endblock %}
+
+{% block content %}
+<div class="dashboard-header">
+    <h1>Sports Betting Dashboard</h1>
+    <p>Compare model predictions against opening and closing lines to find your edge</p>
+</div>
+
+<div class="stats-overview">
+    <div class="stat-card">
+        <h3>NBA</h3>
+        <div class="stat-value" id="nba-edge">--</div>
+        <p>Avg Edge Today</p>
+        <a href="{{ url_for('nba_dashboard') }}" class="btn btn-primary">View NBA</a>
+    </div>
+    <div class="stat-card">
+        <h3>NHL</h3>
+        <div class="stat-value" id="nhl-edge">--</div>
+        <p>Avg Edge Today</p>
+        <a href="{{ url_for('nhl_dashboard') }}" class="btn btn-primary">View NHL</a>
+    </div>
+    <div class="stat-card">
+        <h3>MLB</h3>
+        <div class="stat-value" id="mlb-edge">--</div>
+        <p>Avg Edge Today</p>
+        <a href="{{ url_for('mlb_dashboard') }}" class="btn btn-primary">View MLB</a>
+    </div>
+</div>
+
+<section class="recent-predictions">
+    <h2>Today's Best Edges</h2>
+    <div class="table-container">
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Sport</th>
+                    <th>Game</th>
+                    <th>Prediction</th>
+                    <th>Opening Line</th>
+                    <th>Current Line</th>
+                    <th>Edge</th>
+                    <th>Confidence</th>
+                </tr>
+            </thead>
+            <tbody id="best-edges-table">
+                <tr>
+                    <td colspan="7" class="loading">Loading predictions...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="quick-stats">
+    <h2>Performance Summary</h2>
+    <div class="stats-grid">
+        <div class="stat-box">
+            <span class="stat-label">Total Games Analyzed</span>
+            <span class="stat-number" id="total-games">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Positive Edge Opportunities</span>
+            <span class="stat-number" id="positive-edges">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Historical ROI</span>
+            <span class="stat-number" id="historical-roi">--</span>
+        </div>
+        <div class="stat-box">
+            <span class="stat-label">Model Accuracy</span>
+            <span class="stat-number" id="model-accuracy">--</span>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Load summary data for each sport
+    ['nba', 'nhl', 'mlb'].forEach(sport => {
+        fetch(`/api/edge/${sport}`)
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById(`${sport}-edge`).textContent =
+                    data.avg_edge_spread ? `+${data.avg_edge_spread.toFixed(1)}` : '--';
+            })
+            .catch(err => console.error(`Error loading ${sport} data:`, err));
+    });
+});
+</script>
+{% endblock %}
